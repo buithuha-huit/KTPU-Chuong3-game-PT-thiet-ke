@@ -375,6 +375,25 @@ button.opt:disabled{cursor:default}
 @keyframes q6in{from{opacity:0;transform:translateY(-10px) scale(.98)}}
 @media (max-width:900px){.q6{grid-template-columns:minmax(0,1fr)}.q6 .q6f{grid-column:1;grid-row:auto;width:min(100%,320px)}}
 @media (prefers-reduced-motion:reduce){.q6{animation:none}}
+
+/* ---- thẻ Hướng dẫn ---- */
+.hd{display:flex;flex-direction:column;gap:14px}
+.hdwarn{display:flex;gap:14px;align-items:center;background:linear-gradient(120deg,#FFF1F2,#FFF7ED);border:3px solid #FB7185;border-left-width:12px;border-radius:18px;padding:12px 18px;font:800 clamp(18px,1.5vw,28px)/1.35 var(--display);color:#9F1239;animation:q6in .5s ease}
+.hdwarn .ic{font-size:1.8em;flex:none}
+.hdstep{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 16px;align-items:start;background:#fff;border:2px solid var(--line);border-radius:18px;padding:14px 18px}
+.hdstep .no{grid-row:span 2;width:2.2em;height:2.2em;border-radius:14px;display:grid;place-items:center;color:#fff;font:900 1.35em var(--display);background:linear-gradient(130deg,var(--sc),color-mix(in srgb,var(--sc) 60%,#fff))}
+.hdstep h3{margin:0;font:800 clamp(19px,1.5vw,28px) var(--display);color:var(--sc)}
+.hdstep p{margin:0;color:var(--ink2);font-size:clamp(15px,1.1vw,21px)}
+.hdv{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,400px),1fr));gap:10px;margin-top:8px;grid-column:2}
+.hdv .vbig{position:relative}.hdv .vbig small{display:block;font:600 .7em var(--body);opacity:.9}
+.hdv .vbig.seen::after{content:'✔ đã mở';position:absolute;right:10px;top:6px;font:800 .6em var(--body);background:#fff;color:#B00024;border-radius:8px;padding:0 6px}
+.hdv .soon{border:2px dashed #FDA4AF;border-radius:16px;padding:10px 14px;color:#9F1239;font-weight:700;display:flex;align-items:center}
+.hdgo{grid-column:2;margin-top:8px;justify-self:start}
+.vbig{display:flex;align-items:center;gap:10px;background:linear-gradient(120deg,#FF0033,#E0457B);color:#fff;border-radius:16px;padding:10px 14px;font:800 clamp(16px,1.3vw,25px)/1.25 var(--display);text-decoration:none;box-shadow:0 4px 0 #B00024;transition:transform .15s}
+.vbig:hover{transform:translateY(-3px)}
+.vbig i{font-style:normal;flex:none;width:2em;height:2em;border-radius:50%;background:#fff;color:#FF0033;display:grid;place-items:center;font-size:.9em}
+.rnd.hdt{border-color:#FB7185;background:linear-gradient(120deg,#FFF1F2,#FFF7ED)}
+@media (max-width:900px){.hdv,.hdgo{grid-column:1/-1}}
 </style>
 <div class="app">
   <header class="top">
@@ -643,7 +662,7 @@ const RD={r1:{n:1,name:'Khởi động',tab:'Khởi động',pts:10,rc:'#F26B3A'
   r3:{n:4,name:'Thám tử thiết bị',tab:'Thám tử',pts:20,rc:'#0EA5A0',rc2:'#22C55E'},
   r4:{n:5,name:'Diện tích bí ẩn',tab:'Diện tích',pts:20,rc:'#2F7DE1',rc2:'#06B6D4'},
   r5:{n:6,name:'Về đích',tab:'Về đích',pts:30,rc:'#E3A008',rc2:'#F26B3A'}};
-const VIEWS=['home','the',...RK,'kq','end'];
+const VIEWS=['home','hd','the',...RK,'kq','end'];
 const TDEF={r1:20,r2:20,pn:20,r3:45,r4:40,r5:60};
 const BK=r=>({r1:R1,r3:R3,r4:R4,r5:R5})[r];
 const $=s=>document.querySelector(s);
@@ -743,7 +762,7 @@ const undoBtn=()=>`<button class="btn" id="undo" ${HIST.length?'':'disabled'}>�
 
 /* ---------- khung chung ---------- */
 function renderTabs(){$('#tabs').innerHTML=VIEWS.filter(v=>v!=='kq').map(v=>{const d=RD[v];
-  return `<button data-go="${v}" ${S.view===v||(S.view==='kq'&&S.kq===v)?'aria-current="page"':''} style="--rc:${d?d.rc:'#FACC15'}">${d?`<i>${d.n}</i>${d.tab}`:({home:'🏠 Bắt đầu',the:'🃏 Thẻ ghi nhớ',end:'🏁 Tổng kết'})[v]}</button>`;}).join('');}
+  return `<button data-go="${v}" ${S.view===v||(S.view==='kq'&&S.kq===v)?'aria-current="page"':''} style="--rc:${d?d.rc:'#FACC15'}">${d?`<i>${d.n}</i>${d.tab}`:({home:'🏠 Bắt đầu',hd:'📋 Hướng dẫn',the:'🃏 Thẻ ghi nhớ',end:'🏁 Tổng kết'})[v]}</button>`;}).join('');}
 function renderBoard(bump=[]){const r=CR(),b=$('#board');
   if(LOP()){if(!r){const T=RK.reduce((a,x)=>a+S.st[x].pts,0);b.innerHTML=`<div class="clsb"><span class="cl-l">Điểm cả lớp</span><b class="cl-s">${T}</b></div>`;return;}
     const st=S.st[r];b.innerHTML=`<div class="clsb${bump.length?' bump':''}"><span class="cl-l">Điểm vòng ${RD[r].n}</span><b class="cl-s">${st.pts}</b>
@@ -758,7 +777,7 @@ function go(v){if(!VIEWS.includes(v))v='home';S.view=v;if(NHA&&RK.includes(v)){S
   if(location.hash.slice(1)!==v){try{history.replaceState(null,'','#'+v);}catch(_){location.hash=v;}}render();if(v==='kq'||v==='end')celebrate();}
 function render(){if(NHA&&!S.sv)return vLogin();renderTabs();renderBoard();const st=$('#stage'),r=CR();
   st.style.setProperty('--rc',r?RD[r].rc:'#4B2A8C');st.style.setProperty('--rc2',r?RD[r].rc2:'#E0457B');
-  ({home:vHome,the:vFC,r1:()=>vMC('r1'),r3:()=>vMC('r3'),r4:()=>vMC('r4'),r2:vMem,pn:vPN,r5:vFinal,kq:vKQ,end:vEnd}[S.view]||vHome)();
+  ({home:vHome,hd:vHD,the:vFC,r1:()=>vMC('r1'),r3:()=>vMC('r3'),r4:()=>vMC('r4'),r2:vMem,pn:vPN,r5:vFinal,kq:vKQ,end:vEnd}[S.view]||vHome)();
   tset(st).then(fit);fit();paintTimer();}
 function head(r,cnt,done,total,rule){const d=RD[r];const pc=total?Math.round(100*done/total):0;
   return `<div class="rhead"><span class="rnum">Vòng ${d.n}</span><h1>${d.name}</h1><span class="qcount">${cnt}</span>
@@ -1084,8 +1103,12 @@ function eqCSTR(){let dots='';
  <g class="lb">${stx(60,44,`Vào: ${CAo}`,{c:'#1D5FA8',a:'start'})}${stx(510,236,`Ra: ${CAf}`,{c:'#5B3FB5',a:'end'})}
   ${stx(240,196,`${CA} = ${CAf}`,{fs:24,c:'#fff',st:'#5B3FB5',sw:4})}${stx(240,232,'ở mọi điểm',{fs:17,c:'#fff',st:'#5B3FB5',sw:4})}
   ${stx(425,128,'Dòng vào – ra',{fs:17})}${stx(425,150,'liên tục, ổn định',{fs:17})}</g></svg>`;}
-function eqPFR(){let sl='';
- for(let k=0;k<5;k++)sl+=`<rect y="113" width="16" height="64" rx="3" fill="${FLB}" stroke="#fff" stroke-width="2" opacity=".95"><animate attributeName="x" values="46;458" dur="5s" begin="-${k}s" repeatCount="indefinite"/><animate attributeName="fill" values="${FLB};${FLP}" dur="5s" begin="-${k}s" repeatCount="indefinite"/></rect>`;
+function eqPFR(){let sl='';const NS=6,D=6,ys=[121,132,145,158,169];
+ for(let k=0;k<NS;k++){const b=-(k*D/NS).toFixed(2);let m='';
+  ys.forEach((y,j)=>{const ph=((j*.37+k*.21)%1*.5).toFixed(2);
+   m+=`<circle cx="6" cy="${y}" r="4.6" fill="#fff" stroke="${FINK}" stroke-width="1.2"><animate attributeName="cy" values="${y-3};${y+3};${y-3}" dur=".5s" begin="-${ph}s" repeatCount="indefinite"/></circle>`;});
+  sl+=`<g><animateTransform attributeName="transform" type="translate" values="46,0;458,0" dur="${D}s" begin="${b}s" repeatCount="indefinite"/>
+   <rect x="0" y="112" width="12" height="66" rx="2" fill="${FLB}" stroke="#fff" stroke-width="1.5"><animate attributeName="fill" values="${FLB};${FLP}" dur="${D}s" begin="${b}s" repeatCount="indefinite"/></rect>${m}</g>`;}
  const pl=pathOf(u=>[50+u*430,222+60*(1-Math.exp(-2.2*u))/(1-Math.exp(-2.2))],0,1);
  return `<svg class="fsv" viewBox="0 0 520 330" role="img" aria-label="Thiết bị dạng ống">
  <defs><linearGradient id="pg${++FUID}" x1="0" x2="1"><stop offset="0" stop-color="${FLB}" stop-opacity=".55"/><stop offset="1" stop-color="${FLP}" stop-opacity=".55"/></linearGradient></defs>
@@ -1250,6 +1273,31 @@ addEventListener('keydown',e=>{if(S.view!=='the'||e.target.closest('input,textar
 {const _h=vHome;vHome=function(){_h();$('.rounds')?.insertAdjacentHTML('afterbegin',`<button class="rnd" data-go="the" style="--rc:#0EA5A0;--rc2:#7C3AED"><span class="n">🃏</span>
   <span><b>Thẻ ghi nhớ</b><br><span>${FC.length} thẻ có hình động: mô hình BR – CSTR – PFR và so sánh diện tích trên đồ thị Levenspiel</span></span><span class="pts">Ôn tập · không tính điểm</span></button>`);};}
 
+/* ================= THẺ HƯỚNG DẪN: video hướng dẫn bài tập + thẻ ghi nhớ ================= */
+/* Thêm video mới: thêm một dòng vào VID3 (tiêu đề, link YouTube, thời lượng). */
+const VID3=[
+ {t:'Video 01 · Phương trình thiết kế – hướng dẫn áp dụng',s:'Một đề bài – ba thiết bị BR, CSTR, PFR',u:'https://youtu.be/tJmck-boRLI',d:'5:33'}
+];
+function vHD(){const seen=S.vseen||{},nha=typeof NHA!=='undefined'&&NHA;
+  $('#stage').innerHTML=`<div class="rhead"><span class="rnum" style="--rc:#E11D48;--rc2:#F59E0B">Trước khi chơi</span><h1 style="color:#BE123C">📋 Hướng dẫn</h1></div>
+  <div class="hd">
+   <div class="hdwarn"><span class="ic">⚠️</span><span>Xem video hướng dẫn bài tập <u>trước khi vào game</u>. Các câu hỏi trong game dùng đúng cách giải trong video.</span></div>
+   <div class="hdstep" style="--sc:#E11D48"><span class="no">1</span><h3>📽 Xem video hướng dẫn bài tập</h3>
+    <p>Xem hết từng video, dừng lại ở các bước thế số và tự bấm máy theo. Video mở trên YouTube ở thẻ mới.</p>
+    <div class="hdv">${VID3.map((v,k)=>`<a class="vbig${seen[k]?' seen':''}" data-vid="${k}" href="${v.u}" target="_blank" rel="noopener"><i>▶</i><span>${esc(v.t)}<small>${esc(v.s)} · ${v.d}</small></span></a>`).join('')}
+     <div class="soon">🎬 Các video tiếp theo sẽ được bổ sung tại đây.</div></div></div>
+   <div class="hdstep" style="--sc:#0D9488"><span class="no">2</span><h3>🃏 Ôn tập bằng Thẻ ghi nhớ</h3>
+    <p>${FC.length} thẻ có hình động: mô hình BR – CSTR – PFR và so sánh diện tích trên đồ thị Levenspiel. Đọc câu hỏi, tự trả lời, rồi <b>Lật thẻ</b> (phím cách) để kiểm tra; đánh dấu <b>✔ Đã hiểu</b> hoặc <b>✘ Chưa chắc</b>. Không tính điểm.</p>
+    <button class="btn pri hdgo" data-go="the">🃏 Mở Thẻ ghi nhớ</button></div>
+   <div class="hdstep" style="--sc:#4B2A8C"><span class="no">3</span><h3>🎮 Vào game: 6 vòng</h3>
+    <p>${nha?'Làm lần lượt 6 vòng. Làm hết câu của một vòng rồi bấm <b>Kết thúc vòng 🏁</b>: kết quả tự gửi cho giáo viên. Được làm lại để cải thiện; giáo viên lấy kết quả tốt nhất.':'Khởi động → Ghép đôi → Phân nhóm → Thám tử → Diện tích → Về đích. Mỗi vòng tính điểm riêng và có tổng kết đúng / sai.'}</p>
+    <button class="btn pri hdgo" data-go="r1">▶ Bắt đầu vòng 1</button></div>
+  </div>`;
+  $('#ctrl').innerHTML=`<button class="btn" data-go="home">‹ Trang đầu</button><span class="sp"></span><button class="btn" data-go="the">🃏 Thẻ ghi nhớ</button><button class="btn pri" data-go="r1">▶ Bắt đầu vòng 1</button>`;}
+document.addEventListener('click',e=>{const a=e.target.closest('a[data-vid]');if(!a)return;S.vseen??={};S.vseen[a.dataset.vid]=1;save();a.classList.add('seen');});
+{const _h=vHome;vHome=function(){_h();$('.rounds')?.insertAdjacentHTML('afterbegin',`<button class="rnd hdt" data-go="hd" style="--rc:#E11D48;--rc2:#F59E0B"><span class="n">📋</span>
+  <span><b>Hướng dẫn · xem video trước khi vào game</b><br><span>${VID3.length} video hướng dẫn bài tập + Thẻ ghi nhớ để ôn tập</span></span><span class="pts">Bắt buộc xem trước</span></button>`);};}
+
 /* ================= LÀM BÀI Ở NHÀ → Google Sheet ================= */
 const hash=t=>{let h=5381;for(const c of t)h=(h*33+c.codePointAt(0))>>>0;return h.toString(36).toUpperCase().padStart(7,'0').slice(-6);};
 function vLogin(){$('#tabs').innerHTML='';$('#board').innerHTML='';$('#ctrl').innerHTML='';
@@ -1264,7 +1312,7 @@ document.addEventListener('submit',e=>{if(e.target.id!=='svf')return;e.preventDe
   if(!/^\d{8,12}$/.test(m))return $('#sverr').textContent='Mã số sinh viên gồm 8–12 chữ số.';
   if(t.split(' ').length<2)return $('#sverr').textContent='Nhập đầy đủ họ và tên.';
   if(!l)return $('#sverr').textContent='Nhập tên lớp.';
-  S.sv={mssv:m,ten:t,lop:l};save();go('home');});
+  S.sv={mssv:m,ten:t,lop:l};save();go('hd');});
 function payload(r){const st=S.st[r],d=RD[r],t0=(S.t0||{})[r];
   const p={game:GAME,bai:BAI,mssv:S.sv.mssv,ten:S.sv.ten,lop:S.sv.lop,vn:d.n,vong:d.name,tong:cntQ(r),xong:doneCnt(r),dung:st.ok,sai:st.bad,tile:acc(st),diem:st.pts,phut:t0?Math.round((Date.now()-t0)/6000)/10:''};
   p.ma=hash([p.mssv,p.vn,p.xong,p.dung,p.sai,p.diem,BAI].join('|'));return p;}
