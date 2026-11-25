@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Đấu trường Động học</title>
+<title>Đấu trường Thiết kế</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -302,26 +302,10 @@ button.opt:disabled{cursor:default}
 @media (max-width:900px){.home,.v4,.v3,.pnw,.mem2{grid-template-columns:minmax(0,1fr)}.board4{grid-template-columns:repeat(2,minmax(0,1fr));min-width:0}#board{margin-left:0;width:100%}.opts,.picks,.v3.nt .opts{grid-template-columns:minmax(0,1fr)}.bin{min-height:20vh}.modes{grid-template-columns:1fr}.srow{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.pop.go{opacity:1;transform:translate(-50%,-50%)}}
 .nw{white-space:nowrap}
-.vbtn{display:inline-flex;align-items:center;gap:6px;margin-top:8px;border-radius:12px;padding:5px 12px;background:#FF0033;color:#fff;font-weight:800;text-decoration:none;font-size:.9em;box-shadow:0 3px 0 #B00024}
-.vbtn:hover{filter:brightness(1.1)}.vbtn small{font-weight:600;opacity:.9}
-.vlist{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:6px}.vlist .vbtn{margin-top:0}
-.vhead{font:800 1em var(--display);color:#B00024;margin:8px 0 0}
-.vtop{display:grid;grid-template-columns:auto repeat(4,minmax(0,1fr));gap:10px;align-items:stretch;background:#FFF1F2;border:2px solid #FDA4AF;border-radius:18px;padding:10px}
-.vtl{align-self:center;font:900 clamp(16px,1.25vw,24px)/1.2 var(--display);color:#B00024;max-width:9em}
-.vbig{display:flex;align-items:center;gap:10px;background:linear-gradient(120deg,#FF0033,#E0457B);color:#fff;border-radius:16px;padding:10px 14px;font:800 clamp(16px,1.3vw,25px)/1.25 var(--display);text-decoration:none;box-shadow:0 4px 0 #B00024;transition:transform .15s}
-.vbig:hover{transform:translateY(-3px)}
-.vbig i{font-style:normal;flex:none;width:2em;height:2em;border-radius:50%;background:#fff;color:#FF0033;display:grid;place-items:center;font-size:.9em}
-@media (max-width:900px){.vtop{grid-template-columns:minmax(0,1fr)}}
 .card .f>span:last-child{max-width:100%}
 .ctx.big{font-size:clamp(18px,1.45vw,30px);line-height:1.45;color:var(--ink);font-weight:600}
 .qcard{background:linear-gradient(120deg,color-mix(in srgb,var(--rc) 12%,#fff),color-mix(in srgb,var(--rc2) 10%,#fff));border:2px solid color-mix(in srgb,var(--rc) 35%,#fff);border-left:8px solid var(--rc);border-radius:16px;padding:10px 16px;margin-bottom:10px}
 .qcard .qbox.eq{font-size:clamp(24px,2.1vw,42px);margin:4px 0 0;color:var(--brand)}
-.q6{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:14px 20px;margin:6px 0 12px;animation:q6in .5s ease-out}
-.q6 .q6t{flex:none;background:var(--rc);color:#fff;font-weight:800;font-size:clamp(18px,1.5vw,26px);padding:8px 16px;border-radius:999px;letter-spacing:.02em;box-shadow:0 3px 0 color-mix(in srgb,var(--rc) 60%,#000)}
-.q6 .q6q{flex:1 1 320px;font-size:clamp(24px,2.3vw,40px);font-weight:800;color:var(--brand);line-height:1.25}
-.q6 .q6q small{display:block;font-size:.5em;font-weight:600;color:var(--muted);margin-top:4px}
-@keyframes q6in{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.q6{animation:none}}
 .qcard .ctx.big mjx-container,.ctx.big mjx-container{font-size:108%}
 .v3 + .ctx.big,.ctx.big+.v3{margin-top:4px}
 .pop .ps .pf{margin-top:8px;font-size:1.15em;color:var(--ink)}
@@ -334,7 +318,6 @@ button.opt:disabled{cursor:default}
 .rrow .sz input{width:5em;font-size:1em}
 #call.nm .cn{font-size:clamp(56px,9vw,150px);line-height:1.1;max-width:92vw;text-align:center;padding:0 2vw}
 #call .cm{font:800 clamp(22px,2.4vw,40px) var(--display);color:#FDE68A;min-height:1.2em;margin-bottom:6px}
-
 /* ---- làm bài ở nhà ---- */
 .login{max-width:560px;margin:4vh auto;background:#fff;border-radius:22px;padding:26px 28px;box-shadow:0 10px 40px rgba(30,20,80,.15);border-top:8px solid #4B2A8C}
 .login h1{font:800 clamp(26px,3vw,38px) var(--display);margin:0 0 4px;color:#4B2A8C}
@@ -351,10 +334,197 @@ button.opt:disabled{cursor:default}
 .gsbox.ok{border-color:#86EFAC;background:#F0FDF4;color:#166534}.gsbox.wait{border-color:#FDE68A;background:#FFFBEB;color:#92400E}.gsbox.bad{border-color:#FCA5A5;background:#FEF2F2;color:#991B1B}
 .gsbox code{font-size:1.2em;letter-spacing:.08em;background:#fff;padding:2px 8px;border-radius:8px;border:1px solid currentColor}
 .gsbox .btn{margin-left:8px}
+/* ---- thẻ ghi nhớ ---- */
+.fcg{display:flex;flex-wrap:wrap;gap:8px}
+.fchipb{border:2px solid var(--line);background:#fff;border-radius:999px;padding:5px 14px;font-weight:800}
+.fchipb small{opacity:.6}.fchipb[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
+.fcard{flex:1;border-radius:22px;border:3px solid color-mix(in srgb,var(--gc) 45%,#fff);background:linear-gradient(150deg,color-mix(in srgb,var(--gc) 7%,#fff),#fff 60%);padding:clamp(12px,1.6vw,24px);animation:fcin .5s cubic-bezier(.2,1,.3,1);box-shadow:0 10px 30px color-mix(in srgb,var(--gc) 18%,transparent)}
+@keyframes fcin{from{opacity:0;transform:perspective(1400px) rotateY(70deg)}}
+.fcf{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:24px;align-items:center;min-height:100%}
+.fchip{display:inline-block;background:var(--gc);color:#fff;font:800 clamp(14px,1vw,19px) var(--display);border-radius:999px;padding:3px 14px}
+.fcq{font:700 clamp(22px,2vw,38px)/1.45 var(--body);color:var(--ink);margin:12px 0}
+.fcq.sm{font-size:clamp(15px,1.05vw,20px);font-weight:600;color:var(--ink2);margin:0 0 8px;padding-bottom:8px;border-bottom:2px dashed var(--line)}
+.fcfig{background:#FBFCFF;border:2px solid #DCE3EE;border-radius:18px;padding:6px}
+.fsv{width:100%;height:auto;display:block;max-height:54vh}
+.nolab .lb{display:none}
+.fcb{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:22px;align-items:start}
+.fcb.wide{grid-template-columns:minmax(0,1fr)}
+.fcx ul{margin:0 0 10px;padding-left:1.2em;display:grid;gap:8px;font-size:clamp(17px,1.25vw,25px);line-height:1.45}
+.fcx li{animation:slidein .5s ease backwards}
+.fq{background:#fff;border:2px solid var(--gc);border-left:10px solid var(--gc);border-radius:14px;padding:10px 16px;font-size:clamp(18px,1.4vw,28px);overflow-x:auto;margin-bottom:10px}
+.fsteps{display:grid;gap:8px}
+.fst{display:none;background:#fff;border:2px solid #DDD6FE;border-left:10px solid #7C3AED;border-radius:14px;padding:8px 14px;font-size:clamp(18px,1.35vw,27px);overflow-x:auto}
+.fst.on{display:block;animation:slidein .5s ease}
+.fsh{display:block;font:800 .7em var(--display);color:#7C3AED;text-transform:uppercase;letter-spacing:.04em}
+.ftrap{margin-top:10px;background:var(--bad-bg);border:2px solid #FDA4AF;border-radius:14px;padding:8px 14px;font-size:clamp(16px,1.15vw,23px);animation:slidein .5s ease}
+.ftrap b{color:var(--bad)}.ftrap.wait{display:none}
+.ftab{font-size:clamp(16px,1.2vw,24px)}.ftab th{background:color-mix(in srgb,var(--gc) 14%,#fff)}.ftab td{text-align:left!important}
+.fdots{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.fdot{width:2.2em;height:2.2em;border-radius:50%;border:2px solid color-mix(in srgb,var(--gc) 50%,#fff);background:#fff;font-weight:800;font-size:.85em;color:var(--gc)}
+.fdot.on{background:var(--gc);color:#fff;transform:scale(1.15)}.fdot.ok{box-shadow:0 0 0 3px var(--ok)}.fdot.no{box-shadow:0 0 0 3px var(--bad)}
+@media (max-width:900px){.fcf,.fcb{grid-template-columns:minmax(0,1fr)}}
+
+/* ---- thẻ ghi nhớ: chữ ngắn, ý chính nổi bật, hiện lần lượt ---- */
+.fcx ul{gap:6px;font-size:clamp(17px,1.25vw,25px)}
+.fcx li b,.fkey b{background:linear-gradient(transparent 58%,color-mix(in srgb,var(--gc) 30%,#FDE68A) 58%);padding:0 2px;border-radius:3px}
+.fkey{font:800 clamp(20px,1.7vw,32px)/1.3 var(--display);color:var(--brand);background:linear-gradient(120deg,color-mix(in srgb,var(--gc) 14%,#fff),#FFFBEB);border:3px solid var(--gc);border-radius:16px;padding:10px 16px;margin:0 0 10px;box-shadow:0 6px 0 color-mix(in srgb,var(--gc) 35%,#fff);animation:fkey .6s cubic-bezier(.2,1.5,.4,1) .15s backwards,fglow 2.4s ease-in-out 1s 2}
+.fkey small{font-size:.6em;color:var(--muted)}
+@keyframes fkey{from{opacity:0;transform:scale(.6) rotate(-2deg)}}
+@keyframes fglow{50%{box-shadow:0 6px 0 color-mix(in srgb,var(--gc) 35%,#fff),0 0 0 8px color-mix(in srgb,var(--gc) 18%,transparent)}}
+.fax{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
+.fax span{display:flex;flex-direction:column;gap:2px;background:#fff;border:2px solid color-mix(in srgb,var(--gc) 40%,#fff);border-left:8px solid var(--gc);border-radius:12px;padding:6px 12px;font-size:clamp(17px,1.3vw,26px);font-weight:700;animation:fpop .45s cubic-bezier(.2,1.5,.4,1) backwards}
+.fax small{font:800 .62em var(--display);color:var(--gc);text-transform:uppercase;letter-spacing:.04em}
+@keyframes fpop{from{opacity:0;transform:translateY(12px) scale(.8)}}
+.fcb .fq{animation:fpop .45s ease backwards}
+.fcx li{animation:slidein .5s ease backwards}
+@media (prefers-reduced-motion:reduce){.fkey,.fax span,.fcb .fq,.fcx li{animation:none}}
+.fax .fv{font-style:normal;display:block}
+/* ---- thanh menu: Bắt đầu, Hướng dẫn, Thẻ ghi nhớ, Tổng kết khác hẳn các vòng chơi ---- */
+.tabs button[data-go="home"],.tabs button[data-go="hd"],.tabs button[data-go="the"],.tabs button[data-go="end"]{border-radius:999px;padding:6px 14px;font-weight:800;box-shadow:inset 0 0 0 2px rgba(255,255,255,.55)}
+.tabs button[data-go="home"]{background:#FACC15;color:#1B2A6B}
+.tabs button[data-go="hd"]{background:linear-gradient(120deg,#F59E0B,#F26B3A);color:#fff}
+.tabs button[data-go="the"]{background:linear-gradient(120deg,#0EA5A0,#22C55E);color:#fff}
+.tabs button[data-go="end"]{background:rgba(255,255,255,.95);color:#9D2C7A}
+.tabs button[data-go="home"][aria-current],.tabs button[data-go="hd"][aria-current],.tabs button[data-go="the"][aria-current],.tabs button[data-go="end"][aria-current]{box-shadow:0 0 0 3px #fff,0 0 0 6px #FACC15;transform:translateY(-1px)}
+.tabs button[data-go="r1"]{margin-left:18px;position:relative}
+.tabs button[data-go="r1"]::before{content:'🎮 Vòng chơi';position:absolute;left:-14px;top:-11px;font:800 .62em var(--display);color:#FDE68A;white-space:nowrap;transform:translateX(0)}
+.tabs button[data-go="r1"]::after{content:'';position:absolute;left:-11px;top:4px;bottom:4px;width:3px;border-radius:3px;background:rgba(255,255,255,.55)}
+.tabs button[data-go="end"]{margin-left:12px}
+.tabs{padding-top:8px}
+.fcf:not(:has(.fcfig)){grid-template-columns:minmax(0,1fr)}
+.btn.au{background:linear-gradient(120deg,#0EA5A0,#2F7DE1);border-color:transparent;color:#fff;animation:fpop .45s ease}
+/* ---- vòng Về đích: khung đề bài nổi bật ---- */
+.q6{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 22px;align-items:center;padding:16px 22px;margin:4px 0 6px;border-width:3px;border-left-width:12px;box-shadow:0 10px 28px color-mix(in srgb,var(--rc) 22%,transparent);animation:q6in .55s cubic-bezier(.2,1.3,.4,1)}
+.q6 .q6t{justify-self:start;background:var(--rc);color:#fff;font:800 clamp(17px,1.4vw,26px) var(--display);padding:6px 18px;border-radius:999px;letter-spacing:.02em;box-shadow:0 3px 0 color-mix(in srgb,var(--rc) 60%,#000)}
+.q6 .q6q{grid-column:1;font:800 clamp(26px,2.5vw,46px)/1.25 var(--display);color:var(--brand)}
+.q6 .q6r{grid-column:1;font:700 clamp(17px,1.3vw,25px)/1.4 var(--body);color:var(--ink2)}
+.q6 .q6r b{color:var(--rc)}
+.q6 .q6f{grid-column:2;grid-row:1/span 3;width:clamp(180px,17vw,300px);background:#fff;border:2px solid color-mix(in srgb,var(--rc) 30%,#fff);border-radius:14px;padding:4px}
+.q6 .q6f .fsv{max-height:19vh}
+@keyframes q6in{from{opacity:0;transform:translateY(-10px) scale(.98)}}
+@media (max-width:900px){.q6{grid-template-columns:minmax(0,1fr)}.q6 .q6f{grid-column:1;grid-row:auto;width:min(100%,320px)}}
+@media (prefers-reduced-motion:reduce){.q6{animation:none}}
+
+/* ---- thẻ Hướng dẫn ---- */
+.hd{display:flex;flex-direction:column;gap:14px}
+.hdwarn{display:flex;gap:14px;align-items:center;background:linear-gradient(120deg,#FFF1F2,#FFF7ED);border:3px solid #FB7185;border-left-width:12px;border-radius:18px;padding:12px 18px;font:800 clamp(18px,1.5vw,28px)/1.35 var(--display);color:#9F1239;animation:q6in .5s ease}
+.hdwarn .ic{font-size:1.8em;flex:none}
+.hdstep{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 16px;align-items:start;background:#fff;border:2px solid var(--line);border-radius:18px;padding:14px 18px}
+.hdstep .no{grid-row:span 2;width:2.2em;height:2.2em;border-radius:14px;display:grid;place-items:center;color:#fff;font:900 1.35em var(--display);background:linear-gradient(130deg,var(--sc),color-mix(in srgb,var(--sc) 60%,#fff))}
+.hdstep h3{margin:0;font:800 clamp(19px,1.5vw,28px) var(--display);color:var(--sc)}
+.hdstep p{margin:0;color:var(--ink2);font-size:clamp(15px,1.1vw,21px)}
+.hdv{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,400px),1fr));gap:10px;margin-top:8px;grid-column:2}
+.hdv .vbig{position:relative}.hdv .vbig small{display:block;font:600 .7em var(--body);opacity:.9}
+.hdv .vbig.seen::after{content:'✔ đã mở';position:absolute;right:10px;top:6px;font:800 .6em var(--body);background:#fff;color:#B00024;border-radius:8px;padding:0 6px}
+.hdv .soon{border:2px dashed #FDA4AF;border-radius:16px;padding:10px 14px;color:#9F1239;font-weight:700;display:flex;align-items:center}
+.hdgo{grid-column:2;margin-top:8px;justify-self:start}
+.vbig{display:flex;align-items:center;gap:10px;background:linear-gradient(120deg,#FF0033,#E0457B);color:#fff;border-radius:16px;padding:10px 14px;font:800 clamp(16px,1.3vw,25px)/1.25 var(--display);text-decoration:none;box-shadow:0 4px 0 #B00024;transition:transform .15s}
+.vbig:hover{transform:translateY(-3px)}
+.vbig i{font-style:normal;flex:none;width:2em;height:2em;border-radius:50%;background:#fff;color:#FF0033;display:grid;place-items:center;font-size:.9em}
+.rnd.hdt{border-color:#FB7185;background:linear-gradient(120deg,#FFF1F2,#FFF7ED)}
+@media (max-width:900px){.hdv,.hdgo{grid-column:1/-1}}
+/* MOB-KTPU v2 */
+.mtrack{display:contents}.mtrack .mlab{display:none}
+.tabs .mi{font-weight:inherit}
+@media (min-width:701px){.tabs>button .mi{margin-right:.3em}}
+@media (max-width:700px){
+ html,body{overflow-x:clip}
+ /* bỏ khoảng trống safe-area đầu/chân trên điện thoại */
+ :root{padding-top:0!important;padding-bottom:0!important}
+ body{padding-left:max(8px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px))}
+ .app{padding-block:0 4px;gap:8px;min-height:0}
+ /* thanh trên: 1 dòng tên + điểm, 1 dải menu cuộn ngang; dính đầu trang */
+ .top{position:sticky;top:0;z-index:60;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 8px;align-items:center;
+   margin:0 -8px;border-radius:0 0 16px 16px;padding:6px 10px}
+ .logo{font-size:14px;line-height:1.15;min-width:0;white-space:normal}
+ .logo small{display:none}
+ #board{grid-column:2;grid-row:1;margin-left:0;width:auto}
+ .top:has(.board4) #board{grid-column:1/-1;grid-row:3;width:100%}
+ /* menu: Home, Thẻ ghi nhớ (Hướng dẫn) là ô cố định; các vòng + Tổng kết nằm trong rãnh tối cuộn ngang */
+ .tabs{grid-column:1/-1;grid-row:2;flex-wrap:nowrap;align-items:stretch;gap:6px;padding:2px 0 0!important}
+ .tabs>button{flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;
+   min-width:52px;min-height:46px;padding:3px 7px!important;border-radius:12px!important;line-height:1.05;font-size:10.5px!important;white-space:nowrap}
+ .tabs>button .mi{font-size:18px;line-height:1}
+ .tabs>button[aria-current]{box-shadow:0 0 0 2px #fff,0 0 0 4px #FACC15!important;transform:none!important}
+ .mtrack .mlab{display:block}
+ .mtrack{flex:1;min-width:0;display:flex;align-items:center;gap:5px;overflow-x:auto;overscroll-behavior-x:contain;
+   background:rgba(8,10,40,.38);box-shadow:inset 0 2px 6px rgba(0,0,0,.35);border-radius:14px;padding:4px 5px;
+   scrollbar-width:none;-webkit-overflow-scrolling:touch}
+ .mtrack::-webkit-scrollbar{display:none}
+ .mtrack .mlab{flex:none;font:800 10px/1.1 var(--display);color:#FDE68A;text-align:center;padding:0 2px}
+ .mtrack button{flex:none;font-size:13px;padding:5px 10px!important;min-height:36px;border-radius:999px!important;white-space:nowrap;margin:0!important}
+ .mtrack button::before,.mtrack button::after{display:none!important}
+ .mtrack button i{width:1.5em;height:1.5em}
+ .mtrack button[aria-current="page"]{box-shadow:0 0 0 2px var(--rc)}
+ .mtrack button[data-go="end"][aria-current]{box-shadow:0 0 0 2px #fff,0 0 0 4px #FACC15;transform:none}
+ /* bảng điểm thu gọn */
+ .clsb{padding:3px 9px;gap:6px;border-radius:12px;font-size:12px}
+ .cl-l{display:none}
+ .cl-s{font-size:22px}
+ .clsb .okc,.clsb .bdc,.clsb .run{font-size:12px;padding:1px 6px;border-radius:8px}
+ .board4{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;min-width:0}
+ .team{padding:3px 6px;border-left-width:5px;border-radius:10px;gap:0 4px}
+ .team .nm{font-size:11px}.team .sc{font-size:20px}.team .sub{display:none}
+ .team .adj button{padding:0 5px;font-size:10px}
+ /* sân khấu & đầu vòng */
+ .stage{border-radius:16px;padding:12px;border-top-width:6px;gap:10px}
+ .rhead{gap:4px 8px}
+ .rnum{font-size:12px;padding:2px 9px;border-radius:9px}
+ .rhead h1{font-size:19px;line-height:1.25}
+ .qcount{font-size:13px}
+ .prog{width:64px;height:8px}
+ .rhead .rule{font-size:13px;line-height:1.4;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;cursor:pointer}
+ .rhead .rule.mob-open{display:block;-webkit-line-clamp:unset}
+ .q6{font-size:15px}
+ .qbox{font-size:18px}.qbox.sm{font-size:16.5px}
+ .opts{gap:8px}
+ .opt{font-size:16.5px;padding:9px 12px;gap:10px;min-height:52px;border-radius:14px}
+ .opt .lt{width:1.9em;height:1.9em}
+ .why{font-size:15px;padding:8px 12px}
+ .dt{font-size:15px}.dt th,.dt td{padding:5px 10px}
+ .card .f{font-size:13px}.card .b{font-size:24px}
+ .bin .bh{font-size:15px}.placed,.itm{font-size:14.5px}
+ /* thanh điều khiển dính đáy */
+ .ctrl{position:sticky;bottom:0;z-index:50;gap:6px;padding:6px;border-radius:14px;box-shadow:0 -4px 16px #1B2A6B1f}
+ .ctrl .btn{font-size:14px;padding:7px 11px;min-height:40px;border-radius:11px}
+ .ctrl .hint{display:none}
+ .timer{font-size:20px;min-width:2.6em}
+ /* thẻ ghi nhớ */
+ .fcg{flex-wrap:nowrap;overflow-x:auto;gap:6px;scrollbar-width:none;padding-bottom:2px}
+ .fcg::-webkit-scrollbar{display:none}
+ .fchipb{flex:none;font-size:13px;padding:5px 11px;white-space:nowrap}
+ .fcard{border-radius:16px;padding:12px;touch-action:pan-y}
+ .fcq{font-size:19px;margin:8px 0}.fcq.sm{font-size:15px}
+ .fkey{font-size:16px}
+ .fdot{font-size:12px;width:2.1em;height:2.1em}
+ .fcard.isf{cursor:pointer}
+ .fdots{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;scrollbar-width:none;padding:2px}
+ .fdots::-webkit-scrollbar{display:none}
+ .fdot{flex:none}
+ .ctrl .sp{display:none}
+ .hero h1{font-size:30px;margin-bottom:8px}
+ .q6{padding:10px 12px;gap:8px;margin:2px 0 8px}
+ .q6 .q6t{font-size:14px;padding:4px 11px}
+ .q6 .q6q{font-size:19px;flex-basis:100%}
+ .vtop{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:6px;padding:8px;border-radius:14px}
+ .vtl{grid-column:1/-1;max-width:none!important;white-space:nowrap;font-size:15px!important}
+ .vbig{font-size:12.5px!important;padding:6px 8px;gap:7px;border-radius:11px;line-height:1.2}
+ .vbig i{width:1.7em;height:1.7em}
+ .vbtn{font-size:13px}
+ /* mặt sau thẻ ghi nhớ: chữ nhỏ hơn */
+ .fcb .fcq.sm{font-size:13.5px;margin:4px 0 6px}
+ .fcb .fkey{font-size:14.5px;padding:7px 10px;border-width:2px;border-radius:12px;margin-bottom:8px;box-shadow:0 3px 0 color-mix(in srgb,var(--gc) 35%,#fff)}
+ .fcb .fax{gap:6px}
+ .fcb .fax span{font-size:14px;padding:4px 9px;border-left-width:6px;border-radius:10px}
+ .fcb .fq{font-size:15px;padding:7px 10px;border-left-width:7px;border-radius:11px;margin-bottom:8px}
+ .fcb .fcx ul{font-size:14px;gap:4px;line-height:1.4}
+ .fcb .ftab{font-size:13px}
+ .fcb .ftab th,.fcb .ftab td{padding:4px 7px}
+}
 </style>
 <div class="app">
   <header class="top">
-    <div class="logo">Đấu trường Động học<small>KTPU · Chương 2</small></div>
+    <div class="logo">Đấu trường Thiết kế<small>KTPU · Chương 3</small></div>
     <nav class="tabs" id="tabs" aria-label="Các vòng"></nav>
     <div id="board" aria-live="polite"></div>
   </header>
@@ -366,272 +536,247 @@ button.opt:disabled{cursor:default}
 <div id="pop" class="pop" role="status" aria-live="assertive"></div>
 <div id="call" hidden role="dialog" aria-label="Gọi sinh viên"><div class="cl">🎲 Mời sinh viên số</div><div class="cn">?</div><div class="cm"></div><div class="cs">Đang quay…</div></div>
 <script>
-/* ================= NGÂN HÀNG CÂU HỎI – CHƯƠNG 2 (Sách BT KTPU, Bảng 2.1–2.9) ================= */
+/* ================= NGÂN HÀNG CÂU HỎI – CHƯƠNG 3: PHƯƠNG TRÌNH THIẾT KẾ (Sách BT KTPU, Bảng 3.1–3.2, VD 3.2–3.11, Q3.1–Q3.11) ================= */
 const R = String.raw;
 
 /* ---------- Vòng 1: Khởi động ---------- */
 const R1 = [
- {q:R`Hằng số tốc độ \(k = 0{,}05\ \mathrm{L\cdot mol^{-1}\cdot s^{-1}}\). Phản ứng có bậc:`,o:['Bậc 0','Bậc 1','Bậc 2','Bậc 3'],a:2,
-  why:R`Đơn vị \(k\): \((\text{nồng độ})^{1-n}(\text{thời gian})^{-1}\). \(\mathrm{L\cdot mol^{-1}} = (\mathrm{mol/L})^{-1}\) nên \(1-n=-1\), \(n = 2\) (mục 2.1.4.6).`},
- {q:R`Hằng số tốc độ \(k = 2{,}5\times10^{-3}\ \mathrm{mol\cdot L^{-1}\cdot min^{-1}}\). Phản ứng có bậc:`,o:['Bậc 0','Bậc 1','Bậc 2','Bậc 3'],a:0,
-  why:R`\(k\) có cùng đơn vị với tốc độ phản ứng: \((\mathrm{mol/L})^{1}\) nên \(1-n = 1\), \(n = 0\).`},
- {q:R`Hằng số tốc độ \(k = 0{,}12\ \mathrm{min^{-1}}\). Phản ứng có bậc:`,o:['Bậc 0','Bậc 1','Bậc 2','Bậc 3'],a:1,
-  why:R`Không có thừa số nồng độ: \(1-n = 0\), \(n = 1\).`},
- {q:R`Hằng số tốc độ \(k = 4\ \mathrm{L^{2}\cdot mol^{-2}\cdot s^{-1}}\). Phản ứng có bậc:`,o:['Bậc 0','Bậc 1','Bậc 2','Bậc 3'],a:3,
-  why:R`\((\mathrm{mol/L})^{-2}\) nên \(1-n = -2\), \(n = 3\).`},
- {q:R`Đúng hay sai: phản ứng bậc 1 có thời gian bán hủy \(t_{1/2}\) <b>không phụ thuộc</b> \(C_\mathrm{Ao}\).`,o:['Đúng','Sai'],a:0,
-  why:R`\(t_{1/2} = \dfrac{\ln 2}{k}\) (Bảng 2.1).`},
- {q:R`Đúng hay sai: phản ứng bậc 0 có \(t_{1/2}\) <b>tỉ lệ nghịch</b> với \(C_\mathrm{Ao}\).`,o:['Đúng','Sai'],a:1,
-  why:R`\(t_{1/2} = \dfrac{C_\mathrm{Ao}}{2k}\): tỉ lệ <b>thuận</b>. Tỉ lệ nghịch là bậc 2: \(t_{1/2} = \dfrac{1}{kC_\mathrm{Ao}}\).`},
- {q:R`Phản ứng pha khí A → 2B thực hiện đẳng áp, nhập liệu A nguyên chất. Hệ số thay đổi thể tích \(\varepsilon_\mathrm{A}\) bằng:`,o:['0','0,5','1','2'],a:2,
-  why:R`\(\varepsilon_\mathrm{A} = \dfrac{N_{\text{tổng},X_\mathrm{A}=1}-N_{\text{tổng},X_\mathrm{A}=0}}{N_{\text{tổng},X_\mathrm{A}=0}} = \dfrac{2-1}{1} = 1\) (2.30).`},
- {q:R`Cũng phản ứng A → 2B nhưng nhập liệu gồm 50 % A và 50 % khí trơ (theo mol). \(\varepsilon_\mathrm{A}\) bằng:`,o:['0','0,5','1','2'],a:1,
-  why:R`Ban đầu 0,5 A + 0,5 trơ = 1 mol; khi \(X_\mathrm{A}=1\): 1 B + 0,5 trơ = 1,5 mol. \(\varepsilon_\mathrm{A} = (1{,}5-1)/1 = 0{,}5\). Khí trơ làm giảm \(\varepsilon_\mathrm{A}\).`},
- {q:R`Đúng hay sai: đồ thị \(\ln k\) theo \(1/T\) là đường thẳng có hệ số góc \(-E_\mathrm{a}/R\).`,o:['Đúng','Sai'],a:0,
-  why:R`\(\ln k = -\dfrac{E_\mathrm{a}}{RT} + \ln A\) (2.13): \(y = \ln k\), \(x = 1/T\).`},
- {q:R`Hai phản ứng có cùng \(k\) ở 300 K. Khi tăng nhiệt độ, phản ứng nào có \(k\) tăng nhanh hơn?`,o:[R`Phản ứng có \(E_\mathrm{a}\) lớn hơn`,R`Phản ứng có \(E_\mathrm{a}\) nhỏ hơn`,'Tăng như nhau','Không xác định được'],a:0,
-  why:R`\(\ln\dfrac{k_{T_2}}{k_{T_1}} = -\dfrac{E_\mathrm{a}}{R}\left(\dfrac{1}{T_2}-\dfrac{1}{T_1}\right)\): \(E_\mathrm{a}\) càng lớn, tỉ số càng lớn.`}
+ {q:R`Bình khuấy liên tục có \(V = 5\ \mathrm{L}\), lưu lượng nhập liệu \(v_\mathrm{o} = 0{,}5\ \mathrm{L/min}\). Thời gian lưu \(\tau\) bằng:`,o:['0,1 min','2,5 min','10 min','5,5 min'],a:2,
+  why:R`\(\tau = \dfrac{V}{v_\mathrm{o}} = \dfrac{5\ \mathrm{L}}{0{,}5\ \mathrm{L/min}} = 10\ \mathrm{min}\) (3.2).`},
+ {q:R`Dòng nhập liệu có \(C_\mathrm{Ao} = 2\ \mathrm{mol/L}\), \(v_\mathrm{o} = 3\ \mathrm{L/min}\). Suất lượng mol \(F_\mathrm{Ao}\) bằng:`,o:['0,67 mol/min','1,5 mol/min','5 mol/min','6 mol/min'],a:3,
+  why:R`\(F_\mathrm{Ao} = C_\mathrm{Ao}v_\mathrm{o} = 2\ \mathrm{mol/L}\times 3\ \mathrm{L/min} = 6\ \mathrm{mol/min}\) (3.9).`},
+ {q:R`Đúng hay sai: trong CSTR lý tưởng, tốc độ phản ứng trong bình được tính theo nồng độ <b>dòng ra</b> \(C_\mathrm{Af}\).`,o:['Đúng','Sai'],a:0,
+  why:R`Khuấy lý tưởng nên nồng độ mọi điểm trong bình bằng nồng độ dòng ra. Vì vậy PT thiết kế dùng \((-r_\mathrm{A})_f\), không dùng \(C_\mathrm{Ao}\).`},
+ {q:R`Phản ứng pha khí A → 3R thực hiện đẳng áp, nhập liệu A nguyên chất. \(\varepsilon_\mathrm{A}\) bằng:`,o:['0','1','2','3'],a:2,
+  why:R`\(\varepsilon_\mathrm{A} = \dfrac{V_{X_\mathrm{A}=1}-V_{X_\mathrm{A}=0}}{V_{X_\mathrm{A}=0}} = \dfrac{3-1}{1} = 2\).`},
+ {q:R`Phản ứng pha khí 2A → R thực hiện trong <b>bình kín</b> (thể tích bình không đổi). Trong PT thiết kế, \(C_\mathrm{A}\) được tính bằng:`,o:[R`\(C_\mathrm{Ao}(1-X_\mathrm{A})\)`,R`\(C_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1-0{,}5X_\mathrm{A}}\)`,R`\(C_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+0{,}5X_\mathrm{A}}\)`,R`\(C_\mathrm{Ao}(1-0{,}5X_\mathrm{A})\)`],a:0,
+  why:R`Bình kín: \(V\) = const, áp suất thay đổi, nên \(C_\mathrm{A} = C_\mathrm{Ao}(1-X_\mathrm{A})\). Hệ số \(\varepsilon_\mathrm{A}\) chỉ dùng khi \(\Delta n\neq 0\) <b>và</b> \(P\) = const (Ghi chú 1, mục 3).`},
+ {q:R`Đúng hay sai: với \(V\) = const, PT thiết kế của BR và PFR sau khi lấy tích phân có cùng dạng với PT động học tích phân ở chương 2.`,o:['Đúng','Sai'],a:0,
+  why:R`Ghi chú 2: chỉ cần thay \(t\) (BR) hoặc \(\tau\) (PFR) vào PT động học tích phân. Ví dụ bậc 1: \(k\tau = -\ln(1-X_\mathrm{Af})\).`},
+ {q:R`Thực hiện A(l) → R(l) + 2S(l) trong TBPU liên tục, \(F_\mathrm{Ao}\) và \(X_\mathrm{Af}\) đã biết. Năng suất sản phẩm S là:`,o:[R`\(F_\mathrm{S} = \tfrac12F_\mathrm{Ao}X_\mathrm{Af}\)`,R`\(F_\mathrm{S} = F_\mathrm{Ao}X_\mathrm{Af}\)`,R`\(F_\mathrm{S} = 2F_\mathrm{Ao}X_\mathrm{Af}\)`,R`\(F_\mathrm{S} = F_\mathrm{Ao}/X_\mathrm{Af}\)`],a:2,
+  why:R`Lượng A đã phản ứng là \(F_\mathrm{Ao}X_\mathrm{Af}\); mỗi mol A tạo 2 mol S nên \(F_\mathrm{S} = 2F_\mathrm{Ao}X_\mathrm{Af}\) (Q3.8).`},
+ {q:R`Phản ứng pha lỏng A → 3R trong CSTR thể tích \(V\), dòng vào không có R, đo được \(C_\mathrm{Rf}\) ở dòng ra. Tốc độ phản ứng trong bình là:`,o:[R`\(\dfrac{C_\mathrm{Rf}v_\mathrm{o}}{2V}\)`,R`\(C_\mathrm{Rf}v_\mathrm{o}V\)`,R`\(\dfrac{3C_\mathrm{Rf}v_\mathrm{o}}{V}\)`,R`\(\dfrac{C_\mathrm{Rf}v_\mathrm{o}}{3V}\)`],a:3,
+  why:R`A đã phản ứng: \(C_\mathrm{Ao}-C_\mathrm{Af} = C_\mathrm{Rf}/3\). Từ PT thiết kế CSTR: \((-r_\mathrm{A})_f = \dfrac{C_\mathrm{Ao}-C_\mathrm{Af}}{\tau} = \dfrac{C_\mathrm{Rf}v_\mathrm{o}}{3V}\) (Q3.7).`},
+ {q:R`Bình gián đoạn: thời gian phản ứng 3 h, thời gian nạp liệu, tháo sản phẩm, vệ sinh 1 h; mỗi mẻ thu được 400 mol R. Năng suất trung bình \(F_\mathrm{R}\):`,o:['100 mol/h','133 mol/h','400 mol/h','1 200 mol/h'],a:0,
+  why:R`\(F_\mathrm{R} = \dfrac{N_\mathrm{R}}{t + t_\text{gián đoạn}} = \dfrac{400\ \mathrm{mol}}{(3+1)\ \mathrm{h}} = 100\ \mathrm{mol/h}\) (3.13). Quên thời gian gián đoạn sẽ ra 133 mol/h.`},
+ {q:R`Phản ứng pha lỏng A + B → sản phẩm, \((-r_\mathrm{A}) = 500C_\mathrm{A}C_\mathrm{B}\) [mol/(L·min)], trong PFR có \(V = 0{,}1\ \mathrm{L}\), \(v_\mathrm{o} = 0{,}05\ \mathrm{L/min}\), \(C_\mathrm{Ao} = C_\mathrm{Bo} = 0{,}01\ \mathrm{M}\). Độ <b>chưa</b> chuyển hóa của A:`,o:['0,09','0,009','0,9','0,91'],a:0,
+  why:R`\(\tau = 2\ \mathrm{min}\); bậc 2 với \(C_\mathrm{Ao}=C_\mathrm{Bo}\): \(kC_\mathrm{Ao}\tau = \dfrac{X_\mathrm{Af}}{1-X_\mathrm{Af}} = 500\times0{,}01\times2 = 10\), nên \(X_\mathrm{Af} = 10/11 = 0{,}91\) và \(1-X_\mathrm{Af} = 0{,}09\) (Q3.10).`}
 ];
 
 /* ---------- Vòng 2: Lật thẻ ghép đôi (3 bảng × 8 cặp) ---------- */
 const R2 = [
- {name:'Bảng 1 · Phương trình tích phân',pairs:[
-  [R`Bất thuận nghịch <b>bậc 0</b>, pha lỏng: A → B`, R`\(C_\mathrm{Ao}-C_\mathrm{A}=kt\)`],
-  [R`Bậc 1, pha khí A → 2B, <i>V</i> = const, theo áp suất riêng phần`, R`\(\ln\dfrac{p_\mathrm{Ao}}{p_\mathrm{A}}=kt\)`],
-  [R`Bậc 2: A + B → R + S, \(C_\mathrm{Ao}=C_\mathrm{Bo}\)`, R`\(\dfrac{1}{C_\mathrm{A}}-\dfrac{1}{C_\mathrm{Ao}}=kt\)`],
-  [R`Bậc 2: A + B → R + S, \(C_\mathrm{Ao}\neq C_\mathrm{Bo}\)`, R`\(\ln\dfrac{C_\mathrm{Ao}C_\mathrm{B}}{C_\mathrm{Bo}C_\mathrm{A}}=C_\mathrm{Ao}(M-1)kt\)`],
-  [R`Thuận nghịch bậc 1, pha lỏng: A ⇄ R`, R`\(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}}=(k_1+k_2)t\)`],
-  [R`Thuận nghịch bậc 2: A + B ⇄ 2R hoặc 2A ⇄ R + S (\(C_\mathrm{Ao}=C_\mathrm{Bo}\); \(C_\mathrm{Ro}=C_\mathrm{So}=0\))`, R`\(\ln\dfrac{X_\mathrm{Ae}-(2X_\mathrm{Ae}-1)X_\mathrm{A}}{X_\mathrm{Ae}-X_\mathrm{A}}=2k_1\!\left(\dfrac{1}{X_\mathrm{Ae}}-1\right)\!C_\mathrm{Ao}t\)`],
-  [R`Bất thuận nghịch <b>bậc <i>n</i></b> (<i>n</i> ≠ 1), <i>V</i> = const`, R`\(\dfrac{1}{C_\mathrm{A}^{\,n-1}}-\dfrac{1}{C_\mathrm{Ao}^{\,n-1}}=(n-1)kt\)`],
-  [R`Bậc 1, thể tích thay đổi \(V=V_\mathrm{o}(1+\varepsilon_\mathrm{A}X_\mathrm{A})\): biểu diễn <i>V</i> theo <i>t</i>`, R`\(-\ln\!\left(1-\dfrac{\Delta V}{\varepsilon_\mathrm{A}V_\mathrm{o}}\right)=kt\)`]]},
- {name:'Bảng 2 · Theo độ chuyển hóa, áp suất tổng, thời gian bán hủy',pairs:[
-  [R`Bậc 1, theo \(X_\mathrm{A}\), <i>V</i> = const`, R`\(-\ln(1-X_\mathrm{A})=kt\)`],
-  [R`Bậc 2 (\(C_\mathrm{Ao}=C_\mathrm{Bo}\)), theo \(X_\mathrm{A}\)`, R`\(\dfrac{1}{C_\mathrm{Ao}}\dfrac{X_\mathrm{A}}{1-X_\mathrm{A}}=kt\)`],
-  [R`Bậc 0, theo \(X_\mathrm{A}\), <i>V</i> = const`, R`\(C_\mathrm{Ao}X_\mathrm{A}=kt\)`],
-  [R`Bậc 1 pha khí, bình kín, đo <b>áp suất tổng</b> <i>P</i>`, R`\(P-P_\mathrm{o}=\dfrac{\Delta n}{a}\,p_\mathrm{Ao}\left(1-e^{-kt}\right)\)`],
-  [R`Bậc 0, thể tích thay đổi, theo \(X_\mathrm{A}\)`, R`\(\dfrac{C_\mathrm{Ao}}{\varepsilon_\mathrm{A}}\ln(1+\varepsilon_\mathrm{A}X_\mathrm{A})=kt\)`],
-  [R`A + 2B → sản phẩm, <b>bậc 3</b>, \(M = C_\mathrm{Bo}/C_\mathrm{Ao}=2\)`, R`\(\dfrac{1}{C_\mathrm{A}^{2}}-\dfrac{1}{C_\mathrm{Ao}^{2}}=8kt\)`],
-  [R`Thời gian bán hủy, bậc 0`, R`\(t_{1/2}=\dfrac{C_\mathrm{Ao}}{2k}\)`],
-  [R`Thời gian bán hủy, bậc <i>n</i> (<i>n</i> ≠ 1)`, R`\(t_{1/2}=\dfrac{2^{\,n-1}-1}{(n-1)kC_\mathrm{Ao}^{\,n-1}}\)`]]},
- {name:'Bảng 3 · Phương trình động học vi phân',pairs:[
-  [R`Bậc 2: A + B → sp, \(C_\mathrm{Ao}\neq C_\mathrm{Bo}\), theo \(X_\mathrm{A}\)`, R`\(\dfrac{dX_\mathrm{A}}{dt}=kC_\mathrm{Ao}(1-X_\mathrm{A})(M-X_\mathrm{A})\)`],
-  [R`A + 2B → sp, bậc 2, theo \(X_\mathrm{A}\)`, R`\(\dfrac{dX_\mathrm{A}}{dt}=kC_\mathrm{Ao}(1-X_\mathrm{A})(M-2X_\mathrm{A})\)`],
-  [R`Thuận nghịch bậc 1, theo \(X_\mathrm{A}\)`, R`\(\dfrac{dX_\mathrm{A}}{dt}=(k_1+k_2)(X_\mathrm{Ae}-X_\mathrm{A})\)`],
-  [R`Thuận nghịch bậc 2: A + B ⇄ R + S`, R`\(-\dfrac{dC_\mathrm{A}}{dt}=k_1C_\mathrm{A}C_\mathrm{B}-k_2C_\mathrm{R}C_\mathrm{S}\)`],
-  [R`Bậc 2 pha khí, theo áp suất riêng phần`, R`\(-\dfrac{dp_\mathrm{A}}{dt}=k'p_\mathrm{A}^{2},\ \ k'=\dfrac{k}{RT}\)`],
-  [R`Bậc 0 pha khí, theo áp suất riêng phần`, R`\(-\dfrac{dp_\mathrm{A}}{dt}=kRT\)`],
-  [R`Bậc 1, thể tích thay đổi, theo \(X_\mathrm{A}\)`, R`\(\dfrac{C_\mathrm{Ao}}{1+\varepsilon_\mathrm{A}X_\mathrm{A}}\dfrac{dX_\mathrm{A}}{dt}=kC_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+\varepsilon_\mathrm{A}X_\mathrm{A}}\)`],
-  [R`Bậc <i>n</i>, <i>V</i> = const, theo \(X_\mathrm{A}\)`, R`\(\dfrac{dX_\mathrm{A}}{dt}=kC_\mathrm{Ao}^{\,n-1}(1-X_\mathrm{A})^{n}\)`]]}
+ {name:'Bảng 1 · V = const (Bảng 3.1)',tags:['Trường hợp','Phương trình thiết kế'],pairs:[
+  [R`<b>Bậc 0</b>, PFR, BR hoặc CSTR`, R`\(\tau = \dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{k}\)`],
+  [R`<b>Bậc 1</b>, PFR hoặc BR`, R`\(\tau = -\dfrac{1}{k}\ln(1-X_\mathrm{Af})\)`],
+  [R`<b>Bậc 1</b>, CSTR`, R`\(\tau = \dfrac{X_\mathrm{Af}}{k(1-X_\mathrm{Af})}\)`],
+  [R`<b>Bậc 2</b> \((-r_\mathrm{A}) = kC_\mathrm{A}^2\), PFR hoặc BR`, R`\(\tau = \dfrac{1}{kC_\mathrm{Ao}}\dfrac{X_\mathrm{Af}}{1-X_\mathrm{Af}}\)`],
+  [R`<b>Bậc 2</b> \((-r_\mathrm{A}) = kC_\mathrm{A}^2\), CSTR`, R`\(\tau = \dfrac{X_\mathrm{Af}}{kC_\mathrm{Ao}(1-X_\mathrm{Af})^2}\)`],
+  [R`<b>Bậc <i>n</i></b> (<i>n</i> ≠ 1), PFR hoặc BR`, R`\(\tau = \dfrac{1}{k(n-1)}\left(\dfrac{1}{C_\mathrm{Af}^{\,n-1}}-\dfrac{1}{C_\mathrm{Ao}^{\,n-1}}\right)\)`],
+  [R`<b>Bậc <i>n</i></b>, CSTR`, R`\(\tau = \dfrac{C_\mathrm{Ao}-C_\mathrm{Af}}{kC_\mathrm{Af}^{\,n}}\)`],
+  [R`Thuận nghịch bậc 1 A ⇄ R (\(C_\mathrm{Ro}=0\)), CSTR`, R`\(\tau = \dfrac{X_\mathrm{Af}}{(k_1+k_2)(X_\mathrm{Ae}-X_\mathrm{Af})}\)`]]},
+ {name:'Bảng 2 · V thay đổi (Bảng 3.2)',tags:['Trường hợp','Phương trình'],pairs:[
+  [R`Hệ số thay đổi thể tích \(\varepsilon_\mathrm{A}\)`, R`\(\dfrac{V_{X_\mathrm{A}=1}-V_{X_\mathrm{A}=0}}{V_{X_\mathrm{A}=0}}\)`],
+  [R`Nồng độ \(C_\mathrm{A}\) khi thể tích thay đổi`, R`\(C_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+\varepsilon_\mathrm{A}X_\mathrm{A}}\)`],
+  [R`<b>Bậc 0</b>, PFR hoặc CSTR (V thay đổi)`, R`\(\tau = \dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{k}\) (không chứa \(\varepsilon_\mathrm{A}\))`],
+  [R`<b>Bậc 1</b>, PFR (V thay đổi)`, R`\(\tau = \dfrac{1}{k}\left[(1+\varepsilon_\mathrm{A})\ln\dfrac{1}{1-X_\mathrm{Af}}-\varepsilon_\mathrm{A}X_\mathrm{Af}\right]\)`],
+  [R`<b>Bậc 1</b>, CSTR (V thay đổi)`, R`\(\tau = \dfrac{X_\mathrm{Af}(1+\varepsilon_\mathrm{A}X_\mathrm{Af})}{k(1-X_\mathrm{Af})}\)`],
+  [R`<b>Bậc 2</b>, PFR (V thay đổi)`, R`\(\begin{aligned}kC_\mathrm{Ao}\tau ={}&2\varepsilon_\mathrm{A}(1+\varepsilon_\mathrm{A})\ln(1-X_\mathrm{Af})\\&+\varepsilon_\mathrm{A}^2X_\mathrm{Af}+(1+\varepsilon_\mathrm{A})^2\dfrac{X_\mathrm{Af}}{1-X_\mathrm{Af}}\end{aligned}\)`],
+  [R`<b>Bậc 2</b>, CSTR (V thay đổi)`, R`\(\tau = \dfrac{X_\mathrm{Af}(1+\varepsilon_\mathrm{A}X_\mathrm{Af})^2}{kC_\mathrm{Ao}(1-X_\mathrm{Af})^2}\)`],
+  [R`<b>Bậc <i>n</i></b>, CSTR (V thay đổi)`, R`\(\tau = \dfrac{X_\mathrm{Af}(1+\varepsilon_\mathrm{A}X_\mathrm{Af})^n}{kC_\mathrm{Ao}^{\,n-1}(1-X_\mathrm{Af})^n}\)`]]},
+ {name:'Bảng 3 · Đại lượng và PT thiết kế tổng quát',tags:['Đại lượng','Biểu thức'],pairs:[
+  [R`Thời gian lưu \(\tau\)`, R`\(\dfrac{V}{v_\mathrm{o}}\)`],
+  [R`Suất lượng mol của A trong dòng chảy`, R`\(F_\mathrm{A} = C_\mathrm{A}v\)`],
+  [R`PT thiết kế CSTR tổng quát`, R`\(V = \dfrac{F_\mathrm{Ao}(X_\mathrm{Af}-X_\mathrm{Ao})}{(-r_\mathrm{A})_f}\)`],
+  [R`PT thiết kế PFR tổng quát`, R`\(V = F_\mathrm{Ao}\displaystyle\int_{X_\mathrm{Ao}}^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\)`],
+  [R`PT thiết kế BR (\(V\) = const)`, R`\(t = -\displaystyle\int_{C_\mathrm{Ao}}^{C_\mathrm{Af}}\dfrac{dC_\mathrm{A}}{(-r_\mathrm{A})}\)`],
+  [R`Thời gian thực hiện một mẻ`, R`\(t_\text{ca} = t + t_\text{gián đoạn}\)`],
+  [R`Thể tích bình gián đoạn`, R`\(V = \dfrac{m}{\rho}\)`],
+  [R`Tốc độ phản ứng tính từ số liệu CSTR (\(V\) = const)`, R`\((-r_\mathrm{A})_f = \dfrac{C_\mathrm{Ao}-C_\mathrm{Af}}{\tau}\)`]]}
 ];
 
-/* ---------- Vòng 3: Thám tử số liệu ---------- */
-const M = {TP:'Phương pháp tích phân',VP:'Phương pháp vi phân',BH:'Phương pháp thời gian bán hủy',TD:'Phương pháp tốc độ đầu',CL:'Phương pháp cô lập (dùng dư một chất)',AR:'Phương trình Arrhenius'};
+/* ---------- Vòng 3: Thám tử thiết bị ---------- */
 const R3 = [
- {ctx:'Phản ứng pha lỏng A → sản phẩm trong bình gián đoạn. Một thí nghiệm duy nhất, cần tìm <i>n</i> và <i>k</i>.',
-  head:[R`\(t\) (min)`,R`\(C_\mathrm{A}\) (mol/L)`],rows:[[0,'1,000'],[5,'0,607'],[10,'0,368'],[15,'0,223'],[20,'0,135'],[30,'0,050']],
-  o:[M.TP,M.BH,M.TD,M.AR],a:0,
-  why:R`Chỉ có \(C_\mathrm{A}\) theo \(t\) của một thí nghiệm: thử \(n = 0, 1, 2\) bằng PT tích phân (vẽ \(C_\mathrm{A}\), \(\ln C_\mathrm{A}\), \(1/C_\mathrm{A}\) theo \(t\)). Ở đây \(\ln C_\mathrm{A}\) theo \(t\) thẳng: bậc 1, \(k = 0{,}1\ \mathrm{min^{-1}}\).`},
- {ctx:'Nhiều thí nghiệm với nồng độ đầu khác nhau; mỗi thí nghiệm chỉ ghi thời gian để A còn một nửa.',
-  head:[R`\(C_\mathrm{Ao}\) (mol/L)`,R`\(t_{1/2}\) (min)`],rows:[['0,5','4,0'],['1,0','2,0'],['2,0','1,0'],['4,0','0,5']],
-  o:[M.TP,M.AR,M.CL,M.BH],a:3,
-  why:R`Vẽ \(\ln t_{1/2}\) theo \(\ln C_\mathrm{Ao}\): hệ số góc \(1-n = -1\), suy ra \(n = 2\); \(k = 1/(t_{1/2}C_\mathrm{Ao}) = 0{,}5\ \mathrm{L\cdot mol^{-1}\cdot min^{-1}}\).`},
- {ctx:'Đo được tốc độ phản ứng ứng với từng nồng độ A (ví dụ trong thiết bị dòng liên tục hoặc từ tiếp tuyến đường cong).',
-  head:[R`\(C_\mathrm{A}\) (mol/L)`,R`\((-r_\mathrm{A})\) (mol·L⁻¹·min⁻¹)`],rows:[['0,2','0,008'],['0,4','0,032'],['0,6','0,072'],['0,8','0,128'],['1,0','0,200']],
-  o:[M.BH,M.VP,M.TP,M.AR],a:1,
-  why:R`Có sẵn \((-r_\mathrm{A})\) theo \(C_\mathrm{A}\): \(\ln(-r_\mathrm{A}) = \ln k + n\ln C_\mathrm{A}\). Hệ số góc \(n = 2\), \(k = 0{,}2\ \mathrm{L\cdot mol^{-1}\cdot min^{-1}}\).`},
- {ctx:R`Phản ứng A + B → sản phẩm. Thí nghiệm dùng \(C_\mathrm{Bo} = 2{,}0\ \mathrm{mol/L}\), \(C_\mathrm{Ao} = 0{,}020\ \mathrm{mol/L}\); theo dõi \(C_\mathrm{A}\).`,
-  head:[R`\(t\) (min)`,R`\(C_\mathrm{A}\) (mol/L)`],rows:[[0,'0,0200'],[10,'0,0121'],[20,'0,0074'],[30,'0,0045'],[40,'0,0027']],
-  o:[M.TD,M.CL,M.BH,M.AR],a:1,
-  why:R`B dư 100 lần nên \(C_\mathrm{B}\approx\) const: \((-r_\mathrm{A}) = k'C_\mathrm{A}^{\alpha}\) với \(k' = kC_\mathrm{Bo}^{\beta}\). Tìm \(\alpha\) bằng PT tích phân (ở đây \(\alpha = 1\)), rồi đổi \(C_\mathrm{Bo}\) để tìm \(\beta\).`},
- {ctx:'Phản ứng A + B → sản phẩm. Mỗi thí nghiệm chỉ đo tốc độ ngay khi bắt đầu.',
-  head:['Thí nghiệm',R`\(C_\mathrm{Ao}\) (mol/L)`,R`\(C_\mathrm{Bo}\) (mol/L)`,R`\((-r_\mathrm{A})_\mathrm{o}\) (mol·L⁻¹·s⁻¹)`],rows:[[1,'0,10','0,10','2,0·10⁻⁴'],[2,'0,20','0,10','4,0·10⁻⁴'],[3,'0,10','0,20','8,0·10⁻⁴']],
-  o:[M.AR,M.VP,M.TD,M.BH],a:2,
-  why:R`Thí nghiệm 1 và 2: \(C_\mathrm{Ao}\) gấp đôi, tốc độ gấp đôi nên bậc theo A bằng 1. Thí nghiệm 1 và 3: \(C_\mathrm{Bo}\) gấp đôi, tốc độ gấp 4 nên bậc theo B bằng 2.`},
- {ctx:'Cùng một phản ứng, xác định hằng số tốc độ ở nhiều nhiệt độ.',
-  head:[R`\(T\) (K)`,R`\(k\) (min⁻¹)`],rows:[[300,'1,00·10⁻³'],[310,'1,91·10⁻³'],[320,'3,50·10⁻³'],[330,'6,19·10⁻³']],
-  o:[M.TP,M.AR,M.CL,M.TD],a:1,
-  why:R`Vẽ \(\ln k\) theo \(1/T\): hệ số góc \(-E_\mathrm{a}/R \approx -6\,014\ \mathrm{K}\), suy ra \(E_\mathrm{a}\approx 50\ \mathrm{kJ/mol}\).`},
- {ctx:'Phản ứng pha khí A → 2B trong bình kín (<i>V</i> = const), nạp A nguyên chất. Chỉ đo được áp suất tổng.',
-  head:[R`\(t\) (min)`,R`\(P\) (atm)`],rows:[[0,'1,000'],[5,'1,393'],[10,'1,632'],[20,'1,865'],[30,'1,950']],
-  o:[M.BH,M.TD,M.AR,'Phương pháp tích phân, biến số là áp suất tổng P'],a:3,
-  why:R`\(p_\mathrm{A} = p_\mathrm{Ao}-\dfrac{a}{\Delta n}(P-P_\mathrm{o}) = 2P_\mathrm{o}-P\). Vẽ \(\ln p_\mathrm{A}\) theo \(t\): thẳng, bậc 1, \(k = 0{,}1\ \mathrm{min^{-1}}\).`},
- {ctx:R`Cùng \(C_\mathrm{Ao}\), đo thời gian bán hủy ở hai nhiệt độ. Cần tìm năng lượng hoạt hóa.`,
-  head:[R`\(T\) (K)`,R`\(t_{1/2}\) (min)`],rows:[[300,40],[320,10]],
-  o:[M.BH,'Phương trình Arrhenius (dùng tỉ số thời gian bán hủy)',M.VP,M.CL],a:1,
-  why:R`Cùng \(C_\mathrm{Ao}\) thì \(k\) tỉ lệ nghịch với \(t_{1/2}\) (với mọi bậc): \(\ln\dfrac{40}{10} = -\dfrac{E_\mathrm{a}}{R}\left(\dfrac{1}{320}-\dfrac{1}{300}\right)\), \(E_\mathrm{a}\approx 55{,}3\ \mathrm{kJ/mol}\). (Tương tự Ví dụ 2.9.)`}
+ {ctx:R`Phản ứng pha lỏng A → 2R trong CSTR, \(V = 5\ \mathrm{L}\), \(C_\mathrm{Ao} = 1\ \mathrm{mol/L}\), \(C_\mathrm{Ro} = 0\). Chỉ đo nồng độ R ở dòng ra (VD 3.3).`,
+  head:['TN',R`\(v_\mathrm{o}\) (cm³/s)`,R`\(T\) (°C)`,R`\(C_\mathrm{Rf}\) (mol/L)`],rows:[[1,2,13,'1,8'],[2,15,13,'1,5'],[3,15,84,'1,8']],
+  qq:'Tốc độ phản ứng trong bình ở mỗi thí nghiệm tính bằng:',
+  o:[R`\((-r_\mathrm{A})_f = \dfrac{C_\mathrm{Rf}}{2\tau}\)`,R`\((-r_\mathrm{A})_f = \dfrac{C_\mathrm{Rf}}{\tau}\)`,R`\((-r_\mathrm{A})_f = \dfrac{2C_\mathrm{Rf}}{\tau}\)`,R`\((-r_\mathrm{A})_f = \dfrac{C_\mathrm{Ao}-C_\mathrm{Rf}}{\tau}\)`],a:0,
+  why:R`A đã phản ứng bằng \(C_\mathrm{Rf}/2\). PT thiết kế CSTR: \(\tau = \dfrac{C_\mathrm{Rf}/2}{(-r_\mathrm{A})_f}\). TN 1: \(\tau = 5000/2 = 2500\ \mathrm{s}\), \((-r_\mathrm{A})_f = 3{,}6\times10^{-4}\ \mathrm{mol/(L\cdot s)}\), \(C_\mathrm{Af} = 1 - 0{,}9 = 0{,}1\ \mathrm{mol/L}\).`},
+ {ctx:R`Cùng số liệu VD 3.3. Đã tính được \((-r_\mathrm{A})_f\) và \(C_\mathrm{Af}\) cho cả 3 thí nghiệm; cần tìm PT động học \((-r_\mathrm{A}) = kC_\mathrm{A}^{\,n}\) và ảnh hưởng của nhiệt độ.`,
+  head:['TN',R`\(T\) (°C)`,R`\(C_\mathrm{Af}\) (mol/L)`,R`\((-r_\mathrm{A})_f\) (mol·L⁻¹·s⁻¹)`],rows:[[1,13,'0,10','3,6·10⁻⁴'],[2,13,'0,25','2,25·10⁻³'],[3,84,'0,10','2,7·10⁻³']],
+  qq:'Cách dùng ba thí nghiệm hợp lý nhất:',
+  o:['TN 1 và 2 (cùng <i>T</i>) cho <i>n</i> và <i>k</i> ở 13 °C; TN 3 cho <i>k</i> ở 84 °C, từ đó tính <i>E</i><sub>a</sub>','TN 2 và 3 (cùng lưu lượng) cho <i>n</i>',R`TN 1 và 3 (cùng \(C_\mathrm{Rf}\)) cho <i>n</i>`,R`Vẽ cả 3 điểm trên một đồ thị \(\ln(-r_\mathrm{A})\) theo \(\ln C_\mathrm{A}\)`],a:0,
+  why:R`Chỉ so sánh được các thí nghiệm cùng nhiệt độ. \(n = \dfrac{\ln(2{,}25\times10^{-3}/3{,}6\times10^{-4})}{\ln(0{,}25/0{,}10)} = 2{,}0\); \(k_{13} = 0{,}036\), \(k_{84} = 0{,}27\ \mathrm{L\cdot mol^{-1}\cdot s^{-1}}\); Arrhenius cho \(E_\mathrm{a}\approx 24\ \mathrm{kJ/mol}\).`},
+ {ctx:R`Phản ứng dimer hóa pha khí 2A → R trong CSTR, \(V = 0{,}1\ \mathrm{L}\), nhập liệu A nguyên chất \(C_\mathrm{Ao} = 100\ \mathrm{mmol/L}\), áp suất không đổi (VD 3.2).`,
+  head:['TN',R`\(v_\mathrm{o}\) (L/h)`,R`\(C_\mathrm{Af}\) (mmol/L)`],rows:[[1,'10,0','85,7'],[2,'3,0','66,7'],[3,'1,2','50,0'],[4,'0,5','33,4']],
+  qq:'Tốc độ phản ứng trong bình tính bằng:',
+  o:[R`\(\dfrac{C_\mathrm{Ao}-C_\mathrm{Af}}{\tau}\)`,R`\(\dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{\tau}\), với \(X_\mathrm{Af}\) giải từ \(C_\mathrm{Af} = C_\mathrm{Ao}\dfrac{1-X_\mathrm{Af}}{1-0{,}5X_\mathrm{Af}}\)`,R`\(\dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{\tau}\), với \(X_\mathrm{Af} = 1-\dfrac{C_\mathrm{Af}}{C_\mathrm{Ao}}\)`,R`\(kC_\mathrm{Af}^{2}\) với \(k\) tra bảng`],a:1,
+  why:R`Pha khí, \(P\) = const, số mol giảm: \(\varepsilon_\mathrm{A} = (0{,}5-1)/1 = -0{,}5\). TN 1: \(X_\mathrm{Af} = 0{,}25\), \(\tau = 0{,}01\ \mathrm{h}\), \((-r_\mathrm{A})_f = 2500\ \mathrm{mmol/(L\cdot h)}\). Dùng \((C_\mathrm{Ao}-C_\mathrm{Af})/\tau\) chỉ ra 1430, sai vì thể tích thay đổi.`},
+ {ctx:R`Phản ứng pha khí bậc 1 A → 2R trong PFR, áp suất không đổi. Nhập liệu gồm 50 % A và 50 % khí trơ (theo mol).`,
+  qq:'PT thiết kế phù hợp:',
+  o:[R`\(\tau = \dfrac1k\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{1-X_\mathrm{A}}\)`,R`\(\tau = \dfrac1k\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{(1+X_\mathrm{A})\,dX_\mathrm{A}}{1-X_\mathrm{A}}\)`,R`\(\tau = \dfrac1k\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{(1+0{,}5X_\mathrm{A})\,dX_\mathrm{A}}{1-X_\mathrm{A}}\)`,R`\(\tau = \dfrac1k\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{(1-X_\mathrm{A})\,dX_\mathrm{A}}{1+0{,}5X_\mathrm{A}}\)`],a:2,
+  why:R`Ban đầu 0,5 A + 0,5 trơ = 1 mol; khi \(X_\mathrm{A}=1\): 1 R + 0,5 trơ = 1,5 mol, nên \(\varepsilon_\mathrm{A} = 0{,}5\). \((-r_\mathrm{A}) = kC_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+0{,}5X_\mathrm{A}}\), thế vào \(\tau = C_\mathrm{Ao}\int dX_\mathrm{A}/(-r_\mathrm{A})\) (Q3.6, Q3.11).`},
+ {ctx:R`Phản ứng thuận nghịch pha lỏng sơ đẳng A + B ⇄ R + S trong CSTR, \(V = 120\ \mathrm{L}\). Độ chuyển hóa của tác chất giới hạn đạt 75 % (Q3.9).`,
+  head:['Thông số','Giá trị'],rows:[[R`\(k_\mathrm{t}\)`,'7 L/(mol·min)'],[R`\(k_\mathrm{n}\)`,'3 L/(mol·min)'],[R`\(C_\mathrm{Ao}\)`,'2,8 M'],[R`\(C_\mathrm{Bo}\)`,'1,6 M']],
+  qq:'Tốc độ phản ứng trong thiết bị:',
+  o:[R`\(k_\mathrm{t}\times2{,}8\times1{,}6-k_\mathrm{n}\times1{,}2^2\)`,R`\(k_\mathrm{t}\times0{,}8\times0{,}2-k_\mathrm{n}\times0{,}6^2\)`,R`\(k_\mathrm{t}\times1{,}6\times0{,}4-k_\mathrm{n}\times1{,}2^2\)`,R`\(k_\mathrm{n}\times1{,}2^2-k_\mathrm{t}\times1{,}6\times0{,}4\)`],a:2,
+  why:R`B là tác chất giới hạn (1,6 M < 2,8 M). B phản ứng \(0{,}75\times1{,}6 = 1{,}2\ \mathrm{M}\): \(C_\mathrm{Af} = 1{,}6\), \(C_\mathrm{Bf} = 0{,}4\), \(C_\mathrm{Rf} = C_\mathrm{Sf} = 1{,}2\ \mathrm{M}\). CSTR dùng nồng độ dòng ra; ra \(2{,}16\ \mathrm{mol/(L\cdot min)}\).`},
+ {ctx:R`Phản ứng A → R pha khí, số mol không đổi. Số liệu động học đo trong BR (VD 3.11). Cần τ của PFR với \(C_\mathrm{Ao} = 10\ \mathrm{M}\), \(X_\mathrm{Af} = 0{,}8\).`,
+  head:[R`\(C_\mathrm{A}\) (M)`,R`\((-r_\mathrm{A})\) (M/s)`],rows:[[1,'0,01'],[2,'0,02'],[4,'0,04'],[6,'0,09'],[8,'0,16'],[10,'0,25']],
+  qq:'Cách tính τ đúng:',
+  o:[R`\(\tau = \dfrac{10-2}{0{,}02} = 400\ \mathrm{s}\)`,R`Tính \(1/(-r_\mathrm{A})\), lấy diện tích dưới đường cong từ \(C_\mathrm{A} = 2\) đến \(10\ \mathrm{M}\) (hình thang, Simpson hoặc đồ thị)`,R`\(\tau = \dfrac{10-2}{0{,}25} = 32\ \mathrm{s}\)`,R`\(\tau = -\dfrac1k\ln(1-0{,}8)\) với \(k = 0{,}025\ \mathrm{s^{-1}}\)`],a:1,
+  why:R`Chưa có PT động học nên tính \(\tau = \displaystyle\int_2^{10}\dfrac{dC_\mathrm{A}}{(-r_\mathrm{A})}\) bằng phương pháp số: khoảng 134 s (Simpson) đến 139 s (hình thang). 400 s là đáp số của CSTR; số liệu không theo bậc 1 nên không dùng \(\ln\).`},
+ {ctx:R`Cần chọn thể tích BR cho phản ứng pha lỏng A → R (1 : 1), \(C_\mathrm{Ao} = 2\ \mathrm{mol/L}\), \(X_\mathrm{Af} = 0{,}8\). Năng suất yêu cầu 100 mol R/h.`,
+  head:['Thông số','Giá trị'],rows:[['Thời gian phản ứng <i>t</i>','3 h'],['Thời gian gián đoạn','1 h'],[R`\(F_\mathrm{R}\)`,'100 mol/h']],
+  qq:'Thể tích hỗn hợp phản ứng mỗi mẻ:',
+  o:['160 L','187,5 L','200 L','250 L'],a:3,
+  why:R`\(t_\text{ca} = 4\ \mathrm{h}\); mỗi mẻ \(N_\mathrm{R} = 100\times4 = 400\ \mathrm{mol}\); \(N_\mathrm{Ao} = 400/0{,}8 = 500\ \mathrm{mol}\); \(V = 500/2 = 250\ \mathrm{L}\). Quên thời gian gián đoạn ra 187,5 L; quên chia \(X_\mathrm{Af}\) ra 200 L.`}
 ];
 
-/* ---------- Vòng 4: Đường thẳng bí ẩn ---------- */
-const lin = (n,f)=>Array.from({length:n},(_,i)=>f(i));
+/* ---------- Vòng 4: Diện tích bí ẩn (đồ thị Levenspiel) ---------- */
+const fX1 = x=>1/(1-x);                       /* (−rA) = kCA, kCAo = 1: 1/(−rA) theo XA */
+const fC311 = (()=>{const P=[[1,100],[2,50],[4,25],[6,1/0.09],[8,6.25],[10,4]];
+  return c=>{if(c<=P[0][0])return P[0][1];for(let k=1;k<P.length;k++)if(c<=P[k][0]){const [x0,y0]=P[k-1],[x1,y1]=P[k],t=(c-x0)/(x1-x0);return Math.exp(Math.log(y0)*(1-t)+Math.log(y1)*t);}return P[P.length-1][1];};})();
+const AXX = {xl:R`\(X_\mathrm{A}\)`,yl:R`\(\dfrac{1}{(-r_\mathrm{A})}\)`,x0:0,x1:1,xt:[0,0.2,0.4,0.6,0.8,1],xf:2};
 const R4 = [
- {eq:R`\(C_\mathrm{A} = C_\mathrm{Ao}e^{-kt}\)`,ctx:'Bất thuận nghịch bậc 1, <i>V</i> = const.',
-  o:[R`\(\ln C_\mathrm{A}\) theo \(t\); hệ số góc \(-k\)`,R`\(C_\mathrm{A}\) theo \(t\); hệ số góc \(-k\)`,R`\(1/C_\mathrm{A}\) theo \(t\); hệ số góc \(k\)`,R`\(\ln C_\mathrm{A}\) theo \(\ln t\); hệ số góc \(-k\)`],a:0,
-  why:R`Lấy ln hai vế: \(\ln C_\mathrm{A} = \ln C_\mathrm{Ao} - kt\). Tung độ gốc \(\ln C_\mathrm{Ao}\).`,
-  raw:{xl:R`\(t\)`,yl:R`\(C_\mathrm{A}\)`,pts:lin(8,i=>[i*4,Math.exp(-0.1*i*4)])},
-  lin:{xl:R`\(t\)`,yl:R`\(\ln C_\mathrm{A}\)`,f:(x,y)=>[x,Math.log(y)]}},
- {eq:R`\(-\dfrac{dC_\mathrm{A}}{dt} = kC_\mathrm{A}^{2}\)`,ctx:R`Bất thuận nghịch bậc 2, \(C_\mathrm{Ao}=C_\mathrm{Bo}\).`,
-  o:[R`\(\ln C_\mathrm{A}\) theo \(t\); hệ số góc \(-k\)`,R`\(1/C_\mathrm{A}\) theo \(t\); hệ số góc \(k\); tung độ gốc \(1/C_\mathrm{Ao}\)`,R`\(1/C_\mathrm{A}\) theo \(1/t\); hệ số góc \(k\)`,R`\(C_\mathrm{A}^2\) theo \(t\); hệ số góc \(-k\)`],a:1,
-  why:R`Tích phân: \(\dfrac{1}{C_\mathrm{A}} = \dfrac{1}{C_\mathrm{Ao}} + kt\) (Bảng 2.1).`,
-  raw:{xl:R`\(t\)`,yl:R`\(C_\mathrm{A}\)`,pts:lin(8,i=>[i*2,1/(1+0.5*i*2)])},
-  lin:{xl:R`\(t\)`,yl:R`\(1/C_\mathrm{A}\)`,f:(x,y)=>[x,1/y]}},
- {eq:R`\((-r_\mathrm{A}) = kC_\mathrm{A}^{\,n}\)`,ctx:'Phương pháp vi phân: đã có các cặp số liệu tốc độ – nồng độ.',
-  o:[R`\((-r_\mathrm{A})\) theo \(C_\mathrm{A}\); hệ số góc \(k\)`,R`\(\ln(-r_\mathrm{A})\) theo \(C_\mathrm{A}\); hệ số góc \(n\)`,R`\(\ln(-r_\mathrm{A})\) theo \(\ln C_\mathrm{A}\); hệ số góc \(n\); tung độ gốc \(\ln k\)`,R`\(\ln C_\mathrm{A}\) theo \(\ln(-r_\mathrm{A})\); hệ số góc \(n\)`],a:2,
-  why:R`\(\ln(-r_\mathrm{A}) = \ln k + n\ln C_\mathrm{A}\) (2.5). Nếu vẽ ngược trục thì hệ số góc là \(1/n\).`,
-  raw:{xl:R`\(C_\mathrm{A}\)`,yl:R`\((-r_\mathrm{A})\)`,pts:lin(8,i=>{const c=0.2+i*0.12;return [c,0.2*c*c];})},
-  lin:{xl:R`\(\ln C_\mathrm{A}\)`,yl:R`\(\ln(-r_\mathrm{A})\)`,f:(x,y)=>[Math.log(x),Math.log(y)]}},
- {eq:R`\(t_{1/2} = \dfrac{2^{\,n-1}-1}{(n-1)kC_\mathrm{Ao}^{\,n-1}}\)`,ctx:'Phương pháp thời gian bán hủy: nhiều thí nghiệm với các <i>C</i><sub>Ao</sub> khác nhau.',
-  o:[R`\(\ln t_{1/2}\) theo \(\ln C_\mathrm{Ao}\); hệ số góc \(n-1\)`,R`\(t_{1/2}\) theo \(C_\mathrm{Ao}\); hệ số góc \(1-n\)`,R`\(\ln t_{1/2}\) theo \(C_\mathrm{Ao}\); hệ số góc \(1-n\)`,R`\(\ln t_{1/2}\) theo \(\ln C_\mathrm{Ao}\); hệ số góc \(1-n\)`],a:3,
-  why:R`\(\ln t_{1/2} = (1-n)\ln C_\mathrm{Ao} + \ln\dfrac{2^{\,n-1}-1}{k(n-1)}\) (2.9), vì \(C_\mathrm{Ao}^{-(n-1)} = C_\mathrm{Ao}^{\,1-n}\). Suy ra \(n = 1 - \tan\alpha\).`,
-  raw:{xl:R`\(C_\mathrm{Ao}\)`,yl:R`\(t_{1/2}\)`,pts:lin(7,i=>{const c=0.5+i*0.6;return [c,1/(0.5*c)];})},
-  lin:{xl:R`\(\ln C_\mathrm{Ao}\)`,yl:R`\(\ln t_{1/2}\)`,f:(x,y)=>[Math.log(x),Math.log(y)]}},
- {eq:R`\(\mathrm{A}\rightleftarrows\mathrm{R}\), \(\ -\dfrac{dC_\mathrm{A}}{dt} = k_1C_\mathrm{A}-k_2C_\mathrm{R}\)`,ctx:R`Thuận nghịch bậc 1, \(C_\mathrm{Ro}=0\); đã biết \(C_\mathrm{Ae}\).`,
-  o:[R`\(\ln\dfrac{C_\mathrm{Ao}}{C_\mathrm{A}}\) theo \(t\); hệ số góc \(k_1\)`,R`\(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}}\) theo \(t\); hệ số góc \(k_1\)`,R`\(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}}\) theo \(t\); hệ số góc \(k_1+k_2\)`,R`\(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}}\) theo \(t\); hệ số góc \(k_1-k_2\)`],a:2,
-  why:R`Bảng 2.6: \(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}} = k_1\!\left(1+\dfrac{1}{K_C}\right)\!t = (k_1+k_2)t\). Biết \(K_C = k_1/k_2\) mới tách được \(k_1\), \(k_2\).`,
-  raw:{xl:R`\(t\)`,yl:R`\(C_\mathrm{A}\)`,pts:lin(8,i=>[i*2,1/3+(2/3)*Math.exp(-0.3*i*2)])},
-  lin:{xl:R`\(t\)`,yl:R`\(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}}\)`,f:(x,y)=>[x,Math.log((1-1/3)/(y-1/3))]}},
- {eq:R`\(-\dfrac{dC_\mathrm{A}}{dt} = kC_\mathrm{A}C_\mathrm{B}\)`,ctx:R`A + B → sản phẩm, \(C_\mathrm{Ao}\neq C_\mathrm{Bo}\), \(M = C_\mathrm{Bo}/C_\mathrm{Ao}\).`,
-  o:[R`\(1/C_\mathrm{A}\) theo \(t\); hệ số góc \(k\)`,R`\(\ln\dfrac{C_\mathrm{B}}{C_\mathrm{A}}\) theo \(t\); hệ số góc \((C_\mathrm{Bo}-C_\mathrm{Ao})k\); tung độ gốc \(\ln M\)`,R`\(\ln\dfrac{C_\mathrm{B}}{C_\mathrm{A}}\) theo \(t\); hệ số góc \(k\)`,R`\(\ln(C_\mathrm{A}C_\mathrm{B})\) theo \(t\); hệ số góc \((C_\mathrm{Bo}-C_\mathrm{Ao})k\)`],a:1,
-  why:R`Bảng 2.4: \(\ln\dfrac{C_\mathrm{Ao}C_\mathrm{B}}{C_\mathrm{Bo}C_\mathrm{A}} = (C_\mathrm{Bo}-C_\mathrm{Ao})kt\), tức \(\ln\dfrac{C_\mathrm{B}}{C_\mathrm{A}} = \ln M + (C_\mathrm{Bo}-C_\mathrm{Ao})kt\).`,
-  raw:{xl:R`\(t\)`,yl:R`\(C_\mathrm{A}\)`,pts:lin(8,i=>{const r=Math.log(2)+0.3*i*1.2;return [i*1.2,1/(Math.exp(r)-1)];})},
-  lin:{xl:R`\(t\)`,yl:R`\(\ln(C_\mathrm{B}/C_\mathrm{A})\)`,f:(x,y)=>[x,Math.log((y+1)/y)]}},
- {eq:R`\(k = A\,e^{-E_\mathrm{a}/(RT)}\)`,ctx:'Xác định năng lượng hoạt hóa từ <i>k</i> ở nhiều nhiệt độ.',
-  o:[R`\(\ln k\) theo \(T\); hệ số góc \(-E_\mathrm{a}/R\)`,R`\(k\) theo \(1/T\); hệ số góc \(-E_\mathrm{a}/R\)`,R`\(\ln k\) theo \(1/T\); hệ số góc \(+E_\mathrm{a}/R\)`,R`\(\ln k\) theo \(1/T\); hệ số góc \(-E_\mathrm{a}/R\); tung độ gốc \(\ln A\)`],a:3,
-  why:R`\(\ln k = -\dfrac{E_\mathrm{a}}{R}\cdot\dfrac{1}{T} + \ln A\) (2.13). Đường thẳng đi xuống.`,
-  raw:{xl:R`\(T\)`,yl:R`\(k\)`,pts:lin(7,i=>{const T=290+i*10;return [T,1e-3*Math.exp(-6014*(1/T-1/300))];})},
-  lin:{xl:R`\(1/T\)`,yl:R`\(\ln k\)`,f:(x,y)=>[1/x,Math.log(y)]}},
- {eq:R`\(P - P_\mathrm{o} = p_\mathrm{Ao}\left(1-e^{-kt}\right)\)`,ctx:'Pha khí A → 2B, bình kín, nạp A nguyên chất (<i>p</i><sub>Ao</sub> = <i>P</i><sub>o</sub>); chỉ đo áp suất tổng <i>P</i>.',
-  o:[R`\(\ln P\) theo \(t\); hệ số góc \(-k\)`,R`\(\ln(2P_\mathrm{o}-P)\) theo \(t\); hệ số góc \(-k\)`,R`\(\ln(P-P_\mathrm{o})\) theo \(t\); hệ số góc \(k\)`,R`\(P-P_\mathrm{o}\) theo \(t\); hệ số góc \(k\)`],a:1,
-  why:R`\(p_\mathrm{A} = p_\mathrm{Ao}-\dfrac{a}{\Delta n}(P-P_\mathrm{o}) = 2P_\mathrm{o}-P\), nên \(\ln(2P_\mathrm{o}-P) = \ln P_\mathrm{o} - kt\).`,
-  raw:{xl:R`\(t\)`,yl:R`\(P\)`,pts:lin(8,i=>[i*4,2-Math.exp(-0.1*i*4)])},
-  lin:{xl:R`\(t\)`,yl:R`\(\ln(2P_\mathrm{o}-P)\)`,f:(x,y)=>[x,Math.log(2-y)]}},
- {eq:R`\(\mathrm{A}+\mathrm{B}\rightleftarrows 2\mathrm{R}\)`,ctx:R`Thuận nghịch bậc 2, \(C_\mathrm{Ao}=C_\mathrm{Bo}\), \(C_\mathrm{Ro}=0\); đã biết \(X_\mathrm{Ae}\).`,
-  o:[R`\(\ln\dfrac{X_\mathrm{Ae}-(2X_\mathrm{Ae}-1)X_\mathrm{A}}{X_\mathrm{Ae}-X_\mathrm{A}}\) theo \(t\); hệ số góc \(2k_1\!\left(\dfrac{1}{X_\mathrm{Ae}}-1\right)\!C_\mathrm{Ao}\)`,R`Cùng biểu thức đó theo \(t\); hệ số góc \(k_1+k_2\)`,R`\(\dfrac{1}{1-X_\mathrm{A}}\) theo \(t\); hệ số góc \(k_1C_\mathrm{Ao}\)`,R`\(\ln(1-X_\mathrm{A})\) theo \(t\); hệ số góc \(-2k_1\)`],a:0,
-  why:R`Bảng 2.6, PT (2.55). Từ hệ số góc tính \(k_1\); rồi \(k_2 = k_1/K_C\).`,
-  raw:{xl:R`\(t\)`,yl:R`\(X_\mathrm{A}\)`,pts:lin(8,i=>{const e=Math.exp(0.25*i*2);return [i*2,0.8*(1-e)/((2*0.8-1)-e)];})},
-  lin:{xl:R`\(t\)`,yl:R`\(\ln\dfrac{X_\mathrm{Ae}-(2X_\mathrm{Ae}-1)X_\mathrm{A}}{X_\mathrm{Ae}-X_\mathrm{A}}\)`,f:(x,y)=>[x,Math.log((0.8-(0.6)*y)/(0.8-y))]}}
+ {ctx:'Phản ứng pha lỏng bậc <i>n</i> > 0 trong CSTR, nhập liệu chưa chuyển hóa, ra <i>X</i><sub>Af</sub> = 0,8.',eq:R`\(\dfrac{V}{F_\mathrm{Ao}} = \dfrac{X_\mathrm{Af}-X_\mathrm{Ao}}{(-r_\mathrm{A})_f}\)`,
+  qq:R`Hình nào biểu diễn \(V/F_\mathrm{Ao}\)?`,ax:{...AXX,y1:10.5},f:fX1,pts:[0,0.2,0.4,0.6,0.8],xmax:0.905,
+  o:[{g:{k:'U',a:0,b:0.8}},{g:{k:'R',a:0,b:0.8,h:0.8}},{g:{k:'R',a:0,b:0.8,h:0}},{g:{k:'R',a:0.2,b:0.8,h:0.8}}],a:1,
+  shade:[{k:'R',a:0,b:0.8,h:0.8}],
+  why:R`Hình chữ nhật: rộng \(X_\mathrm{Af}-X_\mathrm{Ao} = 0{,}8\), cao \(1/(-r_\mathrm{A})_f\) đọc tại \(X_\mathrm{Af}\), vì cả bình có nồng độ bằng dòng ra (Q3.4).`},
+ {ctx:'Cùng phản ứng, thực hiện trong PFR, <i>X</i><sub>Ao</sub> = 0, <i>X</i><sub>Af</sub> = 0,8.',eq:R`\(\dfrac{\tau}{C_\mathrm{Ao}} = \displaystyle\int_{X_\mathrm{Ao}}^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\)`,
+  qq:R`Hình nào biểu diễn \(\tau/C_\mathrm{Ao}\)?`,ax:{...AXX,y1:10.5},f:fX1,pts:[0,0.2,0.4,0.6,0.8],xmax:0.905,
+  o:[{g:{k:'R',a:0,b:0.8,h:0.8}},{g:{k:'U',a:0.2,b:0.8}},{g:{k:'R',a:0.1,b:0.8,h:0.8}},{g:{k:'U',a:0,b:0.8}}],a:3,
+  shade:[{k:'U',a:0,b:0.8}],
+  why:R`Tích phân từ \(X_\mathrm{Ao} = 0\) đến \(X_\mathrm{Af} = 0{,}8\) chính là diện tích dưới đường cong \(1/(-r_\mathrm{A})\) (Q3.5). BR có cùng ý nghĩa với \(t/C_\mathrm{Ao}\).`},
+ {ctx:'CSTR thứ hai trong dãy nối tiếp: dòng vào đã chuyển hóa <i>X</i><sub>A1</sub> = 0,4, dòng ra <i>X</i><sub>A2</sub> = 0,8.',eq:R`\(\dfrac{V_2}{F_\mathrm{Ao}} = \dfrac{X_\mathrm{A2}-X_\mathrm{A1}}{(-r_\mathrm{A})_2}\)`,
+  qq:R`Hình nào biểu diễn \(V_2/F_\mathrm{Ao}\)?`,ax:{...AXX,y1:10.5},f:fX1,pts:[0,0.2,0.4,0.6,0.8],xmax:0.905,
+  o:[{g:{k:'R',a:0.4,b:0.8,h:0.8}},{g:{k:'R',a:0,b:0.8,h:0.8}},{g:{k:'R',a:0.4,b:0.8,h:0.4}},{g:{k:'U',a:0.4,b:0.8}}],a:0,
+  shade:[{k:'R',a:0.4,b:0.8,h:0.8}],
+  why:R`Rộng \(0{,}8-0{,}4\), cao đọc tại điểm <b>ra</b> \(X_\mathrm{A2} = 0{,}8\). Chiều cao đọc tại 0,4 là lỗi dùng nồng độ dòng vào.`},
+ {ctx:R`\((-r_\mathrm{A}) = kC_\mathrm{A}\), đồ thị \(1/(-r_\mathrm{A})\) có đơn vị L·min/mol. CSTR, \(F_\mathrm{Ao} = 2\ \mathrm{mol/min}\), \(X_\mathrm{Af} = 0{,}8\).`,eq:R`\(V = F_\mathrm{Ao}\dfrac{X_\mathrm{Af}}{(-r_\mathrm{A})_f}\)`,
+  qq:'Đọc đồ thị: thể tích CSTR bằng',ax:{...AXX,y1:10.5,yt:[0,2,4,6,8,10]},f:fX1,pts:[0,0.2,0.4,0.6,0.8],xmax:0.905,guide:0.8,
+  o:['1,6 L','3,2 L','8 L','10 L'],a:2,
+  shade:[{k:'R',a:0,b:0.8,h:0.8}],
+  why:R`Tại \(X_\mathrm{A} = 0{,}8\): \(1/(-r_\mathrm{A})_f = 5\ \mathrm{L\cdot min/mol}\). \(V = 2\times0{,}8\times5 = 8\ \mathrm{L}\). PFR cùng điều kiện chỉ cần \(2\ln 5 = 3{,}2\ \mathrm{L}\).`},
+ {ctx:R`Phản ứng bậc <i>n</i> > 0, cùng \(F_\mathrm{Ao}\), cùng \(X_\mathrm{Af} = 0{,}8\).`,eq:R`So sánh \(V_\mathrm{CSTR}\) và \(V_\mathrm{PFR}\)`,
+  qq:'Thiết bị nào cần thể tích nhỏ hơn?',ax:{...AXX,y1:10.5},f:fX1,pts:[0,0.2,0.4,0.6,0.8],xmax:0.905,
+  o:['PFR','CSTR','Bằng nhau','Chưa so sánh được vì chưa biết k'],a:0,
+  shade:[{k:'R',a:0,b:0.8,h:0.8,c:'o'},{k:'U',a:0,b:0.8}],
+  why:R`\(1/(-r_\mathrm{A})\) tăng theo \(X_\mathrm{A}\) nên diện tích dưới đường cong (PFR) luôn nhỏ hơn hình chữ nhật (CSTR), với mọi \(k\).`},
+ {ctx:R`Phản ứng bậc 0: \((-r_\mathrm{A}) = k\).`,eq:R`So sánh \(V_\mathrm{CSTR}\) và \(V_\mathrm{PFR}\) khi \(X_\mathrm{Af} = 0{,}8\)`,
+  qq:'Thiết bị nào cần thể tích nhỏ hơn?',ax:{...AXX,y1:3.2},f:x=>2,pts:[0,0.2,0.4,0.6,0.8,1],xmax:1,
+  o:['PFR','CSTR','Bằng nhau','Tùy giá trị <i>C</i><sub>Ao</sub>'],a:2,
+  shade:[{k:'R',a:0,b:0.8,h:0.8,c:'o'},{k:'U',a:0,b:0.8}],
+  why:R`\(1/(-r_\mathrm{A}) = 1/k\) không đổi: hình chữ nhật trùng diện tích dưới đường. Bảng 3.1 dòng 2: hai PT thiết kế giống nhau.`},
+ {ctx:R`Phản ứng có \((-r_\mathrm{A}) = k/C_\mathrm{A}\) (bậc −1): tốc độ <b>tăng</b> khi A cạn dần.`,eq:R`So sánh \(V_\mathrm{CSTR}\) và \(V_\mathrm{PFR}\) khi \(X_\mathrm{Af} = 0{,}8\)`,
+  qq:'Thiết bị nào cần thể tích nhỏ hơn?',ax:{...AXX,y1:5.5},f:x=>5*(1-x),pts:[0,0.2,0.4,0.6,0.8],xmax:1,
+  o:['PFR','CSTR','Bằng nhau','Chưa so sánh được vì chưa biết k'],a:1,
+  shade:[{k:'U',a:0,b:0.8},{k:'R',a:0,b:0.8,h:0.8,c:'o'}],
+  why:R`\(1/(-r_\mathrm{A}) = C_\mathrm{Ao}(1-X_\mathrm{A})/k\) giảm theo \(X_\mathrm{A}\): hình chữ nhật cao tại \(X_\mathrm{Af}\) nằm <b>dưới</b> đường cong, nên CSTR nhỏ hơn (ở đây nhỏ hơn 3 lần).`},
+ {ctx:R`Số liệu VD 3.11, vẽ \(1/(-r_\mathrm{A})\) theo \(C_\mathrm{A}\). CSTR, \(C_\mathrm{Ao} = 10\ \mathrm{M}\), \(C_\mathrm{Af} = 2\ \mathrm{M}\).`,eq:R`\(\tau = \dfrac{C_\mathrm{Ao}-C_\mathrm{Af}}{(-r_\mathrm{A})_f}\)`,
+  qq:R`Hình nào biểu diễn \(\tau\)?`,ax:{xl:R`\(C_\mathrm{A}\) (M)`,yl:R`\(\dfrac{1}{(-r_\mathrm{A})}\) (s/M)`,x0:0,x1:10.5,y1:105,xt:[0,2,4,6,8,10],yt:[0,25,50,75,100],xf:0},f:fC311,pts:[1,2,4,6,8,10],xmin:1,xmax:10,
+  o:[{g:{k:'U',a:2,b:10}},{g:{k:'R',a:2,b:10,h:10}},{g:{k:'R',a:2,b:10,h:2}},{g:{k:'R',a:0,b:2,h:2}}],a:2,
+  shade:[{k:'R',a:2,b:10,h:2}],
+  why:R`Trên trục \(C_\mathrm{A}\), điểm ra \(C_\mathrm{Af} = 2\ \mathrm{M}\) nằm bên <b>trái</b>. Hình chữ nhật rộng \(10-2\), cao \(1/(-r_\mathrm{A})_f = 50\ \mathrm{s/M}\): \(\tau = 400\ \mathrm{s}\).`},
+ {ctx:R`Cùng số liệu, thực hiện trong PFR từ \(C_\mathrm{Ao} = 10\ \mathrm{M}\) đến \(C_\mathrm{Af} = 2\ \mathrm{M}\).`,eq:R`\(\tau = -\displaystyle\int_{C_\mathrm{Ao}}^{C_\mathrm{Af}}\dfrac{dC_\mathrm{A}}{(-r_\mathrm{A})} = \int_{2}^{10}\dfrac{dC_\mathrm{A}}{(-r_\mathrm{A})}\)`,
+  qq:'Ước lượng τ từ diện tích trên đồ thị:',ax:{xl:R`\(C_\mathrm{A}\) (M)`,yl:R`\(\dfrac{1}{(-r_\mathrm{A})}\) (s/M)`,x0:0,x1:10.5,y1:105,xt:[0,2,4,6,8,10],yt:[0,25,50,75,100],xf:0},f:fC311,pts:[1,2,4,6,8,10],xmin:1,xmax:10,
+  o:['khoảng 32 s','khoảng 135 s','khoảng 400 s','khoảng 800 s'],a:1,
+  shade:[{k:'U',a:2,b:10}],
+  why:R`Hình thang: \(2\times\tfrac{50+25}{2}+2\times\tfrac{25+11{,}11}{2}+2\times\tfrac{11{,}11+6{,}25}{2}+2\times\tfrac{6{,}25+4}{2} \approx 139\ \mathrm{s}\); Simpson cho 134 s. PFR cần khoảng 1/3 thời gian lưu của CSTR (400 s).`}
 ];
 
 /* ---------- Vòng 5: Về đích ---------- */
 const R5 = [
- {type:'order',title:'Sắp thứ tự: phương pháp tích phân (giả thiết bậc 2)',steps:[
-   R`Giả thiết bậc: \(-\dfrac{dC_\mathrm{A}}{dt} = kC_\mathrm{A}^{2}\)`,
-   R`Tách biến: \(-\dfrac{dC_\mathrm{A}}{C_\mathrm{A}^{2}} = k\,dt\)`,
-   R`Lấy tích phân: \(\dfrac{1}{C_\mathrm{A}}-\dfrac{1}{C_\mathrm{Ao}} = kt\)`,
-   R`Vẽ \(1/C_\mathrm{A}\) theo \(t\): nếu thẳng thì giả thiết đúng`,
-   R`\(k\) = hệ số góc của đường thẳng`]},
- {type:'error',title:'Tìm dòng sai đầu tiên: phương pháp thời gian bán hủy',lines:[
-   R`\(t_{1/2} = \dfrac{2^{\,n-1}-1}{(n-1)kC_\mathrm{Ao}^{\,n-1}}\)`,
-   R`\(\ln t_{1/2} = \ln\dfrac{2^{\,n-1}-1}{(n-1)k} + (n-1)\ln C_\mathrm{Ao}\)`,
-   R`Vẽ \(\ln t_{1/2}\) theo \(\ln C_\mathrm{Ao}\) được đường thẳng`,
-   R`Hệ số góc \(= n-1\), suy ra \(n = 1 + \tan\alpha\)`],bad:1,
-  fix:R`\(C_\mathrm{Ao}^{-(n-1)} = C_\mathrm{Ao}^{\,1-n}\), nên \(\ln t_{1/2} = \ln\dfrac{2^{\,n-1}-1}{(n-1)k} + (1-n)\ln C_\mathrm{Ao}\) và \(n = 1-\tan\alpha\) (2.9).`},
- {type:'order',title:'Sắp thứ tự: phương pháp vi phân',steps:[
-   R`Đo \(C_\mathrm{A}\) theo \(t\), vẽ đường cong \(C_\mathrm{A}\) – \(t\)`,
-   R`Lấy tiếp tuyến tại nhiều điểm: \((-r_\mathrm{A}) = -dC_\mathrm{A}/dt\)`,
-   R`Lấy ln: \(\ln(-r_\mathrm{A}) = \ln k + n\ln C_\mathrm{A}\)`,
-   R`Vẽ \(\ln(-r_\mathrm{A})\) theo \(\ln C_\mathrm{A}\): hệ số góc \(= n\)`,
-   R`\(k = (-r_\mathrm{A})_i/C_{\mathrm{A},i}^{\,n}\)`]},
- {type:'error',title:'Tìm dòng sai đầu tiên: phản ứng thuận nghịch bậc 1 A ⇄ R',lines:[
-   R`\(-\dfrac{dC_\mathrm{A}}{dt} = k_1C_\mathrm{A}-k_2C_\mathrm{R}\), với \(C_\mathrm{R} = C_\mathrm{Ao}-C_\mathrm{A}\)`,
-   R`Tại cân bằng: \(k_1C_\mathrm{Ae} = k_2(C_\mathrm{Ao}-C_\mathrm{Ae})\), tức \(k_2C_\mathrm{Ao} = (k_1+k_2)C_\mathrm{Ae}\)`,
-   R`\(-\dfrac{dC_\mathrm{A}}{dt} = (k_1+k_2)(C_\mathrm{A}-C_\mathrm{Ae})\)`,
-   R`\(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}} = k_1t\)`],bad:3,
-  fix:R`Tích phân dòng 3 cho \(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}} = (k_1+k_2)t\). Hệ số góc là \(k_1+k_2\); dùng \(K_C = k_1/k_2\) để tách.`},
- {type:'order',title:'Sắp thứ tự: phương pháp thời gian bán hủy',steps:[
-   R`Đo \(t_{1/2}\) ứng với nhiều \(C_\mathrm{Ao}\) khác nhau`,
-   R`Lấy ln: \(\ln t_{1/2} = (1-n)\ln C_\mathrm{Ao} + \ln\dfrac{2^{\,n-1}-1}{k(n-1)}\)`,
-   R`Vẽ \(\ln t_{1/2}\) theo \(\ln C_\mathrm{Ao}\)`,
-   R`Hệ số góc \(\tan\alpha = 1-n\), suy ra \(n = 1-\tan\alpha\)`,
-   R`Thế \(n\) vào tung độ gốc (hoặc PT 2.8) để tính \(k\)`]},
- {type:'error',title:'Tìm dòng sai đầu tiên: pha khí A → 2B, đẳng áp, nhập liệu A nguyên chất, bậc 1',lines:[
+ {type:'order',title:'Sắp thứ tự: thiết lập PT thiết kế CSTR',steps:[
+   R`Viết cân bằng vật chất cho A trên toàn bộ thể tích: [VÀO] − [RA] − [PHẢN ỨNG] = [TÍCH TỤ]`,
+   R`Ổn định, tích tụ bằng 0: \(F_\mathrm{Ao}(1-X_\mathrm{Ao}) - F_\mathrm{Ao}(1-X_\mathrm{Af}) - (-r_\mathrm{A})_fV = 0\)`,
+   R`Rút gọn: \(F_\mathrm{Ao}(X_\mathrm{Af}-X_\mathrm{Ao}) = (-r_\mathrm{A})_fV\)`,
+   R`\(V = \dfrac{F_\mathrm{Ao}(X_\mathrm{Af}-X_\mathrm{Ao})}{(-r_\mathrm{A})_f}\)`,
+   R`Chia cho \(v_\mathrm{o}\): \(\tau = \dfrac{C_\mathrm{Ao}(X_\mathrm{Af}-X_\mathrm{Ao})}{(-r_\mathrm{A})_f}\)`]},
+ {type:'error',title:'Tìm dòng sai đầu tiên: tính hệ số thay đổi thể tích ε cho 4PH₃(g) → P₄(g) + 6H₂(g), nhập liệu có 40 % khí trơ',lines:[
+   R`Cơ sở 1 mol nhập liệu: 0,6 mol PH₃ + 0,4 mol khí trơ`,
+   R`Khi \(X_\mathrm{A} = 1\): 0,15 mol P₄ + 0,9 mol H₂ + 0,4 mol khí trơ = 1,45 mol`,
+   R`\(\varepsilon_\mathrm{A} = \dfrac{1{,}45-1}{1{,}45} = 0{,}31\)`,
+   R`\(C_\mathrm{A} = C_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+0{,}31X_\mathrm{A}}\)`],bad:2,
+  fix:R`Mẫu số là thể tích (số mol) <b>ban đầu</b>: \(\varepsilon_\mathrm{A} = \dfrac{1{,}45-1}{1} = 0{,}45\), nên \(C_\mathrm{A} = C_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+0{,}45X_\mathrm{A}}\) (Q3.11).`},
+ {type:'order',title:'Sắp thứ tự: thiết lập PT thiết kế PFR',steps:[
+   R`Chọn phân tố thể tích \(dV\), trong đó thành phần coi như không đổi`,
+   R`Cân bằng cho A ở trạng thái ổn định: \(F_\mathrm{A} - (F_\mathrm{A}+dF_\mathrm{A}) - (-r_\mathrm{A})dV = 0\)`,
+   R`Thay \(dF_\mathrm{A} = -F_\mathrm{Ao}dX_\mathrm{A}\): \(F_\mathrm{Ao}dX_\mathrm{A} = (-r_\mathrm{A})dV\)`,
+   R`Tích phân trên toàn ống: \(V = F_\mathrm{Ao}\displaystyle\int_{X_\mathrm{Ao}}^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\)`,
+   R`Chia cho \(v_\mathrm{o}\): \(\tau = C_\mathrm{Ao}\displaystyle\int_{X_\mathrm{Ao}}^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\)`]},
+ {type:'error',title:'Tìm dòng sai đầu tiên: thời gian lưu CSTR, phản ứng pha lỏng bậc 1',lines:[
+   R`Dữ kiện: \(C_\mathrm{Ao} = 2\ \mathrm{mol/L}\), \(k = 0{,}5\ \mathrm{min^{-1}}\), \(X_\mathrm{Af} = 0{,}8\)`,
+   R`PT thiết kế: \(\tau = \dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{(-r_\mathrm{A})_f}\)`,
+   R`\((-r_\mathrm{A})_f = kC_\mathrm{Ao} = 0{,}5\times2 = 1\ \mathrm{mol/(L\cdot min)}\)`,
+   R`\(\tau = \dfrac{2\times0{,}8}{1} = 1{,}6\ \mathrm{min}\)`],bad:2,
+  fix:R`Trong CSTR tốc độ tính theo nồng độ dòng ra: \((-r_\mathrm{A})_f = kC_\mathrm{Ao}(1-X_\mathrm{Af}) = 0{,}5\times2\times0{,}2 = 0{,}2\ \mathrm{mol/(L\cdot min)}\), nên \(\tau = 1{,}6/0{,}2 = 8\ \mathrm{min}\).`},
+ {type:'order',title:'Sắp thứ tự: tính thể tích bình gián đoạn theo năng suất yêu cầu',steps:[
+   R`Từ PT thiết kế BR, tính thời gian phản ứng \(t\) để đạt \(X_\mathrm{Af}\)`,
+   R`Thời gian một mẻ: \(t_\text{ca} = t + t_\text{gián đoạn}\)`,
+   R`Lượng sản phẩm mỗi mẻ: \(N_\mathrm{R} = F_\mathrm{R}\,t_\text{ca}\)`,
+   R`Lượng A nạp mỗi mẻ: \(N_\mathrm{Ao} = N_\mathrm{R}/X_\mathrm{Af}\) (hệ số 1 : 1)`,
+   R`Tính khối lượng hỗn hợp \(m\), rồi \(V = m/\rho\)`]},
+ {type:'error',title:'Tìm dòng sai đầu tiên: PFR, pha khí A → 2R bậc 1, A nguyên chất, P = const',lines:[
    R`\(\varepsilon_\mathrm{A} = \dfrac{2-1}{1} = 1\)`,
-   R`\(V = V_\mathrm{o}(1+\varepsilon_\mathrm{A}X_\mathrm{A})\)`,
-   R`\(C_\mathrm{A} = C_\mathrm{Ao}(1-X_\mathrm{A})\)`,
-   R`\(-\ln(1-X_\mathrm{A}) = kt\)`],bad:2,
-  fix:R`Thể tích thay đổi nên \(C_\mathrm{A} = C_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+\varepsilon_\mathrm{A}X_\mathrm{A}}\) (2.25). Dòng 4 vẫn đúng: với bậc 1, PT theo \(X_\mathrm{A}\) không phụ thuộc \(\varepsilon_\mathrm{A}\) (Bảng 2.2).`},
- {type:'order',title:'Sắp thứ tự: phản ứng thuận nghịch bậc 1 A ⇄ R (C_Ro = 0)',steps:[
-   R`\(-\dfrac{dC_\mathrm{A}}{dt} = k_1C_\mathrm{A}-k_2C_\mathrm{R}\), với \(C_\mathrm{R} = C_\mathrm{Ao}-C_\mathrm{A}\)`,
-   R`Tại cân bằng: \(k_2C_\mathrm{Ao} = (k_1+k_2)C_\mathrm{Ae}\)`,
-   R`Thay vào: \(-\dfrac{dC_\mathrm{A}}{dt} = (k_1+k_2)(C_\mathrm{A}-C_\mathrm{Ae})\)`,
-   R`Tách biến, tích phân: \(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}} = (k_1+k_2)t\)`,
-   R`Hệ số góc \(= k_1+k_2\); kết hợp \(K_C = k_1/k_2\) để tính \(k_1\), \(k_2\)`]},
- {type:'error',title:'Tìm dòng sai đầu tiên: phương pháp vi phân',lines:[
-   R`\((-r_\mathrm{A}) = kC_\mathrm{A}^{\,n}\)`,
-   R`\(\ln(-r_\mathrm{A}) = \ln k + n\ln C_\mathrm{A}\)`,
-   R`Từ một cặp số liệu: \(n = \dfrac{\ln(-r_\mathrm{A})_1}{\ln C_{\mathrm{A},1}}\)`,
-   R`\(k = (-r_\mathrm{A})_i/C_{\mathrm{A},i}^{\,n}\)`],bad:2,
-  fix:R`Còn ẩn \(\ln k\) nên một điểm không đủ: \(n = \dfrac{\ln(-r_\mathrm{A})_i-\ln(-r_\mathrm{A})_{i-1}}{\ln C_{\mathrm{A},i}-\ln C_{\mathrm{A},i-1}}\) (2.6), hoặc lấy hệ số góc đồ thị.`},
- {type:'order',title:'Sắp thứ tự: tính năng lượng hoạt hóa từ hai nhiệt độ',steps:[
-   R`\(k = A\,e^{-E_\mathrm{a}/(RT)}\)`,
-   R`Lấy ln: \(\ln k = \ln A - \dfrac{E_\mathrm{a}}{RT}\)`,
-   R`Viết cho \(T_1\), \(T_2\) rồi trừ vế: \(\ln\dfrac{k_{T_2}}{k_{T_1}} = -\dfrac{E_\mathrm{a}}{R}\left(\dfrac{1}{T_2}-\dfrac{1}{T_1}\right)\)`,
-   R`Rút \(E_\mathrm{a}\) và thế số (\(T\) theo K)`]},
- {type:'error',title:'Tìm dòng sai đầu tiên: A + 2B → sản phẩm, bậc 2, M = 2',lines:[
-   R`\(M = 2\) nên \(C_\mathrm{B} = 2C_\mathrm{A}\) trong suốt quá trình`,
-   R`\(-\dfrac{dC_\mathrm{A}}{dt} = kC_\mathrm{A}C_\mathrm{B} = 2kC_\mathrm{A}^{2}\)`,
-   R`\(\dfrac{1}{C_\mathrm{A}}-\dfrac{1}{C_\mathrm{Ao}} = 2kt\)`,
-   R`Theo độ chuyển hóa: \(\dfrac{1}{C_\mathrm{Ao}}\dfrac{X_\mathrm{A}}{1-X_\mathrm{A}} = kt\)`],bad:3,
-  fix:R`\(\dfrac{1}{C_\mathrm{A}}-\dfrac{1}{C_\mathrm{Ao}} = \dfrac{1}{C_\mathrm{Ao}}\dfrac{X_\mathrm{A}}{1-X_\mathrm{A}}\), nên vế phải phải là \(2kt\), nhất quán với dòng 3.`}
+   R`\(C_\mathrm{A} = C_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+X_\mathrm{A}}\)`,
+   R`\((-r_\mathrm{A}) = kC_\mathrm{Ao}\dfrac{1-X_\mathrm{A}}{1+X_\mathrm{A}}\)`,
+   R`\(\tau = C_\mathrm{Ao}\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})} = \dfrac1k\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(1-X_\mathrm{A})(1+X_\mathrm{A})}\)`,
+   R`\(\tau = \dfrac{1}{2k}\ln\dfrac{1+X_\mathrm{Af}}{1-X_\mathrm{Af}}\)`],bad:3,
+  fix:R`Nghịch đảo \((-r_\mathrm{A})\) đưa \(1+X_\mathrm{A}\) lên tử: \(\tau = \dfrac1k\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{(1+X_\mathrm{A})\,dX_\mathrm{A}}{1-X_\mathrm{A}} = \dfrac1k\left[2\ln\dfrac{1}{1-X_\mathrm{Af}}-X_\mathrm{Af}\right]\) (Bảng 3.2 với \(\varepsilon_\mathrm{A} = 1\)).`},
+ {type:'order',title:'Sắp thứ tự: xác định PT động học từ số liệu CSTR (dạng 3.4)',steps:[
+   R`Tính thời gian lưu mỗi thí nghiệm: \(\tau = V/v_\mathrm{o}\)`,
+   R`Từ PT thiết kế CSTR: \((-r_\mathrm{A})_f = \dfrac{C_\mathrm{Ao}-C_\mathrm{Af}}{\tau}\)`,
+   R`Lấy ln PT động học: \(\ln(-r_\mathrm{A})_f = \ln k + n\ln C_\mathrm{Af}\)`,
+   R`Vẽ \(\ln(-r_\mathrm{A})_f\) theo \(\ln C_\mathrm{Af}\) (các thí nghiệm cùng nhiệt độ): hệ số góc \(= n\)`,
+   R`Tung độ gốc \(= \ln k\), suy ra \(k\)`]}
 ];
 
-/* ---------- Video bài giảng trên YouTube (mốc giây = đầu từng cảnh) ---------- */
-const YT={tq:['_GSb8I3_yfc','Phân loại và điểm chung'],tp:['j6UE3lqCqYk','Phương pháp tích phân'],vp:['eyby7akT9Jo','Phương pháp vi phân'],bh:['HYRa9PFIWL8','Phương pháp thời gian bán hủy']};
-const CLIP={
- tq0:['tq',0,''],tq2:['tq',35,'Phân loại theo số liệu ban đầu'],tq3:['tq',64,'Phân loại theo cách tìm <i>n</i>'],tq4:['tq',83,'Điểm chung: tuyến tính hóa'],
- tp0:['tp',0,''],tp1:['tp',7,'Số liệu ban đầu'],tp2:['tp',33,'Giả thiết <i>n</i>, lấy tích phân'],tp4:['tp',92,'Vẽ <i>F</i>(<i>C</i><sub>A</sub>) theo <i>t</i>'],tp5:['tp',117,'Kết luận'],
- vp0:['vp',0,''],vp2:['vp',23,'Xác định <i>r</i> bằng tiếp tuyến'],vp3:['vp',48,'Ví dụ H₂O₂'],vp5:['vp',99,'Tìm <i>n</i> và <i>k</i>'],
- bh0:['bh',0,''],bh1:['bh',8,'Số liệu ban đầu'],bh2:['bh',39,'Công thức <i>t</i>½'],bh4:['bh',96,'Đồ thị ln <i>t</i>½ theo ln <i>C</i><sub>Ao</sub>']};
-const mmss=t=>Math.floor(t/60)+':'+String(t%60).padStart(2,'0');
-const ytUrl=c=>`https://youtu.be/${YT[c[0]][0]}${c[1]?`?t=${c[1]}`:''}`;
-const vBtn=k=>{const c=CLIP[k];if(!c)return '';return `<a class="vbtn" href="${ytUrl(c)}" target="_blank" rel="noopener">📽 ${c[1]?'Xem lại: ':''}${YT[c[0]][1]}${c[1]?` · ${c[2]} <small>(${mmss(c[1])})</small>`:''}</a>`;};
-const vBtns=a=>a&&a.length?`<div class="vlist">${a.map(vBtn).join('')}</div>`:'';
-const vTop=()=>`<div class="vtop"><span class="vtl">📽 Xem trước video bài giảng</span>${['tq','tp','vp','bh'].map(c=>`<a class="vbig" href="https://youtu.be/${YT[c][0]}" target="_blank" rel="noopener"><i>▶</i><span>${YT[c][1]}</span></a>`).join('')}</div>`;
-const VID={r1:{4:['bh2'],5:['bh2']},r3:{0:['tp4','tq3'],1:['bh1','bh4'],2:['vp5'],3:['tp2'],4:['tq2'],6:['tp2']},
- r4:{0:['tp4'],1:['tp2'],2:['vp5'],3:['bh2','bh4']},r5:{0:['tp2'],1:['bh2'],2:['vp2'],4:['bh4'],7:['vp5']}};
-
+const R5DEV=['cstr',null,'pfr','cstr','br','pfr','cstr'];
 /* câu hỏi thảo luận (chế độ hoạt động nhóm) */
-const ASK1=[null, null, null, null, 'Viết biểu thức \\(t_{1/2}\\) của phản ứng bậc 1. Biểu thức có chứa \\(C_\\mathrm{Ao}\\) không?', 'So sánh \\(t_{1/2}\\) của bậc 0 và bậc 2: khi \\(C_\\mathrm{Ao}\\) tăng gấp đôi, mỗi trường hợp thay đổi thế nào?', 'Đếm tổng số mol khí khi \\(X_\\mathrm{A}=0\\) và khi \\(X_\\mathrm{A}=1\\).', 'Khí trơ có phản ứng không? Nó làm tổng số mol ban đầu thay đổi thế nào?', 'Lấy ln hai vế của \\(k = A\\,e^{-E_\\mathrm{a}/(RT)}\\): đâu là \\(y\\), đâu là \\(x\\)?', 'Trong PT (2.14), \\(E_\\mathrm{a}\\) đứng ở đâu? \\(E_\\mathrm{a}\\) lớn thì tỉ số \\(k_{T_2}/k_{T_1}\\) thay đổi thế nào?'];
-const ASK3=['Chỉ có một thí nghiệm \\(C_\\mathrm{A}\\) – \\(t\\): phương pháp nào thử được ngay? Thử bậc nào trước?', 'Khi \\(C_\\mathrm{Ao}\\) tăng gấp đôi, \\(t_{1/2}\\) thay đổi thế nào? Điều đó cho biết gì về bậc?', 'Bảng đã có sẵn tốc độ phản ứng: cần biến đổi gì để ra đường thẳng?', '\\(C_\\mathrm{Bo}\\) gấp bao nhiêu lần \\(C_\\mathrm{Ao}\\)? Khi đó \\(C_\\mathrm{B}\\) có thay đổi đáng kể không?', 'So thí nghiệm 1 với 2, rồi 1 với 3: mỗi lần nồng độ chất nào thay đổi?', 'Đại lượng nào thay đổi giữa các thí nghiệm? Phương trình nào liên hệ \\(k\\) với \\(T\\)?', 'Chỉ đo được \\(P\\): làm sao suy ra \\(p_\\mathrm{A}\\)? (PT 2.17)', 'Cùng \\(C_\\mathrm{Ao}\\) thì \\(k\\) và \\(t_{1/2}\\) liên hệ thế nào? Từ đó dùng phương trình nào?'];
-const ASK4=['Lấy ln hai vế: số hạng nào chứa \\(t\\)? Hệ số của nó là gì?', 'Tích phân \\(-dC_\\mathrm{A}/C_\\mathrm{A}^2 = k\\,dt\\) được gì: nghịch đảo hay logarit?', 'Lấy ln của tích \\(kC_\\mathrm{A}^{\\,n}\\): hệ số góc và tung độ gốc là gì?', '\\(C_\\mathrm{Ao}^{-(n-1)}\\) khi lấy ln cho hệ số nào? Vì sao không phải \\(n-1\\)?', 'Ở cân bằng, tốc độ thuận và nghịch thế nào? Vì sao hệ số góc chứa cả \\(k_2\\)?', 'Khi \\(C_\\mathrm{Ao}\\neq C_\\mathrm{Bo}\\), tỉ số nào thay đổi tuyến tính theo \\(t\\)?', 'Lấy ln hai vế của PT Arrhenius: hệ số góc âm hay dương? Vì sao?', 'Từ \\(P\\) đo được, tính \\(p_\\mathrm{A}\\) thế nào (PT 2.17 với \\(a = 1\\), \\(\\Delta n = 1\\))?', 'Trong PT (2.55), đại lượng nào đứng trước \\(t\\)?'];
+const ASK1=['Thời gian lưu là tỉ số của hai đại lượng nào? Đơn vị có triệt tiêu đúng không?',null,'Trong CSTR khuấy lý tưởng, nồng độ ở giữa bình so với dòng ra thế nào?','Đếm số mol khí khi \\(X_\\mathrm{A}=0\\) và khi \\(X_\\mathrm{A}=1\\).','Bình kín thì đại lượng nào cố định, đại lượng nào thay đổi: \\(V\\) hay \\(P\\)?','Thay \\(\\tau\\) vào chỗ của \\(t\\) trong PT động học tích phân bậc 1: được gì?','Mỗi mol A phản ứng tạo bao nhiêu mol S?','Từ \\(C_\\mathrm{Rf}\\), A đã phản ứng bao nhiêu? Thay vào PT thiết kế CSTR.','Một mẻ thực sự kéo dài bao lâu?','Tính \\(\\tau\\) trước; \\(kC_\\mathrm{Ao}\\tau\\) bằng biểu thức nào của \\(X_\\mathrm{Af}\\)?'];
+const ASK3=['1 mol A tạo 2 mol R. Từ \\(C_\\mathrm{Rf}\\) suy ra A đã phản ứng bao nhiêu?','Muốn tìm \\(n\\) thì \\(k\\) phải giữ nguyên. Thí nghiệm nào có cùng \\(k\\)?','Pha khí, \\(P\\) = const, 2 mol A thành 1 mol R: thể tích có thay đổi không? \\(\\varepsilon_\\mathrm{A}\\) bằng bao nhiêu?','Tính \\(\\varepsilon_\\mathrm{A}\\) có kể khí trơ. Khi lấy nghịch đảo \\((-r_\\mathrm{A})\\), thừa số \\(1+\\varepsilon_\\mathrm{A}X_\\mathrm{A}\\) nằm ở tử hay mẫu?','Tác chất nào là giới hạn? Trong CSTR dùng nồng độ ở đâu?','Đã có PT động học chưa? Nếu chưa, tích phân bằng cách nào?','Một mẻ kéo dài bao lâu? Muốn được 400 mol R thì phải nạp bao nhiêu mol A?'];
+const ASK4=['Trong CSTR, \\((-r_\\mathrm{A})\\) đọc tại điểm nào? Hình biểu diễn là chữ nhật hay diện tích dưới đường cong?','Tích phân \\(\\int dX_\\mathrm{A}/(-r_\\mathrm{A})\\) tương ứng hình gì trên đồ thị? Cận dưới là bao nhiêu?','Chiều rộng hình là khoảng chuyển hóa nào? Chiều cao đọc ở điểm vào hay điểm ra?','Đọc tung độ tại \\(X_\\mathrm{A} = 0{,}8\\), rồi nhân với những đại lượng nào?','Đường cong tăng: hình chữ nhật cao bằng điểm cuối so với diện tích dưới đường cong thế nào?','Đường nằm ngang thì hai hình khác nhau ở đâu?','Đường cong giảm: hình chữ nhật cao tại \\(X_\\mathrm{Af}\\) nằm trên hay dưới đường cong?','Trên trục \\(C_\\mathrm{A}\\), điểm ra \\(C_\\mathrm{Af}\\) nằm bên trái hay bên phải?','Chia khoảng 2–10 M thành các hình thang, mỗi hình rộng 2 M.'];
 R1.forEach((x,i)=>{if(ASK1[i])x.ask=ASK1[i];});R3.forEach((x,i)=>x.ask=ASK3[i]);R4.forEach((x,i)=>x.ask=ASK4[i]);
 
 /* ---------- Vòng Phân nhóm (mỗi bảng 2 nhóm, 8 thẻ) ---------- */
 const PN = [
- {name:'Dấu hiệu của phản ứng bậc 1 hay bậc 2?',groups:['Bậc 1',R`Bậc 2 (\(C_\mathrm{Ao} = C_\mathrm{Bo}\))`],items:[
-  [R`Đồ thị \(\ln C_\mathrm{A}\) theo \(t\) là đường thẳng`,0,R`\(\ln C_\mathrm{A} = \ln C_\mathrm{Ao} - kt\).`],
-  [R`Đồ thị \(1/C_\mathrm{A}\) theo \(t\) là đường thẳng`,1,R`\(\dfrac{1}{C_\mathrm{A}} = \dfrac{1}{C_\mathrm{Ao}} + kt\).`],
-  [R`\(t_{1/2}\) không phụ thuộc \(C_\mathrm{Ao}\)`,0,R`\(t_{1/2} = \dfrac{\ln 2}{k}\).`],
-  [R`\(t_{1/2}\) tỉ lệ nghịch với \(C_\mathrm{Ao}\)`,1,R`\(t_{1/2} = \dfrac{1}{kC_\mathrm{Ao}}\).`],
-  [R`\(k\) có đơn vị \(\mathrm{min^{-1}}\)`,0,R`\([k] = (\text{nồng độ})^{1-n}(\text{thời gian})^{-1}\); \(1-n = 0\), \(n = 1\).`],
-  [R`\(k\) có đơn vị \(\mathrm{L\cdot mol^{-1}\cdot s^{-1}}\)`,1,R`\((\mathrm{mol/L})^{-1}\): \(1-n = -1\), \(n = 2\).`],
-  [R`\(-\ln(1-X_\mathrm{A}) = kt\)`,0,R`Thay \(C_\mathrm{A} = C_\mathrm{Ao}(1-X_\mathrm{A})\) vào \(\ln\dfrac{C_\mathrm{Ao}}{C_\mathrm{A}} = kt\).`],
-  [R`\(\dfrac{X_\mathrm{A}}{1-X_\mathrm{A}} = kC_\mathrm{Ao}t\)`,1,R`Thay \(C_\mathrm{A} = C_\mathrm{Ao}(1-X_\mathrm{A})\) vào \(\dfrac{1}{C_\mathrm{A}}-\dfrac{1}{C_\mathrm{Ao}} = kt\).`]]},
- {name:'Đặc điểm của phương pháp tích phân hay phương pháp vi phân?',groups:['Phương pháp tích phân','Phương pháp vi phân'],items:[
-  ['Giả thiết bậc trước, rồi kiểm tra đồ thị có thẳng không',0,R`Chọn \(n\), lấy tích phân \(-\dfrac{dC_\mathrm{A}}{dt} = kC_\mathrm{A}^{\,n}\), vẽ và kiểm tra.`],
-  [R`Lấy tiếp tuyến đường cong \(C_\mathrm{A}\) – \(t\) để có tốc độ phản ứng`,1,R`\((-r_\mathrm{A}) = -\dfrac{dC_\mathrm{A}}{dt}\) tại từng điểm.`],
-  [R`Vẽ \(\ln(-r_\mathrm{A})\) theo \(\ln C_\mathrm{A}\): hệ số góc bằng \(n\)`,1,R`\(\ln(-r_\mathrm{A}) = \ln k + n\ln C_\mathrm{A}\).`],
-  [R`Vẽ \(1/C_\mathrm{A}\) theo \(t\) để kiểm tra bậc 2`,0,R`\(\dfrac{1}{C_\mathrm{A}} - \dfrac{1}{C_\mathrm{Ao}} = kt\).`],
-  [R`Thử lần lượt \(n\) = 0, 1, 2`,0,R`Lần lượt vẽ \(C_\mathrm{A}\), \(\ln C_\mathrm{A}\), \(1/C_\mathrm{A}\) theo \(t\).`],
-  [R`Tìm \(n\) trực tiếp, không cần đoán trước`,1,R`\(n = \tan\alpha\) của đồ thị \(\ln(-r_\mathrm{A})\) – \(\ln C_\mathrm{A}\).`],
-  ['Ít nhạy với sai số của số liệu đo',0,'Lấy tích phân làm trơn sai số; lấy đạo hàm (tiếp tuyến) khuếch đại sai số.'],
-  ['Phương pháp tốc độ đầu là một dạng của phương pháp này',1,R`\(\ln(-r_\mathrm{A})_\mathrm{o} = \ln k + n\ln C_\mathrm{Ao}\).`]]},
- {name:'Đường thẳng có hệ số góc dương hay âm?',groups:['Hệ số góc dương','Hệ số góc âm'],items:[
-  [R`\(\ln C_\mathrm{A}\) theo \(t\) (bậc 1)`,1,R`\(\ln C_\mathrm{A} = \ln C_\mathrm{Ao} - kt\): hệ số góc \(-k\).`],
-  [R`\(1/C_\mathrm{A}\) theo \(t\) (bậc 2)`,0,R`\(\dfrac{1}{C_\mathrm{A}} = \dfrac{1}{C_\mathrm{Ao}} + kt\): hệ số góc \(k\).`],
-  [R`\(\ln k\) theo \(1/T\) (Arrhenius)`,1,R`\(\ln k = \ln A - \dfrac{E_\mathrm{a}}{R}\cdot\dfrac{1}{T}\): hệ số góc \(-E_\mathrm{a}/R\).`],
-  [R`\(\ln t_{1/2}\) theo \(\ln C_\mathrm{Ao}\), phản ứng bậc 2`,1,R`Hệ số góc \(1-n = -1\).`],
-  [R`\(\ln(-r_\mathrm{A})\) theo \(\ln C_\mathrm{A}\), với \(n > 0\)`,0,R`\(\ln(-r_\mathrm{A}) = \ln k + n\ln C_\mathrm{A}\): hệ số góc \(n\).`],
-  [R`\(C_\mathrm{A}\) theo \(t\) (bậc 0)`,1,R`\(C_\mathrm{A} = C_\mathrm{Ao} - kt\): hệ số góc \(-k\).`],
-  [R`\(\ln\dfrac{C_\mathrm{Ao}-C_\mathrm{Ae}}{C_\mathrm{A}-C_\mathrm{Ae}}\) theo \(t\) (thuận nghịch bậc 1)`,0,R`Hệ số góc \(k_1 + k_2\).`],
-  [R`\(\ln t_{1/2}\) theo \(\ln C_\mathrm{Ao}\), phản ứng bậc 0`,0,R`\(t_{1/2} = \dfrac{C_\mathrm{Ao}}{2k}\): hệ số góc \(1-n = 1\).`]]}
+ {name:'Thể tích hỗn hợp: không đổi hay thay đổi?',groups:[R`\(V\) = const`,R`\(V = V_\mathrm{o}(1+\varepsilon_\mathrm{A}X_\mathrm{A})\)`],items:[
+  ['Phản ứng pha lỏng trong CSTR',0,R`Pha ngưng tụ: \(\varepsilon_\mathrm{A} = 0\), \(C_\mathrm{A} = C_\mathrm{Ao}(1-X_\mathrm{A})\).`],
+  [R`Pha khí A + B → R + S trong PFR, \(P\) = const`,0,R`\(\Delta n = 0\) nên \(\varepsilon_\mathrm{A} = \dfrac{2-2}{2} = 0\).`],
+  ['Pha khí 2A → R trong bình kín',0,R`Bình kín: \(V\) cố định, \(P\) thay đổi; \(C_\mathrm{A} = C_\mathrm{Ao}(1-X_\mathrm{A})\).`],
+  [R`Pha khí A → 3R trong PFR, \(P\) = const`,1,R`\(\varepsilon_\mathrm{A} = \dfrac{3-1}{1} = 2\).`],
+  [R`Dimer hóa pha khí 2A → R trong CSTR, \(P\) = const`,1,R`\(\varepsilon_\mathrm{A} = \dfrac{0{,}5-1}{1} = -0{,}5\): thể tích giảm.`],
+  ['4PH₃(g) → P₄(g) + 6H₂(g) trong bình ống ở 1 atm',1,R`\(\varepsilon_\mathrm{A} = \dfrac{7/4-1}{1} = 0{,}75\).`],
+  ['Phản ứng pha rắn trong lò gián đoạn',0,R`Pha ngưng tụ: \(\varepsilon_\mathrm{A} = 0\).`],
+  [R`Pha khí A → 2R, nhập liệu 50 % khí trơ, \(P\) = const`,1,R`\(\varepsilon_\mathrm{A} = \dfrac{(1+0{,}5)-1}{1} = 0{,}5\).`]]},
+ {name:'Đặc điểm của CSTR hay của PFR/BR?',groups:['CSTR','PFR hoặc BR'],items:[
+  ['Tốc độ phản ứng tính theo nồng độ dòng ra',0,R`\(\tau = \dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{(-r_\mathrm{A})_f}\), với \((-r_\mathrm{A})_f = f(C_\mathrm{Af})\).`],
+  ['Nồng độ A giảm dần theo chiều dài thiết bị (hoặc theo thời gian)',1,R`\(F_\mathrm{Ao}\,dX_\mathrm{A} = (-r_\mathrm{A})\,dV\): thành phần đổi theo vị trí.`],
+  [R`Đồ thị \(1/(-r_\mathrm{A})\) – \(X_\mathrm{A}\): diện tích hình chữ nhật`,0,R`\(\dfrac{V}{F_\mathrm{Ao}} = X_\mathrm{Af}\cdot\dfrac{1}{(-r_\mathrm{A})_f}\).`],
+  [R`Đồ thị \(1/(-r_\mathrm{A})\) – \(X_\mathrm{A}\): diện tích dưới đường cong`,1,R`\(\dfrac{\tau}{C_\mathrm{Ao}} = \displaystyle\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\).`],
+  ['PT thiết kế là phương trình đại số, không cần tích phân',0,R`\(V = \dfrac{F_\mathrm{Ao}(X_\mathrm{Af}-X_\mathrm{Ao})}{(-r_\mathrm{A})_f}\).`],
+  [R`\(V\) = const: dùng ngay PT động học tích phân của chương 2`,1,R`Ví dụ bậc 1: \(k\tau = -\ln(1-X_\mathrm{Af})\).`],
+  [R`Mỗi thí nghiệm cho ngay \((-r_\mathrm{A})_f = (C_\mathrm{Ao}-C_\mathrm{Af})/\tau\)`,0,R`Không cần lấy tiếp tuyến: \((-r_\mathrm{A})_f = \dfrac{C_\mathrm{Ao}-C_\mathrm{Af}}{\tau}\).`],
+  [R`Bậc \(n\) > 0: cần thể tích <b>lớn hơn</b> để đạt cùng \(X_\mathrm{Af}\)`,0,R`\(X_\mathrm{Af}\cdot\dfrac{1}{(-r_\mathrm{A})_f} > \displaystyle\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\).`]]},
+ {name:'Hoạt động liên tục hay gián đoạn?',groups:['Liên tục (CSTR, PFR)','Gián đoạn (BR)'],items:[
+  [R`Đặc trưng bằng lưu lượng \(v_\mathrm{o}\) và suất lượng \(F_\mathrm{A}\)`,0,R`\(F_\mathrm{A} = C_\mathrm{A}v\).`],
+  [R`Thời gian lưu \(\tau = V/v_\mathrm{o}\)`,0,R`\(\tau = \dfrac{V}{v_\mathrm{o}}\) chỉ có nghĩa khi có dòng chảy.`],
+  ['Có thời gian nạp liệu, tháo sản phẩm, vệ sinh thiết bị',1,R`\(t_\text{ca} = t + t_\text{gián đoạn}\).`],
+  [R`Năng suất trung bình \(F = N/(t + t_\text{gián đoạn})\)`,1,R`\(F = \dfrac{N}{t + t_\text{gián đoạn}}\) (3.13).`],
+  [R`Lượng A trong thiết bị \(N_\mathrm{A} = N_\mathrm{Ao}(1-X_\mathrm{A})\) giảm theo thời gian`,1,R`\((-r_\mathrm{A})V = -\dfrac{dN_\mathrm{A}}{dt}\).`],
+  ['Ổn định: thành phần tại mỗi điểm không đổi theo thời gian',0,R`[TÍCH TỤ] = 0: \(F_\mathrm{Ao}(X_\mathrm{Af}-X_\mathrm{Ao}) = (-r_\mathrm{A})_fV\).`],
+  ['Không có dòng vào, dòng ra; có tích tụ',1,R`\(t = C_\mathrm{Ao}\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\).`],
+  [R`\(F_\mathrm{A} = F_\mathrm{Ao}(1-X_\mathrm{A})\)`,0,'Suất lượng mol của A trong dòng chảy.']]}
 ];
 
 /* ================= ĐIỀU KHIỂN GAME · 2 chế độ: Nhiều đội / Cả lớp ================= */
-const KEY='ktpu-c2-dau-truong-v2';
+const KEY='ktpu-c3-dau-truong-v2';
 /* ---- Chế độ LÀM BÀI Ở NHÀ: link ?nha=<mã triển khai Apps Script>[&bai=<tên đợt>] ---- */
-const GAME='KTPU-C2 Đấu trường Động học';
+const GAME='KTPU-C3 Đấu trường Thiết kế';
 const GS_URL='https://script.google.com/macros/s/AKfycbw9J5bx5x6UhP26abUrmKzSHryfJ8UZ1-g-JCUsqzXwZHKlVYzWUcN-g2oVEu8jRslsLw/exec';                       /* (tùy chọn) dán URL …/exec vào đây thì link chỉ cần ?nha=1 */
-const QP=new URLSearchParams(location.search),NHA_ID=(QP.get('nha')||'').trim(),NHA=!!NHA_ID,BAI=(QP.get('bai')||'').trim();
+const QP=new URLSearchParams(location.search);
+const NHA_ID=(QP.get('nha')||'').trim(),NHA=!!NHA_ID,BAI=(QP.get('bai')||'').trim();
 const LOPB=(BAI.match(/^[^_]+_([^_]+)_C\d+$/)||[])[1]||'';   /* lớp lấy từ mã đợt HK_LỚP_Cx trong link giao bài */
 const GS=/^https:\/\/script\.google(usercontent)?\.com\//.test(NHA_ID)?NHA_ID:NHA_ID.length>20?`https://script.google.com/macros/s/${NHA_ID}/exec`:GS_URL;
 const SKEY=NHA?KEY+'-nha':KEY;
@@ -642,10 +787,10 @@ const RK=['r1','r2','pn','r3','r4','r5'];
 const RD={r1:{n:1,name:'Khởi động',tab:'Khởi động',pts:10,rc:'#F26B3A',rc2:'#FFB13B'},
   r2:{n:2,name:'Lật thẻ ghép đôi',tab:'Ghép đôi',pts:10,rc:'#8B5CF6',rc2:'#D946EF'},
   pn:{n:3,name:'Phân nhóm',tab:'Phân nhóm',pts:10,rc:'#E0457B',rc2:'#FF8A4C'},
-  r3:{n:4,name:'Thám tử số liệu',tab:'Thám tử',pts:20,rc:'#0EA5A0',rc2:'#22C55E'},
-  r4:{n:5,name:'Đường thẳng bí ẩn',tab:'Đường thẳng',pts:20,rc:'#2F7DE1',rc2:'#06B6D4'},
+  r3:{n:4,name:'Thám tử thiết bị',tab:'Thám tử',pts:20,rc:'#0EA5A0',rc2:'#22C55E'},
+  r4:{n:5,name:'Diện tích bí ẩn',tab:'Diện tích',pts:20,rc:'#2F7DE1',rc2:'#06B6D4'},
   r5:{n:6,name:'Về đích',tab:'Về đích',pts:30,rc:'#E3A008',rc2:'#F26B3A'}};
-const VIEWS=['home',...RK,'kq','end'];
+const VIEWS=['home','hd','the',...RK,'kq','end'];
 const TDEF={r1:20,r2:20,pn:20,r3:45,r4:40,r5:60};
 const BK=r=>({r1:R1,r3:R3,r4:R4,r5:R5})[r];
 const $=s=>document.querySelector(s);
@@ -745,7 +890,7 @@ const undoBtn=()=>`<button class="btn" id="undo" ${HIST.length?'':'disabled'}>�
 
 /* ---------- khung chung ---------- */
 function renderTabs(){$('#tabs').innerHTML=VIEWS.filter(v=>v!=='kq').map(v=>{const d=RD[v];
-  return `<button data-go="${v}" ${S.view===v||(S.view==='kq'&&S.kq===v)?'aria-current="page"':''} style="--rc:${d?d.rc:'#FACC15'}">${d?`<i>${d.n}</i>${d.tab}`:v==='home'?'🏠 Bắt đầu':'🏁 Tổng kết'}</button>`;}).join('');}
+  return `<button data-go="${v}" ${S.view===v||(S.view==='kq'&&S.kq===v)?'aria-current="page"':''} style="--rc:${d?d.rc:'#FACC15'}">${d?`<i>${d.n}</i>${d.tab}`:({home:'🏠 Home',hd:'📋 Hướng dẫn',the:'🃏 Thẻ ghi nhớ',end:'🏁 Tổng kết'})[v]}</button>`;}).join('');}
 function renderBoard(bump=[]){const r=CR(),b=$('#board');
   if(LOP()){if(!r){const T=RK.reduce((a,x)=>a+S.st[x].pts,0);b.innerHTML=`<div class="clsb"><span class="cl-l">Điểm cả lớp</span><b class="cl-s">${T}</b></div>`;return;}
     const st=S.st[r];b.innerHTML=`<div class="clsb${bump.length?' bump':''}"><span class="cl-l">Điểm vòng ${RD[r].n}</span><b class="cl-s">${st.pts}</b>
@@ -760,18 +905,18 @@ function go(v){if(!VIEWS.includes(v))v='home';S.view=v;if(NHA&&RK.includes(v)){S
   if(location.hash.slice(1)!==v){try{history.replaceState(null,'','#'+v);}catch(_){location.hash=v;}}render();if(v==='kq'||v==='end')celebrate();}
 function render(){if(NHA&&!S.sv)return vLogin();renderTabs();renderBoard();const st=$('#stage'),r=CR();
   st.style.setProperty('--rc',r?RD[r].rc:'#4B2A8C');st.style.setProperty('--rc2',r?RD[r].rc2:'#E0457B');
-  ({home:vHome,r1:()=>vMC('r1'),r3:()=>vMC('r3'),r4:()=>vMC('r4'),r2:vMem,pn:vPN,r5:vFinal,kq:vKQ,end:vEnd}[S.view]||vHome)();
+  ({home:vHome,hd:vHD,the:()=>FC3.vFC(),r1:()=>vMC('r1'),r3:()=>vMC('r3'),r4:()=>vMC('r4'),r2:vMem,pn:vPN,r5:vFinal,kq:vKQ,end:vEnd}[S.view]||vHome)();
   tset(st).then(fit);fit();paintTimer();}
 function head(r,cnt,done,total,rule){const d=RD[r];const pc=total?Math.round(100*done/total):0;
   return `<div class="rhead"><span class="rnum">Vòng ${d.n}</span><h1>${d.name}</h1><span class="qcount">${cnt}</span>
    <span class="prog" title="Tiến độ vòng"><i style="width:${pc}%"></i></span><span class="rule">${rule}</span></div>`;}
 
 /* ---------- Trang chủ ---------- */
-const DESC={r1:'Đơn vị của k, t½, ε_A, Arrhenius, Đúng/Sai',r2:'Phản ứng (cam) ↔ phương trình động học (xanh), 3 bảng',pn:'Bậc 1 hay 2, tích phân hay vi phân, hệ số góc',r3:'Nhìn bảng số liệu, chọn phương pháp xử lý',r4:'Biến đổi tuyến tính, đồ thị tự “duỗi thẳng”',r5:'Sắp thứ tự bước thiết lập, tìm dòng sai'};
+const DESC={r1:'τ, F_A, ε_A, CSTR – BR – PFR, Đúng/Sai',r2:'Trường hợp (cam) ↔ phương trình (xanh), 3 bảng',pn:'Xếp thẻ vào hai nhóm màu, 3 bảng',r3:'Đọc dữ kiện, chọn công thức hoặc cách tính',r4:'Đồ thị Levenspiel: chữ nhật hay dưới đường cong?',r5:'Sắp thứ tự bước thiết lập, tìm dòng sai'};
 const cntQ=r=>r==='r2'?R2.reduce((a,b)=>a+b.pairs.length,0):r==='pn'?PN.reduce((a,b)=>a+b.items.length,0):BK(r).length;
 function vHome(){const lop=LOP();
-  $('#stage').innerHTML=`<div class="home"><div class="hero"><h1>Đấu trường<br><span>Động học</span></h1>
-    <p>Sáu trò chơi về phương trình động học và cách xử lý số liệu động học, theo chương 2 sách bài tập Kỹ thuật phản ứng. Mỗi vòng tính điểm riêng và có tổng kết đúng / sai.</p>
+  $('#stage').innerHTML=`<div class="home"><div class="hero"><h1>Đấu trường<br><span>Thiết kế</span></h1>
+    <p>Sáu trò chơi về phương trình thiết kế CSTR, BR, PFR và ý nghĩa hình học của chúng, theo chương 3 sách bài tập Kỹ thuật phản ứng. Mỗi vòng tính điểm riêng và có tổng kết đúng / sai.</p>
     <div class="modes" role="group" aria-label="Chế độ chơi">
      <button data-mode="lop" aria-pressed="${lop}"><span class="me">🙋</span><b>Cả lớp</b><span>Giáo viên gọi sinh viên phát biểu rồi bấm đáp án; hiệu ứng đúng / sai; điểm chung của lớp</span></button>
      <button data-mode="thi" aria-pressed="${!lop}"><span class="me">🏁</span><b>Nhiều đội thi</b><span>4 đội giơ thẻ A–D hoặc giành quyền; trang cộng điểm từng đội theo từng vòng</span></button></div>
@@ -788,7 +933,6 @@ function vHome(){const lop=LOP();
    </div>
    <div class="rounds">${RK.map(r=>{const d=RD[r],st=S.st[r],has=st.ok+st.bad;return `<button class="rnd" data-go="${r}" style="--rc:${d.rc};--rc2:${d.rc2}"><span class="n">${d.n}</span>
      <span><b>${d.name}</b><br><span>${DESC[r]}</span></span><span class="pts">${has?`✔ ${st.ok} · ✘ ${st.bad}`:`${cntQ(r)} ${r==='r2'?'cặp':'câu'} · ${d.pts} đ`}</span></button>`;}).join('')}
-    <p class="vhead">📽 Video bài giảng (xem trước giờ học)</p>${vBtns(['tq0','tp0','vp0','bh0'])}
     <div id="rst"></div></div></div>`;
   $('#ctrl').innerHTML=`<button class="btn pri" data-go="r1">▶ Bắt đầu vòng 1</button>${callBtn()}<span class="sp"></span>
    <button class="btn" id="mute">${S.mute?'🔇 Bật âm thanh':'🔊 Tắt âm thanh'}</button><button class="btn" id="resetAsk">Chơi lại tất cả</button>`;}
@@ -803,24 +947,24 @@ function vMC(r){const B=BK(r),i=Math.min(S[r].i,B.length-1),it=B[i],q=qs(r,i),lo
       <span class="lt">${LET[k]}</span><span class="ot">${typeof o==='string'?o:mini(it,o.g,k)}</span><span class="who">${who}</span></${tag}>`;};
   let body='';
   if(r==='r3')body=`<p class="ctx big">${it.ctx}</p><div class="v3${it.head?'':' nt'}">${it.head?`<div class="dtw"><table class="dt"><thead><tr>${it.head.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${it.rows.map(rw=>`<tr>${rw.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}
-    <div><p class="qbox sm">${it.qq||'Nên xử lý số liệu này bằng:'}</p><div class="opts">${it.o.map(opt).join('')}</div></div></div>`;
+    <div><p class="qbox sm">${it.qq||'Chọn cách làm phù hợp:'}</p><div class="opts">${it.o.map(opt).join('')}</div></div></div>`;
   else if(r==='r4')body=`<div class="v4"><div><div class="qcard"><p class="ctx big">${it.ctx}</p><p class="qbox eq">${it.eq}</p></div>
-    <div class="plotw"><svg id="plot" viewBox="0 0 600 340" role="img" aria-label="Đồ thị số liệu"></svg>
-    <div class="axl"><span id="ylab">Trục tung: ${fin?it.lin.yl:it.raw.yl}</span><span id="xlab">Trục hoành: ${fin?it.lin.xl:it.raw.xl}</span></div></div></div>
-    <div><p class="qq">Vẽ đồ thị nào để được đường thẳng?</p><div class="opts${typeof it.o[0]==='string'?'':' g'}">${it.o.map(opt).join('')}</div></div></div>`;
+    <div class="plotw"><svg id="plot" viewBox="0 0 600 340" role="img" aria-label="Đồ thị Levenspiel"></svg>
+    <div class="axl"><span>Trục tung: ${it.ax.yl}</span><span>Trục hoành: ${it.ax.xl}</span></div></div></div>
+    <div><p class="qq">${it.qq}</p><div class="opts${typeof it.o[0]==='string'?'':' g'}">${it.o.map(opt).join('')}</div></div></div>`;
   else body=`<p class="qbox">${it.q}</p><div class="opts">${it.o.map(opt).join('')}</div>`;
   const done=Object.values(S[r].q).filter(x=>x.done).length;
   const rule=lop?`Gọi sinh viên trả lời, bấm vào phương án bạn ấy chọn. Đúng ngay: +${RD[r].pts}; đúng sau lượt sai: +${half(r)}.`:`Mỗi đội giơ thẻ A–D; bấm chữ cái từng đội rồi Công bố. Đúng: +${RD[r].pts} điểm.`;
-  $('#stage').innerHTML=head(r,`Câu ${i+1}/${B.length}`,done,B.length,rule)+(r==='r3'?vTop():'')+body+
+  $('#stage').innerHTML=head(r,`Câu ${i+1}/${B.length}`,done,B.length,rule)+body+
    (q.hint&&it.ask&&!fin?`<div class="why ask"><b class="h">💡 Gợi ý.</b> ${it.ask}</div>`:'')+
-   (fin?`<div class="why"><b class="h">Đáp án ${LET[it.a]}.</b> ${it.why}${vBtns((VID[r]||{})[i])}</div>`:'')+
+   (fin?`<div class="why"><b class="h">Đáp án ${LET[it.a]}.</b> ${it.why}</div>`:'')+
    (lop?'':`<div class="picks">${S.teams.map((t,ti)=>`<div class="pk${fin&&q.pick[ti]!==null?(q.pick[ti]===it.a?' ok':' no'):''}" style="--tc:${TCOL[ti]}"><span class="tn">${esc(t.name)}</span>
      ${it.o.map((_,k)=>`<button data-pick="${ti}:${k}" aria-pressed="${q.pick[ti]===k}" style="--oc:${OC[k]}" ${fin?'disabled':''} aria-label="${esc(t.name)} chọn ${LET[k]}">${LET[k]}</button>`).join('')}</div>`).join('')}</div>`);
-  $('#ctrl').innerHTML=`${timerBtns()}${callBtn()}${lop&&it.ask&&!fin?`<button class="btn" id="hint">💡 Gợi ý</button>`:''}${r==='r3'?`<a class="vbtn" style="margin-top:0" href="${ytUrl(CLIP.tq0)}" target="_blank" rel="noopener">📽 Video phân loại phương pháp</a>`:''}<span class="sp"></span>
+  $('#ctrl').innerHTML=`${timerBtns()}${callBtn()}${lop&&it.ask&&!fin?`<button class="btn" id="hint">💡 Gợi ý</button>`:''}<span class="sp"></span>
    <button class="btn" data-nav="-1" ${i===0?'disabled':''}>‹ Câu trước</button>
    <button class="btn gold" id="reveal" ${fin?'disabled':''}>${lop?'Xem đáp án':'Công bố'}</button>
    <button class="btn pri" data-nav="1">${i===B.length-1?'Kết thúc vòng 🏁':'Câu tiếp ›'}</button>${undoBtn()}`;
-  if(r==='r4')requestAnimationFrame(()=>drawPlot(it,fin?1:0));}
+  if(r==='r4')requestAnimationFrame(()=>drawLev(it,fin?1:0));}
 function answer(k){const r=S.view;if(!['r1','r3','r4'].includes(r)||!LOP())return;const it=BK(r)[S[r].i],q=qs(r,S[r].i);if(q.done||q.tried.includes(k)||k>=it.o.length)return;snap();const st=S.st[r];
   if(k===it.a){const first=!q.tried.length,p=first?RD[r].pts:half(r);q.done=true;st.ok++;st.pts+=p;if(first){st.run++;st.best=Math.max(st.best,st.run);}else st.run=0;
     save();tPause();render();renderBoard([0]);const el=$(`[data-ans="${k}"]`);good(el,st.run>=3&&first?`🔥 Chuỗi ${st.run} câu đúng liên tiếp!`:(first?'Trả lời đúng ngay lần đầu':'Sửa sai thành công'),{big:first&&st.run>=3,pts:'+'+p});
@@ -833,23 +977,38 @@ function reveal(){const r=S.view;if(!['r1','r3','r4'].includes(r))return;const i
   if(win.length)good(el,win.map(t=>esc(S.teams[t].name)).join(', ')+` +${RD[r].pts}`,{big:win.length===4,pts:'+'+RD[r].pts});
   else{sBad();pop('bad','Chưa đội nào đúng');flash('bad');}}
 
-/* ---------- đồ thị vòng 4 ---------- */
-function norm(pts){const xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);const x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
-  return pts.map(([x,y])=>[(x-x0)/((x1-x0)||1),(y-y0)/((y1-y0)||1)]);}
-function drawPlot(it,t){const svg=$('#plot');if(!svg)return;
-  const A=norm(it.raw.pts),B=norm(it.raw.pts.map(([x,y])=>it.lin.f(x,y)));
-  const W=600,H=340,L=46,Rr=20,T=18,Bt=34,pw=W-L-Rr,ph=H-T-Bt;
-  const P=A.map((a,k)=>[a[0]*(1-t)+B[k][0]*t,a[1]*(1-t)+B[k][1]*t]).map(([u,v])=>[L+16+u*(pw-32),T+12+(1-v)*(ph-24)]);
-  let s=`<line x1="${L}" y1="${H-Bt}" x2="${W-Rr}" y2="${H-Bt}" stroke="#13213A" stroke-width="2.5"/><line x1="${L}" y1="${H-Bt}" x2="${L}" y2="${T}" stroke="#13213A" stroke-width="2.5"/>
-   <path d="M${W-Rr},${H-Bt} l-10,-5 v10z M${L},${T} l-5,10 h10z" fill="#13213A"/>`;
-  s+=`<polyline points="${P.map(p=>p.join(',')).join(' ')}" fill="none" stroke="${t>=1?'#1E8E4F':'#2E86AB'}" stroke-width="${t>=1?4:3}" stroke-linejoin="round" ${t>=1?'stroke-dasharray="0"':''}/>`;
-  s+=P.map(p=>`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="7" fill="#fff" stroke="#14325C" stroke-width="3"/>`).join('');
+/* ---------- đồ thị Levenspiel vòng 4 ---------- */
+const fmt=(v,d)=>String(+(+v).toFixed(d)).replace('.',',');
+function levG(it,W,H,L,Rr,T,Bt){const A=it.ax,pw=W-L-Rr,ph=H-T-Bt;
+  return {pw,ph,X:x=>L+(x-A.x0)/(A.x1-A.x0)*pw,Y:y=>H-Bt-Math.min(y,A.y1)/A.y1*ph};}
+function crv(it,a,b,X,Y,n=90){const p=[];for(let k=0;k<=n;k++){const x=a+(b-a)*k/n;p.push([X(x),Y(it.f(x))]);}return p;}
+function shp(it,sh,X,Y){if(sh.k==='R'){const y=Y(it.f(sh.h));return `M${X(sh.a)},${Y(0)} V${y} H${X(sh.b)} V${Y(0)} Z`;}
+  const p=crv(it,sh.a,sh.b,X,Y,60);return `M${X(sh.a)},${Y(0)} `+p.map(q=>'L'+q[0].toFixed(1)+','+q[1].toFixed(1)).join(' ')+` L${X(sh.b)},${Y(0)} Z`;}
+const HC={b:['#2E86AB','#2E86AB'],o:['#E07A1F','#E07A1F']};
+function pat(id,c){return `<pattern id="${id}" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="9" height="9" fill="${c}" fill-opacity=".16"/><line x1="0" y1="0" x2="0" y2="9" stroke="${c}" stroke-width="2.4"/></pattern>`;}
+function axes(W,H,L,Rr,T,Bt,sw){return `<line x1="${L}" y1="${H-Bt}" x2="${W-Rr}" y2="${H-Bt}" stroke="#13213A" stroke-width="${sw}"/><line x1="${L}" y1="${H-Bt}" x2="${L}" y2="${T}" stroke="#13213A" stroke-width="${sw}"/>
+   <path d="M${W-Rr},${H-Bt} l-${3*sw},-${2*sw} v${4*sw}z M${L},${T} l-${2*sw},${3*sw} h${4*sw}z" fill="#13213A"/>`;}
+function mini(it,g,k){const W=230,H=130,L=14,Rr=10,T=10,Bt=22,{X,Y}=levG(it,W,H,L,Rr,T,Bt);const id='m'+k;
+  const c=crv(it,it.xmin||0,it.xmax,X,Y);
+  return `<svg class="mini" viewBox="0 0 ${W} ${H}" role="img" aria-label="Phương án ${LET[k]}"><defs>${pat(id,'#2E86AB')}</defs>
+   <path d="${shp(it,g,X,Y)}" fill="url(#${id})" stroke="#2E86AB" stroke-width="2"/>${axes(W,H,L,Rr,T,Bt,1.6)}
+   <polyline points="${c.map(p=>p.join(',')).join(' ')}" fill="none" stroke="#14325C" stroke-width="3"/>
+   ${it.ax.xt.map(x=>`<text x="${X(x)}" y="${H-5}" font-size="12" text-anchor="middle" fill="#3A4A63">${fmt(x,it.ax.xf)}</text>`).join('')}</svg>`;}
+function drawLev(it,t){const svg=$('#plot');if(!svg)return;const W=600,H=340,L=60,Rr=18,T=16,Bt=40,A=it.ax,{X,Y,pw}=levG(it,W,H,L,Rr,T,Bt);
+  let s=`<defs>${pat('pb','#2E86AB')}${pat('po','#E07A1F')}<clipPath id="cpl"><rect x="${L}" y="0" width="${Math.max(0,pw*t).toFixed(1)}" height="${H}"/></clipPath></defs>`;
+  s+=(A.yt||[]).map(y=>`<line x1="${L}" x2="${W-Rr}" y1="${Y(y)}" y2="${Y(y)}" stroke="#DCE3EE" stroke-width="1"/><text x="${L-8}" y="${Y(y)+6}" font-size="17" text-anchor="end" fill="#3A4A63">${fmt(y,0)}</text>`).join('');
+  s+=A.xt.map(x=>`<text x="${X(x)}" y="${H-12}" font-size="17" text-anchor="middle" fill="#3A4A63">${fmt(x,A.xf)}</text>`).join('');
+  if(t>0)s+=`<g clip-path="url(#cpl)">${it.shade.map(sh=>{const c=sh.c||'b';return `<path d="${shp(it,sh,X,Y)}" fill="url(#p${c})" stroke="${HC[c][0]}" stroke-width="${c==='o'?3.5:2.5}" ${c==='o'?'stroke-dasharray="9 6"':''}/>`;}).join('')}</g>`;
+  s+=axes(W,H,L,Rr,T,Bt,2.5);
+  const c=crv(it,it.xmin||0,it.xmax,X,Y,160);
+  s+=`<polyline points="${c.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join(' ')}" fill="none" stroke="#14325C" stroke-width="4" stroke-linejoin="round"/>`;
+  s+=it.pts.map(x=>`<circle cx="${X(x).toFixed(1)}" cy="${Y(it.f(x)).toFixed(1)}" r="6" fill="#fff" stroke="#14325C" stroke-width="3"/>`).join('');
+  if(it.guide!==undefined){const g=it.guide,y=it.f(g);s+=`<path d="M${X(g)},${Y(0)} V${Y(y)} H${L}" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-dasharray="7 5"/><circle cx="${X(g)}" cy="${Y(y)}" r="7" fill="#C0392B"/>`;}
+  if(t>=1&&it.shade.length>1)s+=`<g font-size="18" font-weight="700"><rect x="${W/2-90}" y="${T+4}" width="22" height="16" fill="url(#pb)" stroke="#2E86AB" stroke-width="2"/><text x="${W/2-60}" y="${T+18}" fill="#14325C">PFR</text>
+    <rect x="${W/2+10}" y="${T+4}" width="22" height="16" fill="url(#po)" stroke="#E07A1F" stroke-width="2.5" stroke-dasharray="5 3"/><text x="${W/2+40}" y="${T+18}" fill="#14325C">CSTR</text></g>`;
   svg.innerHTML=s;}
-function animPlot(it){const t0=performance.now(),D=1300;
-  const xl=$('#xlab'),yl=$('#ylab');if(xl&&yl){xl.innerHTML='Trục hoành: '+it.lin.xl;yl.innerHTML='Trục tung: '+it.lin.yl;tset($('.axl'));}
-  const reduce=RM();
-  const step=now=>{let t=reduce?1:Math.max(0,Math.min(1,(now-t0)/D));t=t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;drawPlot(it,t);if(t<1)requestAnimationFrame(step);};requestAnimationFrame(step);}
-
+function animPlot(it){const t0=performance.now(),D=1300,reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const step=now=>{let t=reduce?1:Math.min(1,(now-t0)/D);drawLev(it,t);if(t<1)requestAnimationFrame(step);};requestAnimationFrame(step);}
 
 /* ---------- Vòng 2: lật thẻ, hai phía hai màu ---------- */
 function deck(b){if(!S.r2.decks[b]){const n=R2[b].pairs.length,sh=()=>{const a=Array.from({length:n},(_,i)=>i);for(let i=n-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
@@ -911,17 +1070,22 @@ function vFinal(){const i=Math.min(S.r5.i,R5.length-1),it=R5[i],q=q5(i),lop=LOP(
   if(it.type==='order'){const showOK=busy;
     body=`<p class="hint">${lop?'Gọi sinh viên đọc thứ tự các chữ cái; giáo viên bấm lần lượt theo lời bạn ấy.':'Đội giành quyền đọc thứ tự các chữ cái; giáo viên bấm lần lượt.'} Bấm đủ ${it.steps.length} bước thì trang tự kiểm tra.</p>
      <div class="steps">${(showOK?it.steps.map((_,k)=>k):q.ord).map((sk,pos)=>{const n=q.picks.indexOf(sk),lt=LET[q.ord.indexOf(sk)];
-      return `<button class="step${showOK?' ok':''}${n>=0&&!showOK?' on':''}" data-step="${sk}" ${!active||busy?'disabled':''} style="--oc:${PAL[q.ord.indexOf(sk)%PAL.length]}"><span class="lt">${showOK?(pos+1):lt}</span><span>${it.steps[sk]}</span>${!showOK&&n>=0?`<span class="no">${n+1}</span>`:''}${showOK?`<span class="no gr">${lt}</span>`:''}</button>`;}).join('')}</div>${busy&&VID.r5[i]?`<div class="why"><b class="h">Xem lại cách làm.</b>${vBtns(VID.r5[i])}</div>`:''}`;}
+      return `<button class="step${showOK?' ok':''}${n>=0&&!showOK?' on':''}" data-step="${sk}" ${!active||busy?'disabled':''} style="--oc:${PAL[q.ord.indexOf(sk)%PAL.length]}"><span class="lt">${showOK?(pos+1):lt}</span><span>${it.steps[sk]}</span>${!showOK&&n>=0?`<span class="no">${n+1}</span>`:''}${showOK?`<span class="no gr">${lt}</span>`:''}</button>`;}).join('')}</div>`;}
   else{body=`<p class="hint">${lop?'Gọi sinh viên chỉ ra dòng sai đầu tiên; giáo viên bấm vào dòng đó, sau đó bạn ấy nêu cách sửa.':'Đội giành quyền chỉ ra số thứ tự dòng sai đầu tiên; giáo viên bấm vào dòng đó.'}</p>
      <div class="steps">${it.lines.map((ln,k)=>`<button class="step ln${busy&&k===it.bad?' badl':''}${q.wl.includes(k)?' wl':''}" data-line="${k}" ${!active||busy||q.wl.includes(k)?'disabled':''}><span class="lt">${k+1}</span><span>${ln}</span></button>`).join('')}</div>
-     ${busy?`<div class="why"><b class="h">Sửa dòng ${it.bad+1}:</b> ${it.fix}${vBtns(VID.r5[i])}</div>`:''}`;}
+     ${busy?`<div class="why"><b class="h">Sửa dòng ${it.bad+1}:</b> ${it.fix}</div>`:''}`;}
   const ban=lop?'':q.res==='ok'?`<div class="banner ok">🏆 ${esc(S.teams[q.last].name)} ${q.lastPts>0?'+':''}${q.lastPts} điểm.</div>`
     :q.res==='bad'?`<div class="banner bad">${esc(S.teams[q.last].name)} ${q.lastPts} điểm. Đội khác có thể giành quyền trả lời (+${RD.r5.pts/2|0}).</div>`:'';
-  const rule=lop?`Đúng ngay: +${RD.r5.pts}; đúng sau lượt sai: +${half('r5')}.`:`Đúng: +${RD.r5.pts}; sai: −10. Ngôi sao hy vọng (mỗi đội một lần): đúng ×2, sai −${RD.r5.pts}. Giành quyền sau khi đội khác sai: +${half('r5')}.`;
+  const rule=lop?`Đúng ngay: +${RD.r5.pts}; đúng sau lượt sai: +${half('r5')}.`:`Đúng: +${RD.r5.pts}; sai: −5. Ngôi sao hy vọng (mỗi đội một lần): đúng ×2, sai −${half('r5')}. Giành quyền sau khi đội khác sai: +${half('r5')}.`;
   const done=Object.values(S.r5.q).filter(x=>x.res==='ok'||x.rev).length;
-  const [tk,...tp]=it.title.split(':'),tq=esc((x=>x.charAt(0).toUpperCase()+x.slice(1))(tp.join(':').trim())).replace(/C_([A-Za-z]+o)/g,'<i>C</i><sub>$1</sub>');
-  const q6=`<div class="qcard q6"><span class="q6t">${it.type==='order'?'🔢 '+esc(tk):'🔍 '+esc(tk)}</span><div class="q6q">${tq}<small>${it.type==='order'?`Sắp ${it.steps.length} bước dưới đây theo đúng trình tự giải.`:`Trong ${it.lines.length} dòng lời giải dưới đây, dòng nào sai đầu tiên?`}</small></div></div>`;
-  $('#stage').innerHTML=head('r5',`Câu ${i+1}/${R5.length}`,done,R5.length,rule)+(lop?'':`<div class="buzz"><span class="hint">Ngôi sao:</span>${starRow}</div><div class="buzz"><span class="hint">Đội trả lời:</span>${buzzRow}</div>`)+q6+ban+body;
+  const [tk,...tp]=it.title.split(':'),tq=esc((x=>x.charAt(0).toUpperCase()+x.slice(1))(tp.join(':').trim()))
+    .replace(/C_([A-Za-z]+o)/g,'<i>C</i><sub>$1</sub>').replace(/\bP = const/,'<i>P</i> = const').replace(/ ε /,' <i>ε</i> ');
+  const dv=R5DEV[i],fig=dv&&typeof eqCSTR==='function'?({cstr:eqCSTR,pfr:eqPFR,br:eqBR})[dv]():'';
+  const q6=`<div class="qcard q6"><span class="q6t">${it.type==='order'?'🔢 Sắp thứ tự':'🔍 Tìm dòng sai đầu tiên'}</span>
+    <div class="q6q">${tq}</div>
+    <div class="q6r">👉 ${it.type==='order'?`Sắp <b>${it.steps.length} bước</b> dưới đây theo đúng trình tự.`:`Trong <b>${it.lines.length} dòng</b> lời giải dưới đây, dòng nào <b>sai đầu tiên</b>? Sửa lại thế nào?`}</div>
+    ${fig?`<div class="q6f nolab">${fig}</div>`:''}</div>`;
+  $('#stage').innerHTML=head('r5',`Câu ${i+1}/${R5.length}`,done,R5.length,rule)+q6+(lop?'':`<div class="buzz"><span class="hint">Ngôi sao:</span>${starRow}</div><div class="buzz"><span class="hint">Đội trả lời:</span>${buzzRow}</div>`)+ban+body;
   $('#ctrl').innerHTML=`${timerBtns()}${callBtn()}<span class="sp"></span>
    <button class="btn" data-nav="-1" ${i===0?'disabled':''}>‹ Câu trước</button><button class="btn" id="clr" ${busy||!q.picks.length?'disabled':''}>Xóa thứ tự đang bấm</button>
    <button class="btn gold" id="show5" ${busy?'disabled':''}>Xem đáp án</button>
@@ -930,7 +1094,7 @@ function judge5(ok,sel){const i=S.r5.i,q=q5(i),t=q.buzz,st=S.st.r5;snap();
   if(LOP()){if(ok){const first=!q.fails,p=first?RD.r5.pts:half('r5');q.res='ok';st.ok++;st.pts+=p;if(first){st.run++;st.best=Math.max(st.best,st.run);}else st.run=0;tPause();save();render();renderBoard([0]);good($('.steps'),first?'Đúng ngay lần đầu':'Sửa sai thành công',{big:true,pts:'+'+p});}
     else{q.fails++;st.bad++;st.run=0;q.picks=[];if(sel!==undefined)q.wl.push(sel);save();render();bad(sel!==undefined?$(`[data-line="${sel}"]`):$('.steps'),'Mời bạn khác thử');}return;}
   const first=q.tried.length===0,star=q.star===t&&first;
-  let d=ok?(first?RD.r5.pts:half('r5'))*(star?2:1):(first?(star?-RD.r5.pts:-10):0);
+  let d=ok?(first?RD.r5.pts:half('r5'))*(star?2:1):(first?(star?-half('r5'):-5):0);
   if(star)S.r5.starUsed[t]=true;S.sc.r5[t]+=d;ok?st.ok++:st.bad++;q.last=t;q.lastPts=d;
   if(ok){q.res='ok';tPause();save();render();renderBoard([t]);good($('.steps'),`${esc(S.teams[t].name)} ${d>0?'+':''}${d}`,{big:star,pts:(d>0?'+':'')+d});}
   else{q.res='bad';q.tried.push(t);q.buzz=null;q.picks=[];save();render();renderBoard([t]);bad($('.steps'),`${esc(S.teams[t].name)} ${d}`);}}
@@ -959,13 +1123,12 @@ function vEnd(){const lop=LOP();
   Object.entries(S.r5.q).forEach(([i,q])=>{const w=lop?q.fails:q.tried.length;if(w||(q.rev&&q.res!=='ok'))redo.push({r:'r5',i:+i,w,txt:esc(R5[i].title)});});
   redo.sort((a,b)=>b.w-a.w);
   const rk=S.teams.map((t,i)=>({...t,i,s:tot(i)})).sort((a,b)=>b.s-a.s);
-  $('#stage').innerHTML=`<div class="rhead"><span class="rnum">Kết thúc</span><h1>${lop?'Tổng kết cả lớp':'Bảng vàng Đấu trường Động học'}</h1></div>
+  $('#stage').innerHTML=`<div class="rhead"><span class="rnum">Kết thúc</span><h1>${lop?'Tổng kết cả lớp':'Bảng vàng Đấu trường Thiết kế'}</h1></div>
    ${lop?`<div class="stats"><div class="t-pts"><b>${T.pts}</b><span>tổng điểm của lớp</span></div><div class="t-ok"><b>${T.ok}</b><span>lần đúng</span></div><div class="t-bad"><b>${T.bad}</b><span>lần sai</span></div><div><b>${acc(T)} %</b><span>tỉ lệ đúng</span></div></div>`
     :`<div class="pod">${rk.map((t,k)=>`<div class="col" style="--tc:${TCOL[t.i]};--d:${k*.15}s"><div class="rk">${['🥇','🥈','🥉','🎖️'][k]}</div><div class="nm">${esc(t.name)}</div><div class="bar" style="height:${Math.max(60,Math.round(220*Math.max(t.s,0)/Math.max(1,...rk.map(x=>x.s))))}px">${t.s}</div></div>`).join('')}</div>`}
    <div class="tblw"><table class="tbl"><thead><tr><th>Vòng</th><th>✔ Đúng</th><th>✘ Sai</th><th>Tỉ lệ</th><th>Sao</th>${lop?'<th>Điểm</th>':S.teams.map((t,i)=>`<th style="color:${TCOL[i]}">${esc(t.name)}</th>`).join('')}</tr></thead><tbody>${rows}</tbody>
     <tfoot><tr><td>Tổng</td><td class="okc">${T.ok}</td><td class="bdc">${T.bad}</td><td>${acc(T)} %</td><td></td>${lop?`<td><b>${T.pts}</b></td>`:S.teams.map((_,i)=>`<td><b>${tot(i)}</b></td>`).join('')}</tr></tfoot></table></div>
-   ${redo.length?`<h2 class="sumh">Câu nên giảng lại (nhiều lần sai xếp trước)</h2><div class="sum">${redo.slice(0,8).map(x=>`<button class="srow" data-jump="${x.r}:${x.i}"><span class="sv">Vòng ${RD[x.r].n} · câu ${x.i+1}</span><span class="st">${x.txt}</span><span class="sw">${x.w?`${x.w} lần sai`:'chưa ai đúng'}</span></button>`).join('')}</div>`:''}
-   <p class="vhead">📽 Video ôn tập</p>${vBtns(['tq0','tp0','vp0','bh0'])}`;
+   ${redo.length?`<h2 class="sumh">Câu nên giảng lại (nhiều lần sai xếp trước)</h2><div class="sum">${redo.slice(0,8).map(x=>`<button class="srow" data-jump="${x.r}:${x.i}"><span class="sv">Vòng ${RD[x.r].n} · câu ${x.i+1}</span><span class="st">${x.txt}</span><span class="sw">${x.w?`${x.w} lần sai`:'chưa ai đúng'}</span></button>`).join('')}</div>`:''}`;
   $('#ctrl').innerHTML=`<button class="btn" data-go="home">🏠 Về trang đầu</button><span class="sp"></span><button class="btn" id="resetAsk">Chơi lại tất cả</button>`;}
 
 /* ---------- sự kiện ---------- */
@@ -1024,10 +1187,422 @@ document.addEventListener('keydown',e=>{if(e.target.closest('input'))return;cons
   else if(k==='g'&&LOP()&&!NHA)callSV();
   else if(k==='t')$('#tmb')?.click();});
 
+/* ================= THẺ GHI NHỚ (flashcard có hình động) – chương 3 ================= */
+let FUID=0;
+const FCOL={b:'#2E86AB',o:'#E07A1F',r:'#C0392B',g:'#1E8E4F',p:'#7C3AED'};
+const FINK='#14325C',FLB='#3B8FE0',FLP='#8E44AD';
+const sb=s=>`<tspan baseline-shift="sub" font-size="72%">${s}</tspan>`;
+const iv=s=>`<tspan font-style="italic">${s}</tspan>`;
+const CA=`${iv('C')}${sb('A')}`,CAo=`${iv('C')}${sb('Ao')}`,CAf=`${iv('C')}${sb('Af')}`,XA=`${iv('X')}${sb('A')}`;
+const INVR=`1/(−${iv('r')}${sb('A')})`;
+const stx=(x,y,t,o={})=>`<text x="${x}" y="${y}" font-size="${o.fs||19}" font-weight="${o.fw||700}" text-anchor="${o.a||'middle'}" fill="${o.c||FINK}" paint-order="stroke" stroke="${o.st||'#fff'}" stroke-width="${o.sw??5}">${t}</text>`;
+const draw=(d,c,w,dur,o={})=>`<path d="${d}" fill="none" stroke="${c}" stroke-width="${w}" pathLength="1" stroke-dasharray="${o.dash?'.02 .015':'1 1'}" stroke-dashoffset="1" ${o.extra||''}><animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;.85;1" dur="${dur}s" begin="${o.begin||0}s" repeatCount="${o.rep||'indefinite'}" fill="freeze"/></path>`;
+const pathOf=(f,x0,x1,n=60)=>Array.from({length:n+1},(_,k)=>{const u=k/n;const [x,y]=f(u);return (k?'L':'M')+x.toFixed(1)+','+y.toFixed(1);}).join(' ');
+const motor=(x,y0,y1)=>`<rect x="${x-18}" y="${y0-30}" width="36" height="30" rx="5" fill="#5B6B86" stroke="${FINK}" stroke-width="2"/><line x1="${x}" y1="${y0}" x2="${x}" y2="${y1}" stroke="${FINK}" stroke-width="5"/>
+ <g transform="translate(${x},${y1})"><g><rect x="-34" y="-6" width="68" height="12" rx="3" fill="${FINK}"/><animateTransform attributeName="transform" type="scale" values="1 1;0.12 1;-1 1;0.12 1;1 1" dur=".8s" repeatCount="indefinite"/></g></g>`;
+const swirl=(cx,yb,yt,w,fill,n=10)=>{let s='';for(let k=0;k<n;k++){const sg=k%2?1:-1;
+  const p=`M${cx},${yb} C${cx+sg*w},${yb} ${cx+sg*w},${yt} ${cx+sg*w*.4},${yt} C${cx},${yt} ${cx},${(yb+yt)/2} ${cx},${yb}`;
+  s+=`<circle r="4" fill="${fill}" opacity=".85"><animateMotion dur="2.6s" begin="-${(k*.5).toFixed(1)}s" repeatCount="indefinite" path="${p}"/></circle>`;}return s;};
+
+/* ---- mô hình thiết bị ---- */
+function eqBR(){const plot=pathOf(u=>[304+u*190,270-150*Math.exp(-3*u)],0,1);
+ return `<svg class="fsv" viewBox="0 0 520 330" role="img" aria-label="Bình khuấy gián đoạn">
+ <rect x="58" y="74" width="184" height="12" rx="3" fill="#9AA7BC" stroke="${FINK}" stroke-width="2"/>
+ <path d="M70,86 V240 Q70,292 150,292 Q230,292 230,240 V86" fill="#fff" stroke="${FINK}" stroke-width="4"/>
+ <path d="M74,112 V240 Q74,288 150,288 Q226,288 226,240 V112 Z" fill="${FLB}"><animate attributeName="fill" values="${FLB};${FLP};${FLP}" keyTimes="0;.85;1" dur="6s" repeatCount="indefinite"/></path>
+ ${swirl(150,248,130,70,'#fff')}${motor(150,64,250)}
+ <g class="lb">${stx(150,24,'Nạp một lần → phản ứng → tháo ra',{fs:18})}
+  <line x1="300" y1="275" x2="505" y2="275" stroke="${FINK}" stroke-width="2.5"/><line x1="300" y1="275" x2="300" y2="90" stroke="${FINK}" stroke-width="2.5"/>
+  ${stx(312,118,CA,{a:'start'})}${stx(500,300,iv('t'),{a:'end'})}
+  ${draw(plot,FLP,4,6)}
+  <circle r="7" fill="${FLP}" stroke="#fff" stroke-width="2"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.85;1" calcMode="linear" path="${plot}"/></circle>
+  ${stx(400,62,'Đồng nhất trong bình,',{fs:17})}${stx(400,84,`${CA} giảm theo thời gian`,{fs:17})}</g></svg>`;}
+function eqCSTR(){let dots='';
+ for(let k=0;k<5;k++)dots+=`<circle r="6" fill="${FLB}" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.4s" begin="-${(k*.48).toFixed(2)}s" repeatCount="indefinite" path="M20,62 H205 V130"/><animate attributeName="fill" values="${FLB};${FLB};#7E64D0" keyTimes="0;.8;1" dur="2.4s" begin="-${(k*.48).toFixed(2)}s" repeatCount="indefinite"/></circle>`;
+ for(let k=0;k<5;k++)dots+=`<circle r="6" fill="#7E64D0" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.4s" begin="-${(k*.48).toFixed(2)}s" repeatCount="indefinite" path="M330,258 H505"/></circle>`;
+ return `<svg class="fsv" viewBox="0 0 520 330" role="img" aria-label="Bình khuấy liên tục">
+ <path d="M14,62 H205 V118" fill="none" stroke="#C9D3E2" stroke-width="18" stroke-linejoin="round"/>
+ <path d="M330,258 H512" fill="none" stroke="#C9D3E2" stroke-width="18"/>
+ <rect x="138" y="88" width="204" height="12" rx="3" fill="#9AA7BC" stroke="${FINK}" stroke-width="2"/>
+ <path d="M150,100 V245 Q150,295 240,295 Q330,295 330,245 V100" fill="#fff" stroke="${FINK}" stroke-width="4"/>
+ <path d="M154,124 V245 Q154,291 240,291 Q326,291 326,245 V124 Z" fill="#7E64D0"/>
+ ${swirl(240,252,140,78,'#fff')}${motor(240,88,254)}${dots}
+ <path d="M500,258 l-12,-8 v16z" fill="${FINK}"/>
+ <g class="lb">${stx(60,44,`Vào: ${CAo}`,{c:'#1D5FA8',a:'start'})}${stx(510,236,`Ra: ${CAf}`,{c:'#5B3FB5',a:'end'})}
+  ${stx(240,196,`${CA} = ${CAf}`,{fs:24,c:'#fff',st:'#5B3FB5',sw:4})}${stx(240,232,'ở mọi điểm',{fs:17,c:'#fff',st:'#5B3FB5',sw:4})}
+  ${stx(425,128,'Dòng vào – ra',{fs:17})}${stx(425,150,'liên tục, ổn định',{fs:17})}</g></svg>`;}
+function eqPFR(){let sl='';const NS=6,D=6,ys=[121,132,145,158,169];
+ for(let k=0;k<NS;k++){const b=-(k*D/NS).toFixed(2);let m='';
+  ys.forEach((y,j)=>{const ph=((j*.37+k*.21)%1*.5).toFixed(2);
+   m+=`<circle cx="6" cy="${y}" r="4.6" fill="#fff" stroke="${FINK}" stroke-width="1.2"><animate attributeName="cy" values="${y-3};${y+3};${y-3}" dur=".5s" begin="-${ph}s" repeatCount="indefinite"/></circle>`;});
+  sl+=`<g><animateTransform attributeName="transform" type="translate" values="46,0;458,0" dur="${D}s" begin="${b}s" repeatCount="indefinite"/>
+   <rect x="0" y="112" width="12" height="66" rx="2" fill="${FLB}" stroke="#fff" stroke-width="1.5"><animate attributeName="fill" values="${FLB};${FLP}" dur="${D}s" begin="${b}s" repeatCount="indefinite"/></rect>${m}</g>`;}
+ const pl=pathOf(u=>[50+u*430,222+60*(1-Math.exp(-2.2*u))/(1-Math.exp(-2.2))],0,1);
+ return `<svg class="fsv" viewBox="0 0 520 330" role="img" aria-label="Thiết bị dạng ống">
+ <defs><linearGradient id="pg${++FUID}" x1="0" x2="1"><stop offset="0" stop-color="${FLB}" stop-opacity=".55"/><stop offset="1" stop-color="${FLP}" stop-opacity=".55"/></linearGradient></defs>
+ <rect x="40" y="108" width="440" height="74" rx="14" fill="url(#pg${FUID})" stroke="${FINK}" stroke-width="4"/>${sl}
+ <line x1="4" y1="145" x2="34" y2="145" stroke="${FINK}" stroke-width="3"/><path d="M38,145 l-12,-7 v14z" fill="${FINK}"/>
+ <line x1="484" y1="145" x2="510" y2="145" stroke="${FINK}" stroke-width="3"/><path d="M516,145 l-12,-7 v14z" fill="${FINK}"/>
+ <g class="lb">${stx(260,40,'Mỗi lát chất lỏng ≈ một bình gián đoạn nhỏ',{fs:18})}${stx(260,64,`trôi dọc ống: thời gian lưu ${iv('τ')} đóng vai trò ${iv('t')}`,{fs:17})}
+  ${stx(56,100,CAo,{c:'#1D5FA8',a:'start'})}${stx(470,100,CAf,{c:'#5B3FB5',a:'end'})}
+  <line x1="48" y1="312" x2="490" y2="312" stroke="${FINK}" stroke-width="2"/><line x1="48" y1="312" x2="48" y2="205" stroke="${FINK}" stroke-width="2"/>
+  ${stx(56,215,CA,{a:'start',fs:17})}${stx(490,306,'chiều dài ống →',{a:'end',fs:16})}
+  ${draw(pl,FLP,4,5)}</g></svg>`;}
+function eqProf(){const y0=70,y1=240,x0=72,x1=490;
+ const pf=pathOf(u=>[x0+u*(x1-x0),y1-(y1-y0)*(Math.exp(-3*u)-Math.exp(-3))/(1-Math.exp(-3))],0,1);
+ return `<svg class="fsv" viewBox="0 0 520 330" role="img" aria-label="Nồng độ theo vị trí trong CSTR và PFR">
+ <line x1="${x0}" y1="285" x2="505" y2="285" stroke="${FINK}" stroke-width="2.5"/><line x1="${x0}" y1="285" x2="${x0}" y2="30" stroke="${FINK}" stroke-width="2.5"/>
+ <line x1="${x0}" y1="${y0}" x2="500" y2="${y0}" stroke="#DCE3EE" stroke-dasharray="5 5"/><line x1="${x0}" y1="${y1}" x2="500" y2="${y1}" stroke="#DCE3EE" stroke-dasharray="5 5"/>
+ ${stx(x0-8,y0+6,CAo,{a:'end',c:'#1D5FA8'})}${stx(x0-8,y1+6,CAf,{a:'end',c:'#5B3FB5'})}${stx(x0+8,40,CA,{a:'start'})}
+ ${stx(500,312,'vị trí: cửa vào → cửa ra',{a:'end',fs:17})}
+ <g class="lb"><path d="${pf} L${x1},${y1} L${x0},${y1} Z" fill="#2E86AB" fill-opacity=".14"/>
+  ${draw(pf,FCOL.b,5,5)}${draw(`M${x0+2},${y0} V${y1} H${x1}`,FCOL.o,5,5,{extra:'stroke-linecap="round"'})}
+  ${stx(200,118,'PFR: giảm dần',{c:FCOL.b})}${stx(300,268,'CSTR: hạ ngay xuống '+CAf+' rồi giữ nguyên',{c:FCOL.o,fs:18})}
+  ${stx(90,226,'vùng xanh: PFR làm việc ở nồng độ cao hơn',{fs:15,c:'#1D5FA8',a:'start'})}</g></svg>`;}
+
+/* ---- đồ thị Levenspiel có tô diện tích động ---- */
+function lev(o,anim){const id='L'+(++FUID),W=520,H=330,L=64,Rr=18,T=22,Bt=46;
+ const ax={x0:0,x1:o.x1,y1:o.y1,xt:o.xt,xf:o.xf??1};
+ const cv=o.curves.map(c=>({ax,f:c.f,xmin:c.xmin||0,xmax:c.xmax??o.x1,col:c.c,lab:c.lab}));
+ const {X,Y,pw}=levG(cv[0],W,H,L,Rr,T,Bt),sh=anim?(o.sh||[]):[];
+ let s=`<svg class="fsv" viewBox="0 0 ${W} ${H}" role="img" aria-label="Đồ thị Levenspiel"><defs>`+Object.entries(FCOL).map(([k,c])=>pat(id+k,c)).join('');
+ sh.forEach((q,j)=>{s+=`<clipPath id="${id}c${j}"><rect x="${L}" y="0" width="0" height="${H}"><animate attributeName="width" from="0" to="${pw}" dur="1.4s" begin="${(0.4+j*1.7).toFixed(1)}s" fill="freeze"/></rect></clipPath>`;});
+ s+='</defs>';
+ s+=(o.yt||[]).map(y=>`<line x1="${L}" x2="${W-Rr}" y1="${Y(y)}" y2="${Y(y)}" stroke="#E3E8F0"/>${stx(L-8,Y(y)+6,fmt(y,o.yf||0),{a:'end',fs:16,fw:600,sw:0})}`).join('');
+ s+=o.xt.map(x=>stx(X(x),H-16,fmt(x,ax.xf),{fs:16,fw:600,sw:0})).join('');
+ let labs='';sh.forEach((q,j)=>{const it=cv[q.ci||0],c=FCOL[q.c||'b'],a=q.a,b=q.b;
+   const ly=q.k==='R'?(Y(0)+Y(it.f(q.h)))/2:(Y(0)+Y(it.f((a+b)/2)))/2;
+   s+=`<g clip-path="url(#${id}c${j})"><path d="${shp(it,q,X,Y)}" fill="url(#${id}${q.c||'b'})" stroke="${c}" stroke-width="${q.dash?3.5:2.5}" ${q.dash?'stroke-dasharray="9 6"':''}/></g>`;
+   if(q.lab)labs+=`<g opacity="0">${stx(q.lx!==undefined?X(q.lx):X((a+b)/2)+(q.dx||0),q.ly!==undefined?Y(q.ly):ly+(q.dy||0),q.lab,{c,fs:19})}<animate attributeName="opacity" from="0" to="1" dur=".4s" begin="${(1.6+j*1.7).toFixed(1)}s" fill="freeze"/></g>`;});
+ s+=axes(W,H,L,Rr,T,Bt,2.5);
+ cv.forEach(it=>{const p=crv(it,it.xmin,it.xmax,X,Y,160);s+=`<polyline points="${p.map(q=>q[0].toFixed(1)+','+q[1].toFixed(1)).join(' ')}" fill="none" stroke="${it.col?FCOL[it.col]:FINK}" stroke-width="4" stroke-linejoin="round"/>`;
+   if(it.lab){const e=p[p.length-1];s+=stx(e[0]-6,Math.max(T+14,e[1]+(it.ldy||0)),it.lab,{a:'end',fs:16,c:it.col?FCOL[it.col]:FINK});}});
+ (o.pts||[]).forEach(x=>{s+=`<circle cx="${X(x).toFixed(1)}" cy="${Y(cv[0].f(x)).toFixed(1)}" r="6" fill="#fff" stroke="${FINK}" stroke-width="3"/>`;});
+ (o.guide||[]).forEach(g=>{const y=cv[0].f(g);s+=`<path d="M${X(g)},${Y(0)} V${Y(y)} H${L}" fill="none" stroke="#C0392B" stroke-width="2.2" stroke-dasharray="7 5"/>`;});
+ s+=labs+stx(o.ylx||L+8,T+10,o.yl,{a:'start',fs:18})+stx(W-Rr,H-Bt-10+(o.xly||0),o.xl,{a:'end',fs:18});
+ (anim&&o.leg||[]).forEach(([c,t],k)=>{s+=`<rect x="${L+40}" y="${T+36+k*28}" width="26" height="16" fill="url(#${id}${c})" stroke="${FCOL[c]}" stroke-width="2.5"/>`+stx(L+74,T+50+k*28,t,{a:'start',fs:18,c:FCOL[c]});});
+ return s+'</svg>';}
+const LV1={x1:1,y1:10.5,xt:[0,.2,.4,.6,.8,1],yt:[0,2,4,6,8,10],xl:XA,yl:INVR,curves:[{f:fX1,xmax:.905}],pts:[0,.2,.4,.6,.8]};
+
+/* ================= THẺ GHI NHỚ (flashcard có hình động) – khung dùng chung ================= */
+/* Gói trong một khối riêng để không trùng tên với hàm vẽ của các vòng chơi. Thêm thẻ: thêm một mục vào mảng FC. */
+const FCX=(()=>{
+let FUID=0;
+const FCOL={b:'#2E86AB',o:'#E07A1F',r:'#C0392B',g:'#1E8E4F',p:'#7C3AED',y:'#D49B00'};
+const FINK='#14325C',FLB='#3B8FE0',FLP='#8E44AD';
+const sb=s=>`<tspan baseline-shift="sub" font-size="72%">${s}</tspan>`;
+const sp=s=>`<tspan baseline-shift="super" font-size="72%">${s}</tspan>`;
+const iv=s=>`<tspan font-style="italic">${s}</tspan>`;
+const CA=`${iv('C')}${sb('A')}`,CAo=`${iv('C')}${sb('Ao')}`,XA=`${iv('X')}${sb('A')}`,TAU=iv('τ'),VO=`${iv('υ')}${sb('o')}`;
+const RA=`(−${iv('r')}${sb('A')})`,INVR=`1/${RA}`;
+const stx=(x,y,t,o={})=>`<text x="${x}" y="${y}" font-size="${o.fs||19}" font-weight="${o.fw||700}" text-anchor="${o.a||'middle'}" fill="${o.c||FINK}" paint-order="stroke" stroke="${o.st||'#fff'}" stroke-width="${o.sw??5}">${t}</text>`;
+const draw=(d,c,w,dur,o={})=>`<path d="${d}" fill="${o.fill||'none'}" stroke="${c}" stroke-width="${w}" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" ${o.extra||''}><animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;.85;1" dur="${dur}s" begin="${o.begin||0}s" repeatCount="${o.rep||'indefinite'}" fill="freeze"/></path>`;
+const draw1=(d,c,w,dur,begin,extra='')=>`<path d="${d}" fill="none" stroke="${c}" stroke-width="${w}" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1" stroke-linecap="round" ${extra}><animate attributeName="stroke-dashoffset" from="1" to="0" dur="${dur}s" begin="${begin}s" fill="freeze"/></path>`;
+const fadeIn=(s,b,d=.5)=>`<g opacity="0">${s}<animate attributeName="opacity" from="0" to="1" dur="${d}s" begin="${b}s" fill="freeze"/></g>`;
+const fadeOut=(s,b,d=.5)=>`<g>${s}<animate attributeName="opacity" from="1" to="0" dur="${d}s" begin="${b}s" fill="freeze"/></g>`;
+const stamp=(x,y,t,c,b)=>`<g opacity="0" transform="translate(${x},${y})"><g><rect x="-62" y="-20" width="124" height="38" rx="10" fill="#fff" stroke="${c}" stroke-width="3.5"/>${stx(0,8,t,{fs:20,fw:900,c,sw:0})}
+  <animateTransform attributeName="transform" type="scale" values="2.2;.9;1" keyTimes="0;.7;1" dur=".45s" begin="${b}s" fill="freeze"/></g><animate attributeName="opacity" from="0" to="1" dur=".2s" begin="${b}s" fill="freeze"/></g>`;
+const mix=(a,b,t)=>'#'+[1,3,5].map(i=>Math.round(parseInt(a.substr(i,2),16)*(1-t)+parseInt(b.substr(i,2),16)*t).toString(16).padStart(2,'0')).join('');
+const liq=X=>mix(FLB,FLP,Math.min(1,X));
+const arr=(x1,y1,x2,y2,c=FINK,w=3)=>{const a=Math.atan2(y2-y1,x2-x1),h=11;
+  return `<line x1="${x1}" y1="${y1}" x2="${x2-Math.cos(a)*h*.8}" y2="${y2-Math.sin(a)*h*.8}" stroke="${c}" stroke-width="${w}"/><path d="M${x2},${y2} l${(-h*Math.cos(a)+h*.55*Math.sin(a)).toFixed(1)},${(-h*Math.sin(a)-h*.55*Math.cos(a)).toFixed(1)} l${(-h*1.1*Math.sin(a)).toFixed(1)},${(h*1.1*Math.cos(a)).toFixed(1)}z" fill="${c}"/>`;};
+const flow=(p,c,n,dur,r=5)=>{let s='';for(let k=0;k<n;k++)s+=`<circle r="${r}" fill="${c}" stroke="#fff" stroke-width="1.5"><animateMotion dur="${dur}s" begin="-${(k*dur/n).toFixed(2)}s" repeatCount="indefinite" path="${p}"/></circle>`;return s;};
+const fmt=(v,d)=>String(+(+v).toFixed(d)).replace('.',',');
+const poly=(pts)=>pts.map((q,k)=>(k?'L':'M')+q[0].toFixed(1)+','+q[1].toFixed(1)).join(' ');
+function fax(W,H,L,Rr,T,Bt,sw){return `<line x1="${L}" y1="${H-Bt}" x2="${W-Rr}" y2="${H-Bt}" stroke="#13213A" stroke-width="${sw}"/><line x1="${L}" y1="${H-Bt}" x2="${L}" y2="${T}" stroke="#13213A" stroke-width="${sw}"/>
+   <path d="M${W-Rr},${H-Bt} l-${3*sw},-${2*sw} v${4*sw}z M${L},${T} l-${2*sw},${3*sw} h${4*sw}z" fill="#13213A"/>`;}
+/* bình khuấy nhỏ: x trái, y miệng, rộng w, cao h, màu chất lỏng c */
+function tank(x,y,w,h,c,lab){const cx=x+w/2,b=y+h;let sw='';
+  for(let k=0;k<6;k++){const sg=k%2?1:-1,p=`M${cx},${b-12} C${cx+sg*w*.38},${b-12} ${cx+sg*w*.38},${y+20} ${cx+sg*w*.15},${y+20} C${cx},${y+20} ${cx},${(b+y)/2} ${cx},${b-12}`;
+    sw+=`<circle r="3.2" fill="#fff" opacity=".85"><animateMotion dur="2.2s" begin="-${(k*.37).toFixed(2)}s" repeatCount="indefinite" path="${p}"/></circle>`;}
+  return `<path d="M${x},${y} V${b-14} Q${x},${b} ${x+14},${b} H${x+w-14} Q${x+w},${b} ${x+w},${b-14} V${y}" fill="#fff" stroke="${FINK}" stroke-width="3"/>
+   <path d="M${x+3},${y+12} V${b-14} Q${x+3},${b-3} ${x+14},${b-3} H${x+w-14} Q${x+w-3},${b-3} ${x+w-3},${b-14} V${y+12} Z" fill="${c}"/>${sw}
+   <line x1="${cx}" y1="${y-12}" x2="${cx}" y2="${b-14}" stroke="${FINK}" stroke-width="3.5"/><rect x="${cx-9}" y="${y-22}" width="18" height="12" rx="3" fill="#5B6B86" stroke="${FINK}" stroke-width="1.5"/>
+   <g transform="translate(${cx},${b-14})"><g><rect x="-${w*.3}" y="-4" width="${w*.6}" height="8" rx="3" fill="${FINK}"/><animateTransform attributeName="transform" type="scale" values="1 1;0.12 1;-1 1;0.12 1;1 1" dur=".8s" repeatCount="indefinite"/></g></g>
+   ${lab?stx(cx,b+22,lab,{fs:16}):''}`;}
+/* ống dòng đẩy (như mô hình PFR chương 3): các lát mỏng trôi dọc ống, mỗi lát có các phân tử xếp thẳng hàng, chỉ dao động lên – xuống; màu lát đổi từ X0 đến X1 */
+function tube(x,y,w,h,X0,X1,D,tag=''){const id='tb'+(++FUID);let sl='';const NS=6,ih=h-8,n=Math.max(1,Math.min(5,Math.floor(ih/12))),r=Math.min(4.6,ih/(2*n+1));
+  for(let k=0;k<NS;k++){const b=-(k*D/NS).toFixed(2);let m='';
+    for(let j=0;j<n;j++){const cy=y+4+ih*(j+.5)/n,ph=((j*.37+k*.21)%1*.5).toFixed(2);
+      m+=`<circle cx="6" cy="${cy.toFixed(1)}" r="${r.toFixed(1)}" fill="#fff" stroke="${FINK}" stroke-width="1.1"><animate attributeName="cy" values="${(cy-2.5).toFixed(1)};${(cy+2.5).toFixed(1)};${(cy-2.5).toFixed(1)}" dur=".5s" begin="-${ph}s" repeatCount="indefinite"/></circle>`;}
+    sl+=`<g><animateTransform attributeName="transform" type="translate" values="${x+6},0;${x+w-18},0" dur="${D}s" begin="${b}s" repeatCount="indefinite"/>
+     <rect x="0" y="${y+4}" width="12" height="${ih}" rx="2" fill="${liq(X0)}" stroke="#fff" stroke-width="1.5"><animate attributeName="fill" values="${liq(X0)};${liq(X1)}" dur="${D}s" begin="${b}s" repeatCount="indefinite"/></rect>${m}</g>`;}
+  return `<defs><linearGradient id="${id}" x1="0" x2="1"><stop offset="0" stop-color="${liq(X0)}" stop-opacity=".5"/><stop offset="1" stop-color="${liq(X1)}" stop-opacity=".5"/></linearGradient></defs>
+   <rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${Math.min(12,h/3)}" fill="url(#${id})" stroke="${FINK}" stroke-width="3"/>${sl}${tag}`;}
+
+/* ---- đồ thị Levenspiel có tô diện tích động ---- */
+function levG(A,W,H,L,Rr,T,Bt){const pw=W-L-Rr,ph=H-T-Bt;
+  return {pw,ph,X:x=>L+(x-A.x0)/(A.x1-A.x0)*pw,Y:y=>H-Bt-Math.min(y,A.y1)/A.y1*ph};}
+const crv=(f,a,b,X,Y,n=90)=>Array.from({length:n+1},(_,k)=>{const x=a+(b-a)*k/n;return [X(x),Y(f(x))];});
+function shp(f,sh,X,Y){if(sh.k==='R')return `M${X(sh.a)},${Y(0)} V${Y(f(sh.h))} H${X(sh.b)} V${Y(0)} Z`;
+  return `M${X(sh.a)},${Y(0)} `+crv(f,sh.a,sh.b,X,Y,60).map(q=>'L'+q[0].toFixed(1)+','+q[1].toFixed(1)).join(' ')+` L${X(sh.b)},${Y(0)} Z`;}
+const fpat=(id,c,ang=45)=>`<pattern id="${id}" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(${ang})"><rect width="9" height="9" fill="${c}" fill-opacity=".16"/><line x1="0" y1="0" x2="0" y2="9" stroke="${c}" stroke-width="2.4"/></pattern>`;
+const ANG={b:45,o:-45,r:-45,g:0,p:90,y:45};
+const PLOT={W:520,H:330,L:64,Rr:18,T:22,Bt:46};
+function frame(o){const {W,H,L,Rr,T,Bt}=PLOT,A={x0:0,x1:o.x1||1,y1:o.y1},{X,Y,pw}=levG(A,W,H,L,Rr,T,Bt),id='L'+(++FUID);
+  let s=(o.yt||[]).map(y=>`<line x1="${L}" x2="${W-Rr}" y1="${Y(y)}" y2="${Y(y)}" stroke="#E3E8F0"/>${stx(L-8,Y(y)+6,fmt(y,o.yf||0),{a:'end',fs:16,fw:600,sw:0})}`).join('');
+  s+=(o.xt||[0,.2,.4,.6,.8,1]).map(x=>stx(X(x),H-16,fmt(x,o.xf??1),{fs:16,fw:600,sw:0})).join('');
+  return {X,Y,pw,id,s,L,W,H,T,Bt,Rr};}
+function lev(o,anim){const F=frame(o),{X,Y,pw,id,L,W,H,T,Bt,Rr}=F,cv=o.curves,sh=anim?(o.sh||[]):[],st=o.step||1.7;
+  let s=`<svg class="fsv" viewBox="0 0 ${W} ${H}" role="img" aria-label="Đồ thị Levenspiel"><defs>`+Object.entries(FCOL).map(([k,c])=>fpat(id+k,c,ANG[k])).join('');
+  sh.forEach((q,j)=>{s+=`<clipPath id="${id}c${j}"><rect x="${L}" y="0" width="0" height="${H}"><animate attributeName="width" from="0" to="${pw}" dur="1.3s" begin="${(0.4+j*st).toFixed(1)}s" fill="freeze"/></rect></clipPath>`;});
+  s+='</defs>'+F.s;
+  let labs='';sh.forEach((q,j)=>{const f=cv[q.ci||0].f,c=FCOL[q.c||'b'];
+    s+=`<g clip-path="url(#${id}c${j})"><path d="${shp(f,q,X,Y)}" fill="url(#${id}${q.c||'b'})" stroke="${c}" stroke-width="${q.dash?3.5:2.5}" ${q.dash?'stroke-dasharray="9 6"':''}/></g>`;
+    if(q.lab)labs+=fadeIn(stx(X(q.lx),Y(q.ly),q.lab,{c,fs:q.fs||18}),(1.5+j*st).toFixed(1),.4);});
+  s+=fax(W,H,L,Rr,T,Bt,2.5);
+  cv.forEach(it=>{const p=crv(it.f,it.xmin||0,it.xmax,X,Y,160),col=it.c?FCOL[it.c]:FINK;
+    s+=`<polyline points="${p.map(q=>q[0].toFixed(1)+','+q[1].toFixed(1)).join(' ')}" fill="none" stroke="${col}" stroke-width="4" stroke-linejoin="round"/>`;
+    if(it.lab){const e=p[p.length-1];s+=stx(e[0]-8,Math.max(T+16,e[1]+(it.ldy||0)),it.lab,{a:'end',fs:17,c:col});}});
+  (o.pts||[]).forEach(x=>{s+=`<circle cx="${X(x).toFixed(1)}" cy="${Y(cv[0].f(x)).toFixed(1)}" r="6" fill="#fff" stroke="${FINK}" stroke-width="3"/>`;});
+  (anim&&o.guide||[]).forEach(g=>{s+=`<path d="M${X(g)},${Y(0)} V${Y(cv[0].f(g))} H${L}" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-dasharray="7 5"/>`;});
+  s+=labs+stx(o.ylx||L+8,T+10,o.yl||INVR,{a:'start',fs:18})+stx(W-Rr,H-Bt-10,o.xl||XA,{a:'end',fs:18});
+  (anim&&o.leg||[]).forEach(([c,t],k)=>{const y=T+30+k*27,x=o.legx||L+40;
+    s+=fadeIn(`<rect x="${x}" y="${y}" width="26" height="16" fill="url(#${id}${c})" stroke="${FCOL[c]}" stroke-width="2.5"/>${stx(x+34,y+14,t,{a:'start',fs:17,c:FCOL[c]})}`,(1.5+k*st).toFixed(1),.4);});
+  return s+'</svg>';}
+
+/* ---- đồ thị “biến hình”: số liệu thô → dạng tuyến tính, vẽ đường thẳng, tam giác hệ số góc ----
+   o = {raw:{xl,yl,pts,curves:[{f,x0,x1,c,lab}],hline:{y,lab}}, lin:{xl,yl,f:(x,y)=>[X,Y],ext:[x0,x1],zero:true},
+        slope:'nhãn hệ số góc', icpt:'nhãn tung độ gốc', xint:'nhãn hoành độ gốc', stamp:'THẲNG ✔'} */
+const BOX={x0:70,x1:500,y0:30,y1:280};
+function scl(pts,ext,zx,zy,box=BOX,pad=.06){let xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);
+  if(ext)xs=xs.concat(ext.x||[]),ys=ys.concat(ext.y||[]);if(zx)xs.push(0);if(zy)ys.push(0);
+  let a=Math.min(...xs),b=Math.max(...xs),c=Math.min(...ys),d=Math.max(...ys);const dx=(b-a)||1,dy=(d-c)||1;a-=dx*pad;b+=dx*pad;c-=dy*pad;d+=dy*pad;
+  return {X:x=>box.x0+(x-a)/(b-a)*(box.x1-box.x0),Y:y=>box.y1-(y-c)/(d-c)*(box.y1-box.y0),a,b,c,d};}
+function axesAt(S,box,sw=2.5){const ax=(S.c<0&&S.d>0)?S.Y(0):box.y1,ay=(S.a<0&&S.b>0)?S.X(0):box.x0;
+  return `<line x1="${box.x0-6}" y1="${ax}" x2="${box.x1+12}" y2="${ax}" stroke="#13213A" stroke-width="${sw}"/><path d="M${box.x1+14},${ax} l-10,-6 v12z" fill="#13213A"/>
+   <line x1="${ay}" y1="${box.y1+6}" x2="${ay}" y2="${box.y0-12}" stroke="#13213A" stroke-width="${sw}"/><path d="M${ay},${box.y0-14} l-6,10 h12z" fill="#13213A"/>`;}
+function fit(P){const n=P.length,mx=P.reduce((a,p)=>a+p[0],0)/n,my=P.reduce((a,p)=>a+p[1],0)/n;
+  const m=P.reduce((a,p)=>a+(p[0]-mx)*(p[1]-my),0)/P.reduce((a,p)=>a+(p[0]-mx)**2,0);return {m,b:my-m*mx};}
+function morph(o,anim,box=BOX){const R=o.raw,Lc=o.lin,W=520,H=330;
+  const P=R.pts,Q=P.map(p=>Lc.f(p[0],p[1])),F=fit(Q);
+  const ex=Lc.ext||[Math.min(...Q.map(q=>q[0])),Math.max(...Q.map(q=>q[0]))];
+  const Sr=scl(P,R.hline?{y:[R.hline.y]}:null,true,R.zy!==false,box),Sl=scl(Q,{x:ex,y:ex.map(x=>F.m*x+F.b)},Lc.zx,Lc.zy,box);
+  let s=`<svg class="fsv" viewBox="0 0 ${W} ${H}" role="img" aria-label="Biến số liệu thành đường thẳng">`;
+  const rawAx=axesAt(Sr,box)+stx(box.x0+6,box.y0-14,R.yl,{a:'start',fs:18})+stx(box.x1+12,box.y1-10,R.xl,{a:'end',fs:18});
+  let rc=(R.curves||[]).map(c=>{const pts=Array.from({length:81},(_,k)=>{const x=c.x0+(c.x1-c.x0)*k/80;return [Sr.X(x),Sr.Y(c.f(x))];});
+    return `<path d="${poly(pts)}" fill="none" stroke="${c.c||'#94A3B8'}" stroke-width="3.5" ${c.dash?'stroke-dasharray="8 6"':''}/>`+(c.lab?stx(pts[c.lp??80][0]+(c.dx||-6),pts[c.lp??80][1]+(c.dy||-10),c.lab,{a:c.a||'end',fs:17,c:c.c||'#64748B'}):'');}).join('');
+  if(R.hline)rc+=`<line x1="${box.x0}" x2="${box.x1}" y1="${Sr.Y(R.hline.y)}" y2="${Sr.Y(R.hline.y)}" stroke="#94A3B8" stroke-width="2" stroke-dasharray="7 6"/>`+stx(box.x1,Sr.Y(R.hline.y)-8,R.hline.lab,{a:'end',fs:16,c:'#64748B'});
+  if(!anim){if(o.over)rc+=o.over;s+=rawAx+rc+P.map(p=>`<circle cx="${Sr.X(p[0]).toFixed(1)}" cy="${Sr.Y(p[1]).toFixed(1)}" r="6.5" fill="#fff" stroke="${FCOL.b}" stroke-width="3"/>`).join('');return s+'</svg>';}
+  const linAx=axesAt(Sl,box)+stx(box.x0+6,box.y0-14,Lc.yl,{a:'start',fs:18,c:FCOL.p})+stx(box.x1+12,(Sl.c<0&&Sl.d>0?Sl.Y(0):box.y1)+28,Lc.xl,{a:'end',fs:18,c:FCOL.p});
+  s+=fadeOut(rawAx+rc,.7,.5)+fadeIn(linAx,1.6,.6);
+  const t0=.9,t1=2.2;
+  s+=P.map((p,k)=>{const q=Q[k],x0=Sr.X(p[0]).toFixed(1),y0=Sr.Y(p[1]).toFixed(1),x1=Sl.X(q[0]).toFixed(1),y1=Sl.Y(q[1]).toFixed(1);
+    return `<circle cx="${x0}" cy="${y0}" r="0" fill="#fff" stroke="${FCOL.b}" stroke-width="3"><animate attributeName="r" from="0" to="6.5" dur=".25s" begin="${(k*.06).toFixed(2)}s" fill="freeze"/>
+     <animate attributeName="cx" from="${x0}" to="${x1}" dur="${t1-t0}s" begin="${t0}s" fill="freeze" calcMode="spline" keySplines=".5 0 .3 1" keyTimes="0;1"/>
+     <animate attributeName="cy" from="${y0}" to="${y1}" dur="${t1-t0}s" begin="${t0}s" fill="freeze" calcMode="spline" keySplines=".5 0 .3 1" keyTimes="0;1"/>
+     <animate attributeName="stroke" from="${FCOL.b}" to="${FCOL.p}" dur=".4s" begin="${t1}s" fill="freeze"/></circle>`;}).join('');
+  const xa=ex[0],xb=ex[1],L1=[Sl.X(xa),Sl.Y(F.m*xa+F.b)],L2=[Sl.X(xb),Sl.Y(F.m*xb+F.b)];
+  s+=draw1(`M${L1[0].toFixed(1)},${L1[1].toFixed(1)} L${L2[0].toFixed(1)},${L2[1].toFixed(1)}`,FCOL.r,4,.9,2.4);
+  if(o.slope){const u=o.su!=null?xa+(xb-xa)*o.su:Q.length>3?Q[Math.floor(Q.length*.35)][0]:(xa+xb)/2,v=u+(xb-xa)*.28,A=[Sl.X(u),Sl.Y(F.m*u+F.b)],B=[Sl.X(v),Sl.Y(F.m*v+F.b)],up=F.m>0;
+    const tri=`<path d="M${A[0].toFixed(1)},${A[1].toFixed(1)} H${B[0].toFixed(1)} V${B[1].toFixed(1)}" fill="none" stroke="${FCOL.g}" stroke-width="3" stroke-dasharray="6 4"/>`
+      +stx(B[0]+8,(A[1]+B[1])/2+6,o.slope,{a:'start',fs:18,c:FCOL.g});
+    s+=fadeIn(tri,3.3,.5);}
+  if(o.icpt){const y=Sl.Y(F.b),x=(Sl.a<0&&Sl.b>0)?Sl.X(0):box.x0;s+=fadeIn(`<circle cx="${x}" cy="${y}" r="7.5" fill="${FCOL.o}" stroke="#fff" stroke-width="2"/>`+stx(x+12,y+(F.m>0?22:-12),o.icpt,{a:'start',fs:17,c:FCOL.o}),3.9,.5);}
+  if(o.xint){const xi=-F.b/F.m,x=Sl.X(xi),y=(Sl.c<0&&Sl.d>0)?Sl.Y(0):box.y1;s+=fadeIn(`<circle cx="${x}" cy="${y}" r="7.5" fill="${FCOL.y}" stroke="#fff" stroke-width="2"/>`+stx(x,y+28,o.xint,{fs:17,c:'#8A6500'}),4.4,.5);}
+  if(o.stamp!==false)s+=stamp(box.x1-70,box.y0+14,o.stamp||'THẲNG ✔',FCOL.g,4.6);
+  if(o.over)s+=o.over;
+  return s+'</svg>';}
+
+/* ---- sơ đồ phản ứng: hằng số k ghi trên (dưới) mũi tên ---- */
+function rxn(type,cx,cy){const SC={A:FCOL.b,R:FCOL.o,S:FCOL.g},kk=i=>`${iv('k')}${sb(i)}`;
+  const sp=(n,x,y)=>`<circle cx="${x}" cy="${y}" r="16" fill="${SC[n]}"/>${stx(x,y+6,n,{fs:18,c:'#fff',sw:0})}`;
+  const ar=(x1,y1,x2,y2,lab,dy)=>{const a=Math.atan2(y2-y1,x2-x1),h=10;
+    return `<line x1="${x1}" y1="${y1}" x2="${(x2-Math.cos(a)*h).toFixed(1)}" y2="${(y2-Math.sin(a)*h).toFixed(1)}" stroke="${FINK}" stroke-width="2.6"/><path d="M${x2},${y2} l${(-h*Math.cos(a)+h*.5*Math.sin(a)).toFixed(1)},${(-h*Math.sin(a)-h*.5*Math.cos(a)).toFixed(1)} l${(-h*Math.sin(a)).toFixed(1)},${(h*Math.cos(a)).toFixed(1)}z" fill="${FINK}"/>`
+      +stx((x1+x2)/2,(y1+y2)/2+dy,lab,{fs:18,c:FCOL.p});};
+  let s='',w=0;
+  if(type==='ser'){w=250;s=sp('A',cx-100,cy)+ar(cx-82,cy,cx-18,cy,kk(1),-9)+sp('R',cx,cy)+ar(cx+18,cy,cx+82,cy,kk(2),-9)+sp('S',cx+100,cy);}
+  if(type==='rev'){w=170;s=sp('A',cx-60,cy)+sp('R',cx+60,cy)
+    +`<line x1="${cx-42}" y1="${cy-5}" x2="${cx+34}" y2="${cy-5}" stroke="${FINK}" stroke-width="2.6"/><path d="M${cx+42},${cy-5} l-11,-6 v6z" fill="${FINK}"/>`+stx(cx,cy-13,kk(1),{fs:18,c:FCOL.p})
+    +`<line x1="${cx+42}" y1="${cy+5}" x2="${cx-34}" y2="${cy+5}" stroke="${FINK}" stroke-width="2.6"/><path d="M${cx-42},${cy+5} l11,6 v-6z" fill="${FINK}"/>`+stx(cx,cy+27,kk(2),{fs:18,c:FCOL.p});}
+  if(type==='par'){w=180;s=sp('A',cx-60,cy)+ar(cx-44,cy-7,cx+40,cy-24,kk(1),-12)+ar(cx-44,cy+7,cx+40,cy+24,kk(2),24)+sp('R',cx+58,cy-27)+sp('S',cx+58,cy+27);}
+  const hh=type==='ser'?44:type==='rev'?62:86;
+  return `<g><rect x="${cx-w/2}" y="${cy-hh/2}" width="${w}" height="${hh}" rx="14" fill="#fff" stroke="#DDD6FE" stroke-width="2.5"/>${s}</g>`;}
+
+/* ---- bảng ba phép thử: chỉ một đồ thị thẳng ---- */
+function tri3(o,anim){const W=520,H=330;let s=`<svg class="fsv" viewBox="0 0 ${W} ${H}" role="img" aria-label="Ba cách vẽ">`;
+  o.panels.forEach((p,k)=>{const bx={x0:22+k*168,x1:22+k*168+138,y0:80,y1:250},Q=o.pts.map(q=>p.f(q[0],q[1])),S=scl(Q,null,false,false,bx,.1),b=(.5+k*1.3).toFixed(1);
+    let g=`<rect x="${bx.x0-14}" y="${bx.y0-44}" width="${bx.x1-bx.x0+28}" height="${bx.y1-bx.y0+92}" rx="14" fill="#F8FAFF" stroke="#DCE3EE" stroke-width="2"/>`
+      +stx((bx.x0+bx.x1)/2,bx.y0-18,p.yl,{fs:18})+`<line x1="${bx.x0}" y1="${bx.y1}" x2="${bx.x1}" y2="${bx.y1}" stroke="${FINK}" stroke-width="2"/><line x1="${bx.x0}" y1="${bx.y1}" x2="${bx.x0}" y2="${bx.y0}" stroke="${FINK}" stroke-width="2"/>`
+      +stx(bx.x1,bx.y1+22,iv('t'),{a:'end',fs:17});
+    if(anim){g+=Q.map((q,j)=>`<circle cx="${S.X(q[0]).toFixed(1)}" cy="${S.Y(q[1]).toFixed(1)}" r="0" fill="#fff" stroke="${FCOL.b}" stroke-width="2.5"><animate attributeName="r" from="0" to="5" dur=".2s" begin="${(+b+j*.06).toFixed(2)}s" fill="freeze"/></circle>`).join('');
+      const F=fit(Q),a=Q[0][0],z=Q[Q.length-1][0];g+=draw1(`M${S.X(a).toFixed(1)},${S.Y(F.m*a+F.b).toFixed(1)} L${S.X(z).toFixed(1)},${S.Y(F.m*z+F.b).toFixed(1)}`,p.ok?FCOL.g:'#CBD5E1',3,.6,(+b+.6).toFixed(1),p.ok?'':'stroke-dasharray="6 6"');
+      g+=stamp((bx.x0+bx.x1)/2,bx.y1+48,p.ok?'THẲNG ✔':'CONG ✘',p.ok?FCOL.g:FCOL.r,(+b+1).toFixed(1))+stx((bx.x0+bx.x1)/2,bx.y0-34,'',{});
+      g=fadeIn(stx((bx.x0+bx.x1)/2,22,p.n,{fs:18,c:p.ok?FCOL.g:'#64748B'}),b,.3)+g;}
+    else g+=stx((bx.x0+bx.x1)/2,22,p.n,{fs:18,c:'#64748B'});
+    s+=g;});
+  return s+'</svg>';}
+
+/* ---- đồ thị nồng độ theo thời gian (phản ứng phức tạp) ---- */
+function ctPlot(o,anim){const W=520,H=330,box=o.box||{x0:64,x1:o.w||500,y0:34,y1:280},S={X:t=>box.x0+t/o.tmax*(box.x1-box.x0),Y:c=>box.y1-c/(o.cmax||1.05)*(box.y1-box.y0)};
+  let s=`<line x1="${box.x0}" y1="${box.y1}" x2="${box.x1+10}" y2="${box.y1}" stroke="#13213A" stroke-width="2.5"/><path d="M${box.x1+12},${box.y1} l-10,-6 v12z" fill="#13213A"/>
+    <line x1="${box.x0}" y1="${box.y1}" x2="${box.x0}" y2="${box.y0-10}" stroke="#13213A" stroke-width="2.5"/><path d="M${box.x0},${box.y0-12} l-6,10 h12z" fill="#13213A"/>
+    ${stx(box.x0+8,box.y0-4,o.yl||`${iv('C')}/${CAo}`,{a:'start',fs:17})}${stx(box.x1+10,box.y1-10,iv('t'),{a:'end',fs:18})}`;
+  (o.hl||[]).forEach(h=>{s+=`<line x1="${box.x0}" x2="${box.x1}" y1="${S.Y(h.y)}" y2="${S.Y(h.y)}" stroke="${h.c||'#94A3B8'}" stroke-width="2" stroke-dasharray="7 6"/>`+stx(box.x1,S.Y(h.y)+(h.dy||-8),h.lab,{a:'end',fs:15,c:h.c||'#64748B'});});
+  o.cv.forEach((c,k)=>{const pts=Array.from({length:121},(_,j)=>{const t=o.tmax*j/120;return [S.X(t),S.Y(c.f(t))];}),d=poly(pts),b=(.3+k*.5).toFixed(1);
+    s+=anim?draw1(d,FCOL[c.c],4.5,2.2,b):`<path d="${d}" fill="none" stroke="${FCOL[c.c]}" stroke-width="4.5"/>`;
+    const e=pts[c.lp??120];s+=(anim?fadeIn(stx(e[0]+(c.dx||-4),e[1]+(c.dy||-10),c.lab,{a:c.a||'end',fs:18,c:FCOL[c.c]}),(+b+1.6).toFixed(1),.4):stx(e[0]+(c.dx||-4),e[1]+(c.dy||-10),c.lab,{a:c.a||'end',fs:18,c:FCOL[c.c]}));
+    if(anim&&c.dot)s+=`<circle r="7" fill="${FCOL[c.c]}" stroke="#fff" stroke-width="2"><animateMotion dur="5s" begin="${(+b+2.4).toFixed(1)}s" repeatCount="indefinite" path="${d}"/></circle>`;});
+  return {s,S,box};}
+
+/* ---------- âm thanh lật thẻ: tiếng “phạch” + chuông khi ra mặt sau ---------- */
+const sCard=back=>{tone(240,.16,'sine',.07,0,950);tone(150,.1,'triangle',.05,.01,380);
+  if(back)[880,1175,1568].forEach((f,k)=>tone(f,.2,'triangle',.07,.15+k*.07));else tone(700,.12,'triangle',.05,.13,480);};
+const sSwish=()=>{tone(620,.12,'sine',.05,0,240);tone(330,.08,'triangle',.03,.03,200);};
+
+/* ---------- giao diện thẻ ---------- */
+function build(FG,FC,home,ch){
+/* lời giải thích thu âm: audio/c<ch>-<số thẻ 2 chữ số>.mp3 — thẻ nào chưa có file thì nút tự ẩn */
+const AU={el:null,i:-1,ok:{}},auSrc=i=>`audio/c${ch}-${String(i+1).padStart(2,'0')}.mp3`;
+function auStop(){if(AU.el){AU.el.pause();AU.el=null;}AU.i=-1;const b=$('[data-fcau]');if(b)b.textContent='🔊 Nghe giải thích';}
+function auProbe(i){const show=()=>{const b=$('[data-fcau]');if(b&&S.fc.i===i)b.hidden=false;};if(!ch)return;if(AU.ok[i]===true)return show();if(AU.ok[i]===false)return;
+  fetch(auSrc(i),{method:'HEAD'}).then(r=>{AU.ok[i]=r.ok;if(r.ok)show();}).catch(()=>{AU.ok[i]=false;});}
+function auPlay(){const i=S.fc.i,b=$('[data-fcau]');if(AU.el&&AU.i===i){auStop();return;}auStop();AU.el=new Audio(auSrc(i));AU.i=i;
+  AU.el.addEventListener('ended',auStop);AU.el.play().catch(auStop);if(b)b.textContent='⏸ Dừng nghe';}
+FC.forEach(c=>{if(!c.fig)return;const f=c.fig;c.fig=a=>f(a).replace(/X_A(\d?)/g,(_,d)=>`${iv('X')}${sb('A'+d)}`).replace(/kτ/g,`${iv('k')}${TAU}`);});
+function fcList(){const g=S.fc.g;return FC.map((_,i)=>i).filter(i=>g==='all'||FC[i].g===g);}
+function vFC(){S.fc??={i:0,side:0,k:0,g:'all',mk:{}};if(S.fc.g!=='all'&&!FG[S.fc.g])S.fc.g='all';if(!FC[S.fc.i])S.fc.i=0;S.fc.mk??={};const F=S.fc,L=fcList();if(!L.includes(F.i))F.i=L[0];
+  const i=F.i,c=FC[i],pos=L.indexOf(i),[ge,gn,gc]=FG[c.g];if(AU.i!==i||!F.side)auStop();
+  const ok=Object.values(F.mk).filter(v=>v>0).length,no=Object.values(F.mk).filter(v=>v<0).length;
+  const chips=[['all','Tất cả',FC.length],...Object.entries(FG).map(([k,v])=>[k,v[0]+' '+v[1],FC.filter(x=>x.g===k).length])]
+    .map(([k,n,m])=>`<button class="fchipb" data-fcg="${k}" aria-pressed="${F.g===k}">${n} <small>${m}</small></button>`).join('');
+  const dots=L.map(j=>`<button class="fdot${j===i?' on':''}${F.mk[j]>0?' ok':F.mk[j]<0?' no':''}" data-fcj="${j}" aria-label="Thẻ ${L.indexOf(j)+1}" style="--gc:${FG[FC[j].g][2]}">${L.indexOf(j)+1}</button>`).join('');
+  const front=`<div class="fcf"><div><span class="fchip">${ge} ${gn}</span><p class="fcq">${c.q}</p>
+     <p class="hint">${NHA?'Tự trả lời trong đầu (hoặc ra giấy), rồi bấm <b>Lật thẻ</b> (phím cách) để kiểm tra.':'Gọi sinh viên trả lời, rồi bấm <b>Lật thẻ</b> (phím cách).'}</p></div>
+     ${c.fig?`<div class="fcfig nolab">${c.fig(false)}</div>`:''}</div>`;
+  let d=.25;const nx=()=>(d+=.4).toFixed(2);
+  const ax=c.ax?`<div class="fax">${c.ax.map(([h,v],k)=>`<span style="animation-delay:${nx()}s"><small>${h}</small><i class="fv">${v}</i></span>`).join('')}</div>`:'';
+  const tb=c.table?`<div class="tblw"><table class="tbl ftab"><thead><tr>${c.table[0].map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${c.table.slice(1).map(r=>`<tr>${r.map((x,k)=>k?`<td>${x}</td>`:`<th>${x}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`:'';
+  const back=`<div class="fcb${c.fig?'':' wide'}">${c.fig?`<div class="fcfig">${c.fig(true)}</div>`:''}
+     <div class="fcx"><p class="fcq sm">${c.q}</p>${c.key?`<div class="fkey">💡 ${c.key}</div>`:''}${ax}${tb}
+     ${c.eq?`<div class="fq" style="animation-delay:${nx()}s">${c.eq}</div>`:''}
+     ${c.pts?`<ul>${c.pts.map(p=>`<li style="animation-delay:${nx()}s">${p}</li>`).join('')}</ul>`:''}</div></div>`;
+  $('#stage').innerHTML=`<div class="rhead"><span class="rnum" style="background:linear-gradient(120deg,${gc},#7C3AED)">🃏 Thẻ ghi nhớ</span><h1 style="color:${gc}">${c.t}</h1>
+    <span class="qcount" style="color:${gc}">Thẻ ${pos+1}/${L.length}</span><span class="prog"><i style="width:${Math.round(100*(pos+1)/L.length)}%;background:${gc}"></i></span>
+    <span class="rule">${F.side?'Mặt sau':'Mặt trước'} · ✔ ${ok} thẻ đã hiểu · ✘ ${no} thẻ chưa chắc</span></div>
+    <div class="fcg">${chips}</div>
+    <div class="fcard ${F.side?'isb':'isf'}" style="--gc:${gc}">${F.side?back:front}</div>
+    <div class="fdots">${dots}</div>`;
+  $('#ctrl').innerHTML=`<button class="btn" data-fcn="-1" ${pos?'':'disabled'}>‹ Thẻ trước</button>
+    <button class="btn gold" data-fcflip="1">${F.side?'↺ Xem mặt trước':'↻ Lật thẻ'}</button>
+    ${F.side&&c.fig?`<button class="btn" data-fcre="1">⟳ Chạy lại hình</button>`:''}${F.side?`<button class="btn au" data-fcau="1" hidden>${AU.i===i?'⏸ Dừng nghe':'🔊 Nghe giải thích'}</button>`:''}${callBtn()}<span class="sp"></span>
+    ${F.side?`<button class="btn" data-fcm="1" style="${F.mk[i]>0?'background:var(--ok-bg);border-color:var(--ok)':''}">✔ Đã hiểu</button><button class="btn" data-fcm="-1" style="${F.mk[i]<0?'background:var(--bad-bg);border-color:var(--bad)':''}">✘ Chưa chắc</button>`:''}
+    <button class="btn pri" data-fcn="1" ${pos<L.length-1?'':'disabled'}>Thẻ sau ›</button>`;
+  if(F.side)auProbe(i);}
+function fcGo(j){S.fc.i=j;S.fc.side=0;S.fc.k=0;save();render();}
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||S.view!=='the')return;const d=b.dataset;
+  if(d.fcg){S.fc.g=d.fcg;S.fc.side=0;save();render();return;}
+  if(d.fcj!==undefined)return fcGo(+d.fcj);
+  if(d.fcn){const L=fcList(),p=L.indexOf(S.fc.i)+(+d.fcn);if(p>=0&&p<L.length){sSwish();fcGo(L[p]);}return;}
+  if(d.fcflip){S.fc.side=S.fc.side?0:1;save();sCard(S.fc.side);render();return;}
+  if(d.fcre){render();return;}
+  if(d.fcau)return auPlay();
+  if(d.fcm){const v=+d.fcm;S.fc.mk[S.fc.i]=S.fc.mk[S.fc.i]===v?0:v;save();v>0?sGood():tone(330,.15,'triangle',.08);
+    const L=fcList(),p=L.indexOf(S.fc.i);if(v>0&&p<L.length-1)setTimeout(()=>fcGo(L[p+1]),700);else render();}});
+addEventListener('hashchange',()=>{if(S.view!=='the')auStop();});document.addEventListener('click',e=>{if(e.target.closest('[data-go]'))auStop();},true);
+addEventListener('keydown',e=>{if(S.view!=='the'||e.target.closest('input,textarea')||!$('#call').hidden)return;const k=e.key;
+  if(k===' '){e.preventDefault();e.stopImmediatePropagation();$('[data-fcflip]')?.click();}
+  else if(k==='ArrowRight'||k==='ArrowLeft'){e.preventDefault();e.stopImmediatePropagation();$(`[data-fcn="${k==='ArrowRight'?1:-1}"]`)?.click();}},true);
+{const _h=vHome;vHome=function(){_h();$('.rounds')?.insertAdjacentHTML('afterbegin',`<button class="rnd" data-go="the" style="--rc:#0EA5A0;--rc2:#7C3AED"><span class="n">🃏</span>
+  <span><b>Thẻ ghi nhớ</b><br><span>${FC.length} thẻ có hình động: ${home}</span></span><span class="pts">Ôn tập · không tính điểm</span></button>`);};}
+return {vFC,n:FC.length};}
+return {build,rxn,fpat,crv,FCOL,FINK,sb,sp,iv,CA,CAo,XA,TAU,VO,RA,INVR,stx,draw,draw1,fadeIn,fadeOut,stamp,liq,arr,flow,fmt,poly,fax,tank,tube,levG,frame,lev,morph,tri3,ctPlot,scl,fit};
+})();
+
+/* ---- Thẻ ghi nhớ chương 3: dữ liệu (hình vẽ dùng các hàm eqBR, eqCSTR, eqPFR, eqProf, lev có sẵn ở trên) ---- */
+const FC3=(()=>{const {build}=FCX;
+const FG={tb:['🏭','Mô hình thiết bị','#0EA5A0'],dt:['📈','Đồ thị – diện tích','#2F7DE1']};
+const FC=[
+ {g:'tb',t:'Bình khuấy gián đoạn (BR)',fig:()=>eqBR(),
+  q:R`BR làm việc thế nào? \(C_\mathrm{A}\) đổi theo <b>thời gian</b> hay <b>vị trí</b>?`,
+  key:'Đồng nhất trong bình · \\(C_\\mathrm{A}\\) giảm theo <b>thời gian t</b>',
+  ax:[['Vận hành','nạp → phản ứng → tháo'],['Một mẻ',R`\(t + t_\text{gián đoạn}\)`]],
+  pts:['Không có dòng vào, ra khi phản ứng','Dùng cho <b>năng suất nhỏ</b>, nhiều sản phẩm'],
+  eq:R`\(t = C_\mathrm{Ao}\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\)`},
+ {g:'tb',t:'Bình khuấy liên tục (CSTR)',fig:()=>eqCSTR(),
+  q:R`Dòng vào có \(C_\mathrm{Ao}\). Nồng độ A <b>bên trong bình</b> bằng bao nhiêu?`,
+  key:'Trong bình: \\(C_\\mathrm{A} = C_\\mathrm{Af}\\) (= <b>dòng ra</b>)',
+  pts:['Cả bình chạy ở <b>một tốc độ</b> \\((-r_\\mathrm{A})_f\\)','PT thiết kế <b>đại số</b>, không tích phân'],
+  eq:R`\(\tau = \dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{(-r_\mathrm{A})_f}\)`},
+ {g:'tb',t:'Thiết bị dạng ống (PFR)',fig:()=>eqPFR(),
+  q:R`Trong ống, \(C_\mathrm{A}\) đổi theo gì? Mỗi “lát” chất lỏng giống thiết bị nào?`,
+  key:'Mỗi lát ≈ <b>một BR nhỏ</b> · \\(C_\\mathrm{A}\\) giảm theo <b>chiều dài ống</b>',
+  pts:['Không trộn dọc ống, đồng đều trên tiết diện',R`\(\tau\) đóng vai trò \(t\) → PT <b>cùng dạng BR</b>`],
+  eq:R`\(\tau = C_\mathrm{Ao}\displaystyle\int_0^{X_\mathrm{Af}}\dfrac{dX_\mathrm{A}}{(-r_\mathrm{A})}\)`},
+ {g:'tb',t:'Nồng độ bên trong CSTR và PFR',fig:()=>eqProf(),
+  q:R`Cùng \(C_\mathrm{Ao}\), \(C_\mathrm{Af}\): vẽ \(C_\mathrm{A}\) từ cửa vào đến cửa ra. Vì sao CSTR cần thể tích lớn hơn?`,
+  key:'CSTR làm việc ở nồng độ <b>thấp nhất</b> → tốc độ <b>nhỏ nhất</b>',
+  ax:[[R`\(n > 0\)`,R`\(V_\mathrm{CSTR} > V_\mathrm{PFR}\)`],[R`\(n = 0\)`,'bằng nhau'],[R`\(n < 0\)`,R`\(V_\mathrm{CSTR} < V_\mathrm{PFR}\)`]],
+  pts:['PFR: C<sub>A</sub> giảm <b>dần</b>','CSTR: hạ <b>ngay</b> xuống C<sub>Af</sub>']},
+ {g:'tb',t:'So sánh nhanh BR – CSTR – PFR',
+  q:'Nêu 3 điểm khác nhau giữa BR, CSTR và PFR.',
+  key:'Khác nhau ở: <b>vận hành</b> · C<sub>A</sub> đổi theo gì · <b>dạng PT</b>',
+  table:[['','BR','CSTR','PFR'],['Vận hành','Gián đoạn','Liên tục','Liên tục'],
+   [R`\(C_\mathrm{A}\) đổi theo`,R`Thời gian \(t\)`,'Không đổi','Vị trí dọc ống'],
+   ['Dạng PT','Tích phân','Đại số','Tích phân'],
+   ['Levenspiel',R`Dưới đường cong (×\(C_\mathrm{Ao}\) = \(t\))`,'Hình chữ nhật','Dưới đường cong'],
+   ['Hay dùng','Năng suất nhỏ','Pha lỏng, cần khuấy','Pha khí, năng suất lớn']]},
+
+ {g:'dt',t:'CSTR = hình chữ nhật, PFR = dưới đường cong',fig:a=>lev({...LV1,guide:a?[.8]:[],sh:[{k:'U',a:0,b:.8,c:'b',lab:'PFR',lx:.45,ly:.75},{k:'R',a:0,b:.8,h:.8,c:'o',dash:1,lab:'CSTR',lx:.3,ly:3.6}]},a),
+  q:R`Đồ thị \(1/(-r_\mathrm{A})\) – \(X_\mathrm{A}\), \(X_\mathrm{Af} = 0{,}8\): diện tích nào là \(\tau/C_\mathrm{Ao}\) của PFR? của CSTR?`,
+  key:'PFR: <b>dưới đường cong</b> · CSTR: <b>hình chữ nhật</b>',
+  ax:[['PFR','\\(\\ln 5 = 1{,}61\\)'],['CSTR','\\(0{,}8/0{,}2 = 4\\)']],
+  pts:['Chiều cao CSTR đọc tại <b>X<sub>Af</sub></b>','Bậc 1, kC<sub>Ao</sub> = 1: CSTR lớn gấp <b>≈ 2,5 lần</b>']},
+ {g:'dt',t:'Bậc 0: hai diện tích trùng nhau',fig:a=>lev({x1:1,y1:3.2,xt:[0,.2,.4,.6,.8,1],yt:[0,1,2,3],xl:XA,yl:INVR,curves:[{f:x=>2,xmax:1}],sh:[{k:'U',a:0,b:.8,c:'b',lab:'PFR = CSTR',lx:.4,ly:1}]},a),
+  q:R`Bậc 0, \((-r_\mathrm{A}) = k\). So sánh \(\tau\) của CSTR và PFR cùng \(X_\mathrm{Af}\).`,
+  key:'Đường <b>nằm ngang</b> → \\(\\tau_\\mathrm{CSTR} = \\tau_\\mathrm{PFR}\\)',
+  eq:R`\(\tau = \dfrac{C_\mathrm{Ao}X_\mathrm{Af}}{k}\)`},
+ {g:'dt',t:'Đồ thị theo nồng độ (VD 3.11)',fig:a=>lev({x1:10.5,y1:105,xt:[0,2,4,6,8,10],yt:[0,25,50,75,100],xf:0,xl:`${CA} (M)`,xly:-40,yl:`${INVR} (s)`,ylx:150,curves:[{f:fC311,xmin:1,xmax:10.4}],pts:[1,2,4,6,8,10],guide:a?[2]:[],sh:[{k:'U',a:2,b:10,c:'b',lab:'PFR',lx:4.6,ly:9},{k:'R',a:2,b:10,h:2,c:'o',dash:1,lab:'CSTR',lx:7,ly:38}]},a),
+  q:R`VD 3.11: \(C_\mathrm{Ao} = 10\ \mathrm{M}\), \(C_\mathrm{Af} = 2\ \mathrm{M}\). Trên đồ thị \(1/(-r_\mathrm{A})\) – \(C_\mathrm{A}\), diện tích nào là \(\tau\)?`,
+  key:'Trục hoành \\(C_\\mathrm{A}\\): diện tích = <b>chính τ</b> (không nhân C<sub>Ao</sub>)',
+  ax:[['PFR','134 – 139 s'],['CSTR',R`\(\dfrac{10-2}{0{,}02} = 400\ \mathrm{s}\)`]],
+  pts:['CSTR: chiều cao đọc tại <b>C<sub>Af</sub> = 2 M</b>']},
+ {g:'dt',t:'Thể tích thay đổi: ảnh hưởng của ε<sub>A</sub>',fig:a=>lev({x1:1,y1:10.5,xt:[0,.2,.4,.6,.8,1],yt:[0,2,4,6,8,10],xl:XA,yl:`${iv('k')}${CAo}&#8201;/(−${iv('r')}${sb('A')})`,
+   leg:[['r',`${iv('ε')}${sb('A')} = 1 · ${iv('k')}${iv('τ')} = 2,42`],['g',`${iv('ε')}${sb('A')} = 0,5 · ${iv('k')}${iv('τ')} = 2,01`],['b',`${iv('ε')}${sb('A')} = 0 · ${iv('k')}${iv('τ')} = 1,61`]],
+   curves:[{f:x=>1/(1-x),xmax:.905,c:'b'},{f:x=>(1+.5*x)/(1-x),xmax:.87,c:'g'},{f:x=>(1+x)/(1-x),xmax:.82,c:'r'}],
+   sh:[{k:'U',a:0,b:.8,c:'r',ci:2},{k:'U',a:0,b:.8,c:'g',ci:1},{k:'U',a:0,b:.8,c:'b',ci:0}]},a),
+  q:R`Pha khí bậc 1 trong PFR, \(P\) = const, \(X_\mathrm{Af} = 0{,}8\). \(\varepsilon_\mathrm{A}\) = 0; 0,5; 1: trường hợp nào cần \(\tau\) lớn nhất?`,
+  key:'Khí <b>giãn nở</b> (ε<sub>A</sub> > 0) → A loãng → <b>τ lớn hơn</b>',
+  ax:[['ε = 0','1,61'],['ε = 0,5','2,01'],['ε = 1','2,42']],
+  pts:['<b>Bình kín</b> (V = const): không dùng ε<sub>A</sub>'],
+  eq:R`\(k\tau = (1+\varepsilon_\mathrm{A})\ln\dfrac{1}{1-X_\mathrm{Af}}-\varepsilon_\mathrm{A}X_\mathrm{Af}\)`},
+ {g:'dt',t:'Bẫy: đọc chiều cao CSTR ở đâu?',fig:a=>lev({...LV1,guide:[],sh:[{k:'R',a:0,b:.8,h:0,c:'r',lab:'✘ cao tại 0: diện tích 0,8',lx:.4,ly:.45},{k:'R',a:0,b:.8,h:.8,c:'o',dash:1,lab:'✔ cao tại 0,8: diện tích 4',lx:.36,ly:3.4}]},a),
+  q:R`An tính \(V\) của CSTR bằng chiều cao \(1/(-r_\mathrm{A})\) đọc tại <b>dòng vào</b> (\(X_\mathrm{A} = 0\)). Đúng không?`,
+  key:'<b>Sai</b>: chiều cao đọc tại <b>dòng ra</b> \\(X_\\mathrm{Af}\\)',
+  pts:['Đọc tại dòng vào → V nhỏ hơn <b>5 lần</b> (0,8 thay vì 4)','CSTR thứ 2: rộng X<sub>A2</sub> − X<sub>A1</sub>, cao tại <b>X<sub>A2</sub></b>']}
+];
+return build(FG,FC,'mô hình BR – CSTR – PFR và so sánh diện tích trên đồ thị Levenspiel',3);
+})();
+
+/* ================= THẺ HƯỚNG DẪN: video hướng dẫn bài tập + thẻ ghi nhớ ================= */
+/* Thêm video mới: thêm một dòng vào VID3 (tiêu đề, link YouTube, thời lượng). */
+const VID3=[
+ {t:'Video 01 · Phương trình thiết kế – hướng dẫn áp dụng',s:'Một đề bài – ba thiết bị BR, CSTR, PFR',u:'https://youtu.be/tJmck-boRLI',d:'5:33'}
+];
+function vHD(){const seen=S.vseen||{},nha=typeof NHA!=='undefined'&&NHA;
+  $('#stage').innerHTML=`<div class="rhead"><span class="rnum" style="--rc:#E11D48;--rc2:#F59E0B">Trước khi chơi</span><h1 style="color:#BE123C">📋 Hướng dẫn</h1></div>
+  <div class="hd">
+   <div class="hdwarn"><span class="ic">⚠️</span><span>Xem video hướng dẫn bài tập <u>trước khi vào game</u>. Các câu hỏi trong game dùng đúng cách giải trong video.</span></div>
+   <div class="hdstep" style="--sc:#E11D48"><span class="no">1</span><h3>📽 Xem video hướng dẫn bài tập</h3>
+    <p>Xem hết từng video, dừng lại ở các bước thế số và tự bấm máy theo. Video mở trên YouTube ở thẻ mới.</p>
+    <div class="hdv">${VID3.map((v,k)=>`<a class="vbig${seen[k]?' seen':''}" data-vid="${k}" href="${v.u}" target="_blank" rel="noopener"><i>▶</i><span>${esc(v.t)}<small>${esc(v.s)} · ${v.d}</small></span></a>`).join('')}
+     <div class="soon">🎬 Các video tiếp theo sẽ được bổ sung tại đây.</div></div></div>
+   <div class="hdstep" style="--sc:#0D9488"><span class="no">2</span><h3>🃏 Ôn tập bằng Thẻ ghi nhớ</h3>
+    <p>${FC3.n} thẻ có hình động: mô hình BR – CSTR – PFR và so sánh diện tích trên đồ thị Levenspiel. Đọc câu hỏi, tự trả lời, rồi <b>Lật thẻ</b> (phím cách) để kiểm tra; đánh dấu <b>✔ Đã hiểu</b> hoặc <b>✘ Chưa chắc</b>. Không tính điểm.</p>
+    <button class="btn pri hdgo" data-go="the">🃏 Mở Thẻ ghi nhớ</button></div>
+   <div class="hdstep" style="--sc:#4B2A8C"><span class="no">3</span><h3>🎮 Vào game: 6 vòng</h3>
+    <p>${nha?'Làm lần lượt 6 vòng. Làm hết câu của một vòng rồi bấm <b>Kết thúc vòng 🏁</b>: kết quả tự gửi cho giáo viên. Được làm lại để cải thiện; giáo viên lấy kết quả tốt nhất.':'Khởi động → Ghép đôi → Phân nhóm → Thám tử → Diện tích → Về đích. Mỗi vòng tính điểm riêng và có tổng kết đúng / sai.'}</p>
+    <button class="btn pri hdgo" data-go="r1">▶ Bắt đầu vòng 1</button></div>
+  </div>`;
+  $('#ctrl').innerHTML=`<button class="btn" data-go="home">‹ Trang đầu</button><span class="sp"></span><button class="btn" data-go="the">🃏 Thẻ ghi nhớ</button><button class="btn pri" data-go="r1">▶ Bắt đầu vòng 1</button>`;}
+document.addEventListener('click',e=>{const a=e.target.closest('a[data-vid]');if(!a)return;S.vseen??={};S.vseen[a.dataset.vid]=1;save();a.classList.add('seen');});
+{const _h=vHome;vHome=function(){_h();$('.rounds')?.insertAdjacentHTML('afterbegin',`<button class="rnd hdt" data-go="hd" style="--rc:#E11D48;--rc2:#F59E0B"><span class="n">📋</span>
+  <span><b>Hướng dẫn · xem video trước khi vào game</b><br><span>${VID3.length} video hướng dẫn bài tập + Thẻ ghi nhớ để ôn tập</span></span><span class="pts">Bắt buộc xem trước</span></button>`);};}
+
 /* ================= LÀM BÀI Ở NHÀ → Google Sheet ================= */
 const hash=t=>{let h=5381;for(const c of t)h=(h*33+c.codePointAt(0))>>>0;return h.toString(36).toUpperCase().padStart(7,'0').slice(-6);};
 function vLogin(){$('#tabs').innerHTML='';$('#board').innerHTML='';$('#ctrl').innerHTML='';
-  $('#stage').innerHTML=`<form class="login" id="svf" autocomplete="on"><h1>Đấu trường Động học</h1>
+  $('#stage').innerHTML=`<form class="login" id="svf" autocomplete="on"><h1>Đấu trường Thiết kế</h1>
    <p>Bài tập về nhà${BAI?` · <b>${esc(BAI)}</b>`:''}. Nhập đúng thông tin; kết quả từng vòng sẽ tự gửi cho giáo viên để tính điểm chuyên cần.</p>
    <label for="sv1">Mã số sinh viên</label><input id="sv1" name="mssv" inputmode="numeric" required maxlength="12" placeholder="2001230001">
    <label for="sv2">Họ và tên</label><input id="sv2" name="name" required maxlength="60" placeholder="Nguyễn Văn An">
@@ -1038,7 +1613,7 @@ document.addEventListener('submit',e=>{if(e.target.id!=='svf')return;e.preventDe
   if(!/^\d{8,12}$/.test(m))return $('#sverr').textContent='Mã số sinh viên gồm 8–12 chữ số.';
   if(t.split(' ').length<2)return $('#sverr').textContent='Nhập đầy đủ họ và tên.';
   if(!l)return $('#sverr').textContent='Nhập tên lớp.';
-  S.sv={mssv:m,ten:t,lop:l};save();go('home');});
+  S.sv={mssv:m,ten:t,lop:l};save();go('hd');});
 function payload(r){const st=S.st[r],d=RD[r],t0=(S.t0||{})[r];
   const p={game:GAME,bai:BAI,mssv:S.sv.mssv,ten:S.sv.ten,lop:S.sv.lop,vn:d.n,vong:d.name,tong:cntQ(r),xong:doneCnt(r),dung:st.ok,sai:st.bad,tile:acc(st),diem:st.pts,phut:t0?Math.round((Date.now()-t0)/6000)/10:''};
   p.ma=hash([p.mssv,p.vn,p.xong,p.dung,p.sai,p.diem,BAI].join('|'));return p;}
@@ -1078,7 +1653,7 @@ if(NHA){
     ['Gọi sinh viên đọc thứ tự các chữ cái; giáo viên bấm lần lượt theo lời bạn ấy.','Bấm lần lượt các bước theo đúng thứ tự.'],
     ['Gọi sinh viên chỉ ra dòng sai đầu tiên; giáo viên bấm vào dòng đó, sau đó bạn ấy nêu cách sửa.','Bấm vào dòng sai đầu tiên, sau đó tự nêu cách sửa.'],
     ['Mời bạn khác trả lời','Thử lại nhé'],['Mời bạn khác thử','Thử lại nhé'],['Điểm cả lớp','Tổng điểm của bạn'],['điểm của lớp','điểm của bạn'],
-    ['Cả lớp nắm rất chắc phần này!','Bạn nắm rất chắc phần này!'],['Phần này cần giảng lại.','Bạn nên xem lại video của phần này.'],
+    ['Cả lớp nắm rất chắc phần này!','Bạn nắm rất chắc phần này!'],['Phần này cần giảng lại.','Bạn nên ôn lại phần này (chương 3, sách bài tập).'],
     ['Tổng kết cả lớp','Kết quả của bạn'],['Câu nên giảng lại','Câu nên xem lại'],['chưa ai đúng','chưa đúng']];
   const fixT=root=>{const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){let v=n.nodeValue,o=v;for(const [a,b] of TX)if(v.includes(a))v=v.split(a).join(b);if(v!==o)n.nodeValue=v;}};
   new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(x=>x.nodeType===1?fixT(x):x.nodeType===3&&fixT(x.parentNode||document.body)))).observe(document.body,{childList:true,subtree:true});
@@ -1090,4 +1665,37 @@ tReset(TDEF[CR()]||0);render();if(NHA)flush();
 
 </script>
 
+<script>/* MOB-KTPU v2 */(()=>{
+ const mq=matchMedia('(max-width:700px)'),touch=matchMedia('(pointer:coarse)');
+ const SH=[['‹ Thẻ trước','‹ Trước'],['Thẻ sau ›','Sau ›'],['⟳ Chạy lại hình','⟳ Hình'],['🔊 Nghe giải thích','🔊 Nghe'],
+   ['🎲 Gọi sinh viên','🎲 Gọi SV'],['↶ Hoàn tác','↶'],['⏱ Bắt đầu giờ','⏱'],['⏸ Tạm dừng','⏸'],['↺ Xem mặt trước','↺ Mặt trước'],
+   ['‹ Câu trước','‹ Trước'],['Câu tiếp ›','Tiếp ›'],['Xóa thứ tự đang bấm','Xóa thứ tự'],['✔ Đã hiểu','✔ Hiểu'],['✘ Chưa chắc','✘ Chưa']];
+ const FULL=new Map(SH.map(([a,b])=>[b,a])),SHORT=new Map(SH);
+ function relabel(root){(root||document).querySelectorAll('.ctrl .btn').forEach(b=>{if(b.children.length)return;
+   const t=b.textContent.trim();if(mq.matches&&SHORT.has(t)){b.title=t;b.textContent=SHORT.get(t);}
+   else if(!mq.matches&&FULL.has(t)){b.textContent=FULL.get(t);}});}
+ function keyHints(root){if(!touch.matches)return;const w=document.createTreeWalker(root||document.body,NodeFilter.SHOW_TEXT);let n;const L=[];
+   while(n=w.nextNode())if(/\(phím [^)]*\)|\(hoặc phím [^)]*\)/.test(n.nodeValue))L.push(n);
+   L.forEach(n=>{n.nodeValue=n.nodeValue.replace(/\s*\(phím cách\)/g,' (hoặc chạm vào thẻ)').replace(/\s*\((hoặc )?phím [^)]*\)/g,'');});}
+ function track(){const t=document.getElementById('tabs');if(!t||t.querySelector('.mtrack'))return;
+   const bs=[...t.children].filter(b=>b.matches('button[data-go]')&&!/^(home|hd|the)$/.test(b.dataset.go));if(!bs.length)return;
+   [...t.children].forEach(b=>{if(b.matches('button')&&/^(home|hd|the)$/.test(b.dataset.go)&&!b.querySelector('.mi')){
+     const m=b.textContent.trim().match(/^(\S+)\s+(.*)$/);if(m)b.innerHTML=`<b class="mi">${m[1]}</b><span>${m[2]}</span>`;b.title=b.textContent;}});
+   const w=document.createElement('span');w.className='mtrack';w.innerHTML='<span class="mlab">🎮<br>Vòng</span>';bs[0].before(w);bs.forEach(b=>w.append(b));}
+ function centerTab(){const t0=document.getElementById('tabs');if(!t0||!mq.matches)return;const t=t0.querySelector('.mtrack')||t0;const b=t.querySelector('[aria-current]');if(!b)return;
+   const tr=t.getBoundingClientRect(),br=b.getBoundingClientRect();const x=t.scrollLeft+(br.left-tr.left)-(tr.width-br.width)/2;
+   t.scrollTo({left:Math.max(0,x),behavior:'smooth'});}
+ let q=0;function run(){if(q)return;q=requestAnimationFrame(()=>{q=0;track();relabel();keyHints();centerTab();});}
+ new MutationObserver(run).observe(document.body,{childList:true,subtree:true});
+ mq.addEventListener?.('change',run);run();
+ // chạm dòng luật chơi để mở/thu
+ document.addEventListener('click',e=>{const r=e.target.closest('.rhead .rule');if(r&&mq.matches)r.classList.toggle('mob-open');});
+ // thẻ ghi nhớ: chạm mặt trước để lật, vuốt trái/phải để đổi thẻ
+ let sx=0,sy=0,st=0;
+ document.addEventListener('touchstart',e=>{const c=e.target.closest('.fcard');if(!c)return;const p=e.touches[0];sx=p.clientX;sy=p.clientY;st=Date.now();},{passive:true});
+ document.addEventListener('touchend',e=>{const c=e.target.closest('.fcard');if(!c||!st)return;const p=e.changedTouches[0],dx=p.clientX-sx,dy=p.clientY-sy;st=0;
+   if(Math.abs(dx)>60&&Math.abs(dx)>1.6*Math.abs(dy)){document.querySelector(`[data-fcn="${dx<0?1:-1}"]`)?.click();}},{passive:true});
+ document.addEventListener('click',e=>{const c=e.target.closest('.fcard.isf');if(!c||e.target.closest('button,a,input'))return;
+   document.querySelector('[data-fcflip]')?.click();});
+})();</script>
 </body></html>
